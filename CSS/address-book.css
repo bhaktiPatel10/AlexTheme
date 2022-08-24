@@ -1,0 +1,94 @@
+/*
+* Address Book Style
+*/
+.fixed-table-toolbar .bs-bars #toolbar select {
+  width: 100px;
+}
+.fixed-table-toolbar .bs-bars {
+  width: 100%;
+}
+.fixed-table-toolbar .bs-bars #toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-icon {
+  color: #4D8943;
+  font-size: 8px;
+}
+.user-icon {
+  color: #556b98;
+  font-size: 15px;
+}
+.header-bg {
+  background:#F0F0F0;
+}
+.select-main {
+  width: 120px !important;
+}
+.text-15 {
+  font-size: 15px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.display-grid {
+  display: grid !important
+}
+.d-grid {
+  display: grid;
+}
+.text-16 {
+  font-size: 16px;
+}
+.svgIcon {
+  fill: #FFF;
+  margin-right: 5px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.w-19 {
+  width: 19%;
+}
+.ui-widget-content {
+  background: white !important;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  border: none;
+	background: #007BFF url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;
+	font-weight: 200;
+  color: #ffffff;
+  padding: 5px;
+}
+.ui-menu .ui-menu-item {
+padding: 5px;
+}
+.ui-widget {
+	font-family :inherit;
+	font-size: 1rem;
+}
+.w-11ch {
+  max-width: 11ch;
+}
+.w-10 {
+  width: 10%;
+}
+@media only screen and (max-width : 1025px) {
+  .minW-200 {
+    min-width: 200px;
+  }
+ }
+
+.flexbox-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: 450px;
+  height: 100%;
+}

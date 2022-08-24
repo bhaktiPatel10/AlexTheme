@@ -1,0 +1,217 @@
+/*
+* Tasks Style
+*/
+.bg-model-grey{
+background: #edeff3;}
+
+.toolbar-left {
+  float: left;
+}
+.add-package-panel {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  min-height: 100vh;
+  transform: translateX(100%);
+  transition: transform 0.15s ease-in-out;
+}
+.sidepanel-toggled .add-package-panel {
+  transform: translateX(0);
+}
+.panel-heading {
+  display: flex;
+  padding: 1rem;
+  background: #343f54;
+  text-align: left;
+  color: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel-heading a {
+  cursor: pointer;
+}
+.panel-body{
+  background: #edeff3;
+}
+.m-10 {
+  margin-top: 10px;
+}
+.w-72 {
+  width: 72px !important;
+}
+@media (min-width: 1024px) {
+  .toolbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+}
+.margin-l-3 {
+  margin-left: 3px;
+}
+@media (max-width: 768px) {
+  .mbr-2 {
+    margin-bottom: 0.5rem !important;
+  }
+}
+@media only screen and (max-width: 1000px){
+.button-res button {
+    width: 100%;
+    margin: 0;
+}
+.m-10 {
+  margin: 10px 0px;
+}
+.modal-footer > :not(:first-child) {
+ margin-left: 0px;
+}
+}
+.sidepanel-task-toggled .add-task-panel {
+  transform: translateX(0);
+}
+.sidepanel-name-toggled .add-name-panel {
+  transform: translateX(0);
+}
+.add-task-panel {
+  position: fixed;
+  right: 0;
+  top:0;
+  z-index: 100;
+  height: 100%;
+  overflow-y: scroll;
+  transform: translateX(100%);
+  transition: transform 0.15s ease-in-out;
+}
+
+.add-name-panel {
+  position: fixed;
+  right: 0;
+  top:0;
+  z-index: 100;
+  height: 100%;
+  overflow-y: scroll;
+  transform: translateX(100%);
+  transition: transform 0.15s ease-in-out;
+}
+ 
+.select-checkbox .checkbox-circle .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  transform: rotate( 
+    45deg
+     ) !important;
+}
+.select-checkbox .checkmark {
+    height: 22px;
+    width: 22px;
+    top: 2px;
+}
+
+@media only screen and (max-width: 430px)
+{
+.select-responsive{
+  min-width: 119px;
+  padding-left: 30px;
+}
+.custom-select-arrow.call-icons .fa-chevron-down {
+  right: 0 !important;
+}
+}
+.call-icon {
+  position: absolute;
+  top: 9px;
+  left: 7px;
+}
+.w-120 {
+  width: 120px;
+}
+.width-100 {
+  width: 100px;
+}
+.px-30 {
+  padding: 0 30px;
+}
+.taskCheckbox .checkbox-circle .checkmark:after {
+  border:solid white !important;
+  border-width: 0 3px 3px 0 !important;
+  top: 2px !important;
+  left: 8px !important;
+  width: 7px !important;
+  height: 16px !important;
+}
+.taskCheckbox .checkbox-circle input:checked ~ .checkmark {
+  background :#4EA278 !important;
+}
+.p-10 {
+  padding: 10px;
+}
+.ml-27 {
+  margin-left: 27px;
+}
+@media only screen and (max-width: 400px) {
+.mb-10 {
+  margin-bottom: 10px;
+}
+}
+@media only screen and (max-width: 414px) {
+.mt-10 {
+  margin-top: 10px;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+}
+.ui-widget-content {
+  background: white !important;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  border: none;
+	background: #007BFF;
+	font-weight: 200;
+  color: #ffffff;
+  padding: 5px;
+}
+.ui-menu .ui-menu-item {
+padding: 5px;
+}
+.ui-widget {
+	font-family :inherit;
+	font-size: 1rem;
+}
+@media only screen and (min-width: 1024px) {
+  .datepicker-orient-left.datepicker-orient-bottom {
+    left: 200px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .datepicker-orient-left.datepicker-orient-bottom {
+    left: 20px !important;
+  }
+  .datepicker-orient-right.datepicker-orient-bottom { 
+    left: 0px !important;
+}
+}
+.form-group {
+  width: 47% !important;
+}
+
+@media only screen and (max-width : 1025px) {
+  .minW-150{
+    min-width: 150px;
+  }
+  .minW-170{
+    min-width: 170px;
+  }
+ }
+ .s-left .select-right-dropdown{
+  transform: translate3d(-64px, 0px, 0);
+ }
+ .s-up .select-right-dropdown{
+  transform: translate3d(0px, -156px, 0);
+ }

@@ -1,0 +1,49 @@
+/*
+*  Sequence Home Style
+*/
+input:checked + .select-item {
+    background-color:  #5E9331;
+   }
+.w-170 {
+    min-width: 170px;
+}
+.c-black {
+    color: black !important;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+.checkmark{
+    border-radius: 0;
+    height: 20px;
+    width: 20px;
+    background: #ECEEF3;
+    border: 1px solid #D4D6DD;
+}
+.checkbox-circle {
+    top: 4px;
+}
+.checkbox-circle input:checked ~ .checkmark {
+    background-color: #5e9331;
+    border-radius: 0;
+}
+.checkbox-circle .checkmark:after {
+    border: 1px solid #ffffff;
+    border-width: 0 3px 3px 0;
+    left: 5px;
+    top: 1px;
+}
+.checkbox-circle:hover input ~ .checkmark {
+    background-color:#ECEEF3 !important;
+}
+.checkbox-circle:hover input:checked ~ .checkmark {
+    background-color:#5e9331 !important;
+}
+
+ .select-right-dropdown{
+    transform: translate3d(-80px, 32px, 0px);
+    top: 0px;
+}
+.r-drop-0 .select-right-dropdown{
+    transform: translate3d(0px, 43px, 0px);    
+}
+  

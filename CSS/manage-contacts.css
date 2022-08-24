@@ -1,0 +1,146 @@
+/*
+*Manage Style
+*/
+@media (max-width: 768px) {
+  .container-inner-resp {
+      max-width: fit-content;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+  }
+}
+.card-container {
+  padding: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.display-flex {
+    display: flex;
+}
+@media (min-width: 769px) {
+  .width-100 {
+      width: 100%;
+  }
+}
+.fixed-table-toolbar .bs-bars #toolbar select {
+  width: 100px;
+}
+.fixed-table-toolbar .bs-bars {
+  width: 100%;
+}
+.fixed-table-toolbar .bs-bars #toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-icon {
+  color: #4D8943;
+  font-size: 8px;
+}
+.user-icon {
+  color: #556b98;
+  font-size: 15px;
+}
+.header-bg {
+  background:#F0F0F0;
+}
+.select-main {
+  width: 120px !important;
+}
+.text-15 {
+  font-size: 15px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.display-grid {
+  display: grid !important
+}
+.d-grid {
+  display: grid;
+}
+.w-content {
+  width: fit-content;
+}
+.l-space{
+  letter-spacing: 5px;
+}
+.text-black a {
+  color: black;
+}
+.gmail img {
+  width:32px !important;
+}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+  margin: 0px;
+  left: -88%;
+  top: -2px;
+}
+.w-140{
+max-width: 160px;
+}
+.dropdown-menu {
+  padding: 0px;
+}
+.dropdown-submenu > .dropdown-menu.show {
+  display: block;
+  margin: 0;
+  left: -98%;
+  top: -1px;
+}
+.actions-container {
+ display: flex;
+ justify-content: flex-end;
+}
+@media only screen and (max-width: 420px) {
+  .actions-container {
+    display: flex;
+    justify-content:center;
+   }
+}
+.svgIcon {
+  fill: #5E9331;
+  margin-right: 5px;
+}
+.t-22 {
+  top: 22px !important;
+}
+.timeZone .dropdown-toggle::after {
+  margin-left: 8.255em !important;
+}
+.timeZone .btn {
+  text-align: start;
+  text-transform:none;
+}
+.h-42 {
+  height: 42.5px;
+}
+
+.select-right-dropdown{
+  transform: translate3d(-38px, 32px, 0px);
+  top: 0px;
+}
+.form-label-dropdown .select-right-dropdown{
+  transform: translate3d(0px, 43px, 0px);
+}
+.l-118{
+  left: 118px;
+  bottom: -7px !important
+}
+.text-wrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

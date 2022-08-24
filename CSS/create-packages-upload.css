@@ -1,0 +1,56 @@
+/*
+* Create Packages Upload Style
+*/
+.cursor-scroll{
+  cursor: all-scroll;
+}
+
+.w-270{
+  min-width: 270px;
+}
+.w-330 {
+  width: 330px;
+  min-width: 330px;
+}
+.w-410 {
+  width: 410px;
+  min-width: 410px;
+}
+.w-165 {
+  min-width: 165px;
+}
+.px-60{
+  padding-right: 60px !important;
+  /* padding-left: 60px !important; */
+}
+.pl-10 {
+  padding-left: 10px;;
+}
+.width-5{
+  width: 5%;
+  min-width: 70px;
+}
+.width-2{
+  width: 2%;
+  min-width: 40px;
+}
+.width-30{
+  width: 30%;
+  min-width: 300px
+}
+.width-32{
+  width: 32%;
+  min-width: 300px
+}
+.width-15{
+  width: 15%;
+  min-width: 100px;
+}
+@media only screen and (max-width : 1025px) {
+  .minW-415 {
+    min-width: 415px;
+  }
+  .minW-170{
+    min-width: 170px;
+  }
+ }

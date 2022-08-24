@@ -1,0 +1,77 @@
+/*
+*  Dashboard Storage Style
+*/
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+.button-res button{
+  width: 100%;
+  }
+.button-res > .btn-warning{
+  margin-bottom: 10px;
+  }
+}  
+
+@media only screen and (min-width:768px) and (max-width:1200px){
+  .widthR-24 button {
+    width: 23% !important;
+      }
+  }
+  .select-right-dropdown{
+   width: fit-content;
+}
+.width-4{
+  width: 4%;
+  min-width: 70px;
+}
+.width-50{
+  width: 50%;
+  min-width: 300px
+}
+.width-7{
+  width: 7%;
+  min-width: 70px;
+}
+@media only screen and (max-width:1025px) {
+  .minW-110{
+    min-width: 110px;
+  }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .chart-container {
+      display: block;
+    }
+    }
+   
+  .chart-legend li span{
+    display: inline-block;
+    
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.wh-170{
+    height: 140px !important;
+    width: 140px !important;
+}
+
+.chart-legend{
+  height:170px;
+  overflow:auto;
+}
+.chart-legend ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.chart-legend li{
+  padding-right: 7px;
+  list-style: none;
+}
+.mrgin-top-bottom{
+  margin-top: 26px;
+  margin-bottom: -23px;
+}

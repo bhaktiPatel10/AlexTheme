@@ -1,0 +1,49 @@
+/*
+* Subscribers Style
+*/
+.text-fontsize {
+  font-size: 14px;
+}
+.text-green{
+  color:  #5E9331;
+}
+.table-main {
+  background: #F2F4F8;
+}
+.btn-red {
+  border-radius: 0px;
+  color: white;
+  background: #BA0D0D;
+}
+.ok-wh {
+  width: 59px;
+  height: 48px;
+}
+.bt-arrow {
+  top: 9px;
+  right: 10px;
+}
+.redbt-arrow {
+  top: 9px;
+  right: 5px;
+}
+.width-255 {
+  min-width: 255px;
+}
+.text-red {
+  color: #E11010; ;
+}
+.text-green {
+  color: #72B33A; ;
+}
+.color-border {
+  border-color:#ced4da ;
+  color:#E0E0E0;
+}
+.table.borderlessTable th,
+.table.borderlessTable td {
+  border: 0;
+}
+.w-140{
+  min-width: 140px;
+}

@@ -1,0 +1,55 @@
+/* sms setting style */
+
+.w-90 {
+    width: 90px;
+}
+.w-180 {
+    width: 180px;
+}
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+.p-10 {
+  padding: 10px;
+}
+.form-check {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+@media only screen and (min-width: 310px) and (max-width: 420px)  {
+    .modal-body {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+  
+  .phoneNumberLeft {
+    width: 70px;
+    margin-right: 3px;
+  }
+  .phoneNumberMiddle {
+    width: 75px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .phoneNumberRight {
+    width: 121px;
+    margin-left: 3px;
+  }
+  .color-border {
+    border-color: #ced4da;
+    color: #E0E0E0;
+    background: white;
+  }
+    .searchbox {
+    min-width: 0px;
+  }
+
+@media only screen and (max-width:500px) {
+    .btn-responsive {
+        width: 100%;
+    }
+    .m-15 {
+        margin: 14px 0px;
+    }
+}

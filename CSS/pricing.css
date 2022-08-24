@@ -1,0 +1,283 @@
+/*
+* Pricing Style
+*/
+
+.plan-containier {
+  float: right;
+  text-align: right;
+}
+@media (max-width: 475px) {
+  .plan-containier {
+    float: none;
+    text-align: center;
+}
+
+}
+/* .messageBox {
+  width: 100%;
+  height: 95px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+} */
+.planAmount{
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+.w-150 {
+  min-width: 150px;
+}
+.w-250 {
+  width: 250px;
+}
+.mr-5 {
+  margin-right: 5rem;
+}
+.bg-green{
+  background: #5E9331;
+}
+.bg-grey{
+  background: #A6A6A6;
+}
+.pt-49{
+  padding-top: 49px;
+}
+.w-263{
+  width: 263px;
+}
+.table td{
+  vertical-align: middle;
+}
+.text-12 {
+  font-size: 12px;
+}
+.w-789 {
+  width: 789px;
+}
+@media (max-width: 573px) {
+.plan-card-container .card {
+ margin-bottom: 15px;
+ width: 100% !important;
+ margin-left: 16px !important;
+  }
+  .scroll-page{
+    width: fit-content !important;
+    min-width: max-content;
+  }
+  .over-x-auto{
+    overflow-x: scroll;
+  }
+  .ff-row{
+    flex-flow: row wrap;
+  }
+  .w-300{
+    width: 300px;
+  }
+}
+
+/* Pricing Plans style */
+
+@media (max-width: 1024px) {
+  div.card-header.bg-gradient{
+    font-size: 36px;
+  }
+  div.pricing-plan-pro:before {
+    height: 70px;
+    top: -18px;
+    width: 70px;
+    left: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px)  {
+  div.pricing-plan-pro:before {
+    height: 63px;
+    top: -15px;
+    width: 63px;
+    left: 8px;
+  }
+}
+
+
+.card-header.bg-gradient{
+background: linear-gradient(175deg, rgba(137,175,192,1) 31%, rgba(255,255,255,1) 100%);
+  min-height: 208px;
+  /* font-size: 5rem; */
+  font-size: 52px;
+  padding-top: 2rem;
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+  border-bottom: 0;
+}
+
+.card-header.bg-gradient span{
+  display: list-item;
+  list-style: none;
+  line-height: 3.5rem;
+  text-align: left;
+}
+div.messageBox {
+  padding-top: 3rem; 
+  padding-bottom: 3rem; 
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image/pricing-header-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.messageBox:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+  opacity: 0.6;
+}
+div.messageBox .text-center {
+  position: relative;
+}
+.bilingBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 15px;
+}
+.form-check {
+  margin-bottom: 0 !important;
+} 
+div.messageBox h2 {
+  font-size: 32px;
+}
+div.messageBox span {
+  font-size: 16px;
+}
+.card-header {
+  font-size: 30px;
+  border-radius: 0 !important;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.card-group>.card {
+  margin-bottom: 25px;
+}
+
+.pricing-card {
+  text-align: center;
+  border-radius: 0;
+  -webkit-transition: all 0.4s ease-in-out, border 0s, z-inex 0s;
+  transition: all 0.4s ease-in-out, border 0s, z-inex 0s;
+}
+
+.pricing-card .card-body {
+  padding: 15px 20px 0;
+}
+.pricing-plan-title {
+  font-size: 16px;
+  color: #7D7D7D;
+  /* margin-bottom: 20px; */
+  /* font-weight: bold; */
+}
+
+.pricing-plan-basic .pricing-plan-cost {
+  color: #5d78ff;
+}
+
+.pricing-plan-cost {
+  font-size: 44px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.pricing-plan-term {
+  color: #a1a9af;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.pricing-plan-basic .pricing-plan-purchase-btn {
+  background-color: #5d78ff;
+}
+
+.pricing-plan-purchase-btn {
+  color: #fff;
+  background-color: #000;
+  border-color: #e6e6e6;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 1px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.pricing-plan-pro {
+  position: relative;
+}
+.pricing-plan-pro:before {
+  content: "";
+  position: absolute;
+  background-image: url('../image/most-popular.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90px;
+  top: -23px;
+  width: 90px;
+  left: 17px;
+}
+.card-body .card-body-inner {
+  margin-top: -15px;
+  margin-left: -20px;
+  margin-right: -20px;
+  /* margin-bottom: -15px; */
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+}
+.card-body-inner-main {
+   padding-top: 15px;
+  padding-bottom: 1px;
+}
+.pay-per-month {
+  display: flex;
+  align-items: center;
+  padding-top: 19px !important;
+  justify-content: center;
+  font-weight: 600;
+  padding-bottom: 18px !important;
+}
+.pricing-plan-features {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 0;
+}
+.pricing-plan-basic .pricing-plan-features li {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.pricing-plan-features li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #CED1D9;
+}
+
+.bg-plan-center-column {
+  background-color: #5e93311a !important;
+}

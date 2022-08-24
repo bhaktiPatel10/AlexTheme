@@ -1,0 +1,77 @@
+/*
+*  Dashboard users Style
+*/
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+  .button-res button{
+    width: 100%;
+    }
+  .button-res > .btn-warning{
+    margin-bottom: 10px;
+    }
+  }  
+
+  
+@media only screen and (max-width : 1025px) {
+  .minW-120{
+    min-width: 120px;
+  }
+ }
+
+.width-4{
+  width: 4%;
+  min-width: 40px;
+}
+.width-8{
+  width: 8%;
+  min-width: 100px
+}
+.width-20{
+  width: 20%;
+  min-width: 200px
+}
+.width-40{
+  width: 40%;
+  min-width: 300px;
+}
+.width-7{
+  width: 7%;
+  min-width: 100px;
+}
+@media only screen and (max-width: 1024px) {
+  .chart-container {
+    display: block;
+  }
+  }
+ 
+  .chart-legend li span{
+    display: inline-block;
+    
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.wh-170{
+    height: 140px !important;
+    width: 140px !important;
+}
+
+.chart-legend{
+  height:170px;
+  overflow:auto;
+}
+.chart-legend ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.chart-legend li{
+  padding-right: 7px;
+  list-style: none;
+}
+.mrgin-top-bottom{
+  margin-top: 26px;
+  margin-bottom: -23px;
+}

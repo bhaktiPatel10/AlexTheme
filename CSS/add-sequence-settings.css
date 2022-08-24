@@ -1,0 +1,16 @@
+.select-right-dropdown{
+    height: 100px;
+    overflow-y: auto;
+}
+@media only screen and (max-width: 500px) {
+    .a-hover:hover{
+      color: #fff !important;
+    }
+  }
+  .a-hover:hover{
+    color: #5E9331;
+  }
+  .a-hover:focus{
+    color: #fff !important;
+  }
+  

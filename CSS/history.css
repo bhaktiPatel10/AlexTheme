@@ -1,0 +1,79 @@
+/*
+* History Style
+*/
+.fixed-table-toolbar .bs-bars #toolbar select {
+  width: 100px;
+}
+/* Data tables style*/
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+  padding: 1.25rem;
+}
+.fixed-table-toolbar .bs-bars {
+  width: 100%;
+}
+.fixed-table-toolbar .bs-bars #toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-icon {
+  color: #4D8943;
+  font-size: 8px;
+}
+.user-icon{
+  color: #556b98;
+  font-size: 15px;
+}
+.header-bg {
+  background:#F0F0F0;
+}
+.select-main {
+  width: 120px !important;
+}
+.text-15 {
+  font-size: 15px;
+}
+
+.w-45{
+  min-width: 45px;
+}
+.w-24ch{
+  max-width: 24ch;
+}
+.w-20ch{
+  max-width: 20ch;
+}
+.w-230 {
+  width: 230px;
+  min-width: 185px;
+}
+.w-365 {
+  width: 365px;
+  min-width: 365px;
+}
+.w-350 {
+  width: 350px;
+  min-width: 230px;
+}
+.w-120 {
+  min-width: 120px;
+}
+.px-50 {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.pl-10 {
+  padding-left: 10px !important;
+  }
+.pr-70 {
+  padding-right: 70px !important;
+} 
+.display-grid{
+  display: grid !important
+}
+/* Data tables style end*/
+.position-initial{
+  position: initial;
+}

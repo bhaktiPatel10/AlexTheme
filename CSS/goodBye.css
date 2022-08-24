@@ -1,0 +1,15 @@
+/*
+* Good Bye Style
+*/
+.margin-0 {
+    margin: 0 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .button-res button {
+      width: 100%;
+      margin: 0;
+      }
+      .margin-0 {
+          margin: 0;
+      }
+    }

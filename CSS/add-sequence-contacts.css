@@ -1,0 +1,22 @@
+.select-right-dropdown{
+    transform: translate3d(-113px, 31px, 0);
+    top: 0; 
+}
+.width-18{
+    min-width: 120px;
+    width: 18%;
+}
+.width-22{
+    width: 22%;
+    min-width: 170px;
+}
+.width-5{
+    width: 5%;
+    min-width: 65px;
+}
+@media only screen and (max-width : 1025px) {
+    .minW-280 {
+      min-width: 280px;
+    }
+   
+   }

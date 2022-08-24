@@ -1,0 +1,23 @@
+/* User Listing Style */
+.height-50 {
+  height: 50px;
+}
+.text-25 {
+font-size: 25px;
+}
+a:hover {
+  color: #000000;
+ }
+a {
+  color: #000000;
+ }
+.svgIcon {
+  fill: #5E9331;
+  margin-right: 5px;
+}
+.w-230{
+  min-width: 230px;
+}
+ul.dropdown-menu.drop-180 {
+  bottom: 7px !important;
+}

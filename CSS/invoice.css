@@ -1,0 +1,25 @@
+/*
+*Invoice page Style
+*/
+.w-265 {
+    width: 230px;
+    min-width: 265px;
+}
+.w-200 {
+    width: 200px;
+    min-width: 200px;
+}
+.w-150 {
+    width: 150px;
+    min-width: 150px;
+}
+.text-color {
+    color: #A6A6A6;
+}
+.img-responsive {
+    width: 240px;
+    height: auto;
+}
+@media screen and (max-width: 450px) {
+   
+}

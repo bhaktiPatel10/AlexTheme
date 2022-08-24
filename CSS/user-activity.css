@@ -1,0 +1,47 @@
+/*
+* User Activity Style
+*/
+.refresh {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 100%;
+}
+.btn-refresh {
+  font-size: 13px;
+  border-radius: 0;
+  border: 0;
+  text-transform: uppercase;
+}
+@media (min-width: 731px) {
+  .dateRangeSelector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 731px) {
+  .wr-100 {
+    width: 100%;
+  }
+  .wr-100 .dropdown-toggle {
+    width: 100%;
+  }
+}
+.width-100 {
+  min-width: 100px !important;
+}
+.w-230 {
+  min-width: 230px;
+  width: 230px;
+}
+@media (min-width: 1200px)
+{
+.selectDate.col-xl-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 10%;
+    flex: 1 0 10%;
+    max-width: 200px;
+}
+}
+

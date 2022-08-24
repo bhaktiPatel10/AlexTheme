@@ -1,0 +1,32 @@
+/*
+* My Account Style
+*/
+.my-account-logo {
+  width: 220px;
+}
+.contact-info-container .profile-image {
+  text-align: center;
+}
+.contact-info-container .profile-image img {
+  width: 140px;
+}
+.py-30 {
+  padding: 62.4px 0px;
+}
+select.form-control:not([size]):not([multiple]) {
+  height:42.5px
+}
+.h-42 {
+  height: 42.5px;
+}
+.select-dropdown .dropdown-toggle::after{
+  margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+.button-res button{
+  width: 100%;
+  }
+.button-res > .btn-warning{
+  margin-bottom: 10px;
+  }
+}  

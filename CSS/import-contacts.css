@@ -1,0 +1,81 @@
+/*
+* Import Contacts Style
+*/
+.fileUplaod-container {
+  color: #A6A6A6;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.simple-upload-dragover {
+  background-color: #eef;
+}
+.simple-upload-filename {
+  margin-right: 0.5em;
+}
+.custom-file-upload {
+  border: 1px solid #E0E0E0;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.fileUpload-label {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #5E9331;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #E0E0E0;
+}
+.toolbarImportContacts{
+  float: right;
+  clear: both;
+  margin-bottom: 0.5rem;
+}
+.w-150 {
+  min-width: 150px;
+  width: 150px;
+}
+.w-40 {
+  width: 40%;
+  min-width: 100px;
+}
+.w-25 {
+  width: 25%;
+}
+.h-fit-content {
+  height: fit-content;
+}
+.text-wrap {
+  overflow: hidden;
+  display: inline-block !important;
+  max-width: 157px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@media screen and (max-width: 726px) {
+.flex-resposive {
+  flex-wrap:wrap;
+}
+}
+
+ .select-right-dropdown {
+  transform: translate3d(-38px, 32px, 0px);
+  top: 0px;
+}
+.bootstrap-table .fixed-table-container .fixed-table-body {
+  overflow-x: visible;
+  overflow-y: visible;
+  /* height: 100%; */
+}
+@media screen and (max-width: 726px) {
+  .bootstrap-table .fixed-table-container .fixed-table-body {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+    /* height: 100%; */
+  }
+}
+@media only screen and (max-width : 1025px) {
+  .minW-150 {
+    min-width: 150px
+  }
+ }

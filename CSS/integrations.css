@@ -1,0 +1,46 @@
+/*
+* Integration Style
+*/
+.width-100 {
+width: 100px;
+height: 60px;
+}
+.bg-color {
+  background: #E5E5E5;
+}
+.bg-twitter {
+  background: #229FF0
+}
+.bg-salesforce {
+  background: #009FDF;
+  width: 100px
+}
+.bg-zapier {
+  background: #F2F2F2;
+  padding: 15px 0;
+  width: 100px;
+}
+.img-ziper {
+  width: 70%;
+}
+.img-facebook {
+  width: 50%;
+  padding: 9px 10px 10px 0;
+}
+.bg-facebook {
+  background: #3F5798
+}
+.bg-in {
+  background: #0379B5;
+  padding: 8px 0 8px 2px;
+}
+.img-in {
+  width: 50%;
+}
+.img-salesforce {
+  width: 65%;
+}
+.card {
+  width: 354px;
+    height: 272px;
+}

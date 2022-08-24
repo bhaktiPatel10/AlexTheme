@@ -1,0 +1,39 @@
+.h-147{
+    height: 147px;
+    overflow-y: auto;
+}
+@media only screen and (max-width : 767px) {
+    .minH-164 {
+      height: 164px !important;
+    }
+   }
+  
+
+   .variable-list-modal{
+    margin: 0 auto !important;
+    padding: 0  !important;
+  }
+  .variable-list-modal .modal-body {
+    padding: 0 !important;
+  }
+  .variable-list-modal .modal-body .list-group-item {
+    border: 0 !important;
+    cursor: pointer;
+    background-color: #fff!important;
+  }
+  .variable-list-modal .modal-body .list-group-item:hover {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+  }
+  .variable-list-modal .modal-header {
+  background: 	#edeff3 !important;
+  color: black !important;
+  padding: 0.3rem 1rem;
+  }
+  .variable-list-modal .modal-dialog 
+  {
+    margin: 0 auto !important;
+   
+  }
+  

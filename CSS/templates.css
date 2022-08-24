@@ -1,0 +1,108 @@
+/*!
+* Templates Style
+*/
+.w-145{
+    min-width: 160px;
+}
+.w-300{
+    min-width: 300px;
+}
+.pad-42
+{
+ padding: 23px 15px 40px !important;
+}
+.font-13{
+    font-size: 13px;
+}
+.dropdown-menu {
+    padding: 0px;}
+    
+@media (max-width: 768px) {
+    .container-inner-resp > .row{
+      width: max-content;
+    }
+    .container-inner-resp {
+        max-width: fit-content;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+  }
+.template-left {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    min-width: 205px;
+    min-height: calc(100vh - 58px);
+}
+.template-left .nav-link.collapsed,
+.template-left .nav-link svg {
+    cursor: pointer;
+}
+.template-right .table-bordered th,
+.template-right .table-bordered td {
+    border: none;
+    vertical-align: middle;
+}
+.template-right .table-bordered tr {
+    border-bottom: 1px solid #dee2e6;
+}
+.template-left .dropdown-menu {
+    border-radius: 0;
+    min-width: 7rem;
+}
+.template-left a.dropdown-item {
+    text-align: left;
+    color: #5E9331;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: 0.8em;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    margin: 0px;
+    left: -71%;
+    top: -1px;
+}
+.cursor-scroll{
+    cursor: all-scroll;
+  }
+  .text-wrap {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .w-140 {
+      max-width: 140px;
+  }
+
+.variable-list-modal{
+    margin: 0 auto !important;
+   
+}
+.variable-list-modal .modal-body {
+    padding: 0 !important;
+}
+.variable-list-modal .modal-body .list-group-item {
+    border: 0 !important;
+    cursor: pointer;
+}
+.variable-list-modal .modal-body .list-group-item:hover {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.variable-list-modal .modal-header {
+ background: 	#edeff3 !important;
+ color: black !important;
+ padding: 0.3rem 1rem;
+}
+.variable-list-modal .modal-dialog 
+{
+    margin: 0 auto !important;
+}
