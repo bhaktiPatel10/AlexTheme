@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <!-- Styles -->
+        <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+        <link href="CSS/styles.css" rel="stylesheet" />
+        <link href="CSS/responsive.css" rel="stylesheet" />
+        <link href="CSS/activity-log.css" rel="stylesheet" />
+    </head>
+    <body class="sidebar-fixed">
+        <div id="containerMain">
+            <div id="containerMain_nav">
+                <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu ml-180">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+            </div>
+            <div id="containerMain_content">
+                <header>
+                    <!-- Mobile Top Nav-->
+                    <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                        <!-- Mobile Logo -->
+                        <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                            <img src="image/logo-small.png" class="" alt="Send Your Media">
+                        </a>
+                        <!-- Navbar Search-->
+                        <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                        <!-- Navbar-->
+                    </nav>
+                    <!-- Mobile Top Nav End-->
+                    <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+                        <!-- Breadcrumb-->
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"></a>Activity Log</a></li>
+                        </ol>
+                    
+                        <!-- Navbar Search-->
+                        <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn min-w-auto input-group-text bg-none border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                        </button>
+                        <!-- Navbar-->
+                    </nav>
+                </header>
+                <main class="pt-4 pb-4">
+                    <!-- Page Content -->
+                    <section class="container-fluid">
+                        <div class="card">
+                            <!-- Table Toolbar -->
+                            <div class="d-flex justify-content-between p-3">
+                                <!-- <div class="dropdown">
+                                    <button class="btn btn-select dropdown-toggle" type="button" id="filter1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Status-All
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="filter1">
+                                        <a class="dropdown-item" href="#">Status - All</a>
+                                        <a class="dropdown-item" href="#">All Pkgs Opened</a>
+                                        <a class="dropdown-item" href="#">Complaint</a>
+                                        <a class="dropdown-item" href="#">Draft</a>
+                                        <a class="dropdown-item" href="#">Email Opened</a>
+                                        <a class="dropdown-item" href="#">Emails Opened</a>
+                                        <a class="dropdown-item" href="#">Email Sent</a>
+                                        <a class="dropdown-item" href="#">Hard Bounce</a>
+                                        <a class="dropdown-item" href="#">Pending</a>
+                                        <a class="dropdown-item" href="#">Pkg Opened</a>
+                                        <a class="dropdown-item" href="#">Pkg Shared</a>
+                                        <a class="dropdown-item" href="#">Pkgs Shared</a>
+                                        <a class="dropdown-item" href="#">Replied</a>
+                                        <a class="dropdown-item" href="#">Resent</a>
+                                        <a class="dropdown-item" href="#">Scheduled</a>
+                                        <a class="dropdown-item" href="#">Soft Bounce</a>
+                                        <a class="dropdown-item" href="#">Some Pkgs Opened</a>
+                                        <a class="dropdown-item" href="#">Unsubscribed</a>
+                                    </div>
+                                </div> -->
+                                <div class="custom-select-dropdown" >
+                                    <select>
+                                            <option value="0"> Status-All:</option>
+                                            <option value="1"> Status-All</option>
+                                            <option value="2">All Pkgs Opened</option>
+                                            <option value="3">Complaint</option>
+                                            <option value="4">Draft</option>
+                                            <option value="5">Email Opened</option>
+                                            <option value="6">Emails Opened</option>
+                                            <option value="7">Email Sent</option>
+                                            <option value="8">Hard Bounce</option>
+                                            <option value="9">Pending</option>
+                                            <option value="10">Pkg Opened</option>
+                                            <option value="11">Pkg Shared</option>
+                                            <option value="12">Pkgs Shared</option>
+                                            <option value="13">Replied</option>
+                                            <option value="14">Resent</option>
+                                            <option value="15">Scheduled</option>
+                                            <option value="16">Soft Bounce</option>
+                                            <option value="17">Some Pkgs Opened</option>
+                                            <option value="18">Unsubscribed</option>
+                                    </select>
+                                </div>
+                                <div class="refreshTable"><button  class="bg-transparent btn btn-sm text-right"><img src="image/icons/refresh-datatable.png" alt="Refersh Table"/></button></div>
+                            </div>
+                            <!-- Table Toolbar End -->
+                            <table id="b-table" 
+                                    data-toggle="table"
+                                    class="table borderlessTable">
+                                <thead>
+                                    <tr>
+                                        <th class="width-18" data-field="name" data-filter-control="input" data-sortable="true">Name</th>
+                                        <th class="minW-265 width-18" data-field="sentTo" data-filter-control="select" data-sortable="true">Sent To</th>
+                                        <th class="width-15" data-field="DateSent" data-filter-control="select" data-sortable="true">Date Sent</th>
+                                        <th class="width-15" data-field="status" data-sortable="true">Status</th>
+                                        <th class="width-20" data-field="interest" data-sortable="true">Interest</th>
+                                        <th class="minW-100 width-12" data-field="fileviews" data-sortable="true">File Views</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/car-datatable.png" alt="car" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span>Opened</span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <img class="ml-2" src="image/icons/recycle-datatable.png" alt="recycle" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span>Opened</span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Total Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1"><a href=""><img src="image/icons/boxes-datatable.png" alt="boxes" /></a></span>
+                                                <span class="mr-1 w-24ch">2 Packages</span>
+                                                <span> <a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">3 Recipients</div>
+                                                <div>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                    <div class="dropdown-menu p-0 m-0" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item d-flex" href="details.html">
+                                                            <div class="d-flex align-items-center justify-content-between text-wrap">
+                                                                <span>
+                                                                    <img class="mr-2" src="image/views-thumb-1.png" alt="BMW-XS" />
+                                                                    <span>BMW-XS</span>
+                                                                </span>
+                                                                    <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                                                    <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                            </div>
+                                                        </a>
+                                                        <a class="dropdown-item d-flex" href="details.html">
+                                                            <div class="d-flex align-items-center justify-content-between text-wrap">
+                                                                <span>
+                                                                    <img class="mr-2" src="image/views-thumb-2.png" alt="JT-24" />
+                                                                    <span>JT-24</span>
+                                                                </span>
+                                                                <i class="fa fa-circle circle-icon ml-1 text-warning" aria-hidden="true"></i>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                                <div class="d-flex align-items-center">
+                                                    <span>Some Pkgs Opened</span>
+                                                    <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                </div>
+                                            </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button class="btn bg-light dropdown-toggle p-0 text-left text-capitalize text-14" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Views
+                                                </button>
+                                                <div class="dropdown-menu p-0 m-0" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item d-flex" href="details.html">
+                                                        <div class="d-flex align-items-center justify-content-between text-wrap">
+                                                            <span>
+                                                                <img class="mr-2" src="image/views-thumb-1.png" alt="BMW-XS" />
+                                                                <span>BMW-XS</span>
+                                                            </span>
+                                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                        </div>
+                                                    </a>
+                                                    <a class="dropdown-item d-flex" href="details.html">
+                                                        <div class="d-flex align-items-center justify-content-between text-wrap">
+                                                            <span>
+                                                                <img class="mr-2" src="image/views-thumb-2.png" alt="JT-24" />
+                                                                <span>JT-24</span>
+                                                            </span>
+                                                            <i class="fa fa-circle circle-icon ml-1 text-warning" aria-hidden="true"></i>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-warning">
+                                                <div class="d-flex align-items-center">
+                                                    <span>Email Sent</span>
+                                                    <i class="fa fa-circle circle-icon ml-1 text-warning" aria-hidden="true"></i>
+                                                </div>
+                                            </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">0%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">No Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <span class="mr-1 w-10"><a href="#"><img src="image/icons/box-datatable.png" alt="box" /></a></span>
+                                                <span class="mr-1 w-24ch">Package 1</span>
+                                                <span><a href="#"><img src="image/icons/view-datatable.png" alt="search" /></a></span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="w-20ch">John Doe</div>
+                                                <div class="w-max-content">
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/message-datatable.png" alt="message" /></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/right-arrow-datatable.png" alt="right"/></a></span>
+                                                    <span class="ml-1"><a href="#"><img src="image/icons/view-datatable.png" alt="view" /></a></span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>11-Jun-2019 6:48PM</td>
+                                        <td class="text-success">
+                                            <div class="d-flex align-items-center">
+                                                <span> Opened </span>
+                                                <i class="fa fa-circle circle-icon ml-1" aria-hidden="true"></i>
+                                                <i class="fa fa-user user-icon ml-2" aria-hidden="true"></i>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-inline">
+                                                <span class="span-progress">80%</span>
+                                                <div class="progress mt-1">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="details.html" class="text-black">Views</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    <!-- Page Content End-->
+                </main>  
+            </div>
+        </div>
+        <!-- Scritps -->
+        <script src="plugin/jQuery/jquery-3.6.0.slim.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/activity-log.js"></script>
+    </body>
+</html>

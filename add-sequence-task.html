@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Dashboard</title>
+    <!-- Styles -->
+    <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+    <link href="plugin/daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <link href="./plugin/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet" />
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <link href="CSS/floating-labels.css" rel="stylesheet" />
+    <link href="CSS/responsive.css" rel="stylesheet" />
+     <link href="./plugin/jquery-ui/jquery-ui.css" rel="stylesheet">
+     <link href="CSS/add-sequence.css" rel="stylesheet" />
+     <link href="CSS/add-sequence-task.css" rel="stylesheet" />
+</head>
+
+<body class="sidebar-fixed">
+    <div id="containerMain">
+        <div id="containerMain_nav">
+            <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+                <div class="sidebar-menu">
+                    <!-- Logo -->
+                    <div class="nav">
+                        <a class="navbar-brand" href="index.html" title="Logo">
+                            <img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+                            <img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="email-packages.html" title="Email Packages">
+                            <div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+                            <span>Email Packages</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="text-packages.html">
+                            <div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+                            <span>Text Packages</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#1">
+                            <div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+                            <span>Link to Package</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#2">
+                            <div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+                            <span>Post a Package</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#3">
+                            <div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+                            <span>Post a Package</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#4">
+                            <div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+                            <span>Post a Package</span>
+                        </a>
+                    </div>
+
+                    <div class="pl-3 pr-3">
+                        <hr>
+                    </div>
+
+                    <div class="nav">
+                        <a class="nav-link" href="#5">
+                            <div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+                            <span>Inbox</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#6">
+                            <div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+                            <span>Messages</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#7">
+                            <div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+                            <span>Templates</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#8">
+                            <div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+                            <span>Sequences</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#9">
+                            <div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+                            <span>Tasks</span>
+                        </a>
+                    </div>
+
+                    <div class="pl-3 pr-3">
+                        <hr>
+                    </div>
+                    
+                    <div class="nav">
+                        <a class="nav-link" href="#10">
+                            <div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+                            <span>History</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#11">
+                            <div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+                            <span>Template Log</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#12">
+                            <div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+                            <span>Activity Log</span>
+                        </a>
+                    </div>
+                    <div class="nav">
+                        <a class="nav-link" href="#13">
+                            <div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+                            <span>Contacts</span>
+                        </a>
+                    </div>
+
+                    <div class="pl-3 pr-3">
+                        <hr>
+                    </div>
+
+                    <div class="nav dropright d-flex">
+                        <a class="nav-link" data-toggle="dropdown">
+                            <div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+                            <span  >Admin Panel</span>
+                        </a>
+                            <ul class="dropdown-menu op-hover">
+                                <li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+                                <div class="dropdown-divider mr-4"></div>
+                                <li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+                                <li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+                                <div class="dropdown-divider mr-4"></div>
+                                <li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+                                <li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+                                <li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+                                <li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+                                <div class="dropdown-divider mr-4"></div>
+                                <li class="dropdown-submenu my-2">
+                                    <a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+                                    <ul class="dropdown-menu ml-180">
+                                    <li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+                                    <div class="dropdown-divider mr-4"></div>
+                                    <li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+                                    <li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+                                    <li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="nav dropright d-flex">
+                        <a class="nav-link"  data-toggle="dropdown">
+                            <div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+                            <span >My Account</span>
+                            </a>
+                            <ul class="dropdown-menu op-hover w-180">
+                                <li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+                                <div class="dropdown-divider mr-4"></div>
+                                <li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+                                <li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+                                <li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+                                <div class="dropdown-divider mr-4"></div>
+                                <li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+                            </ul>
+                
+                    </div>
+
+                    <div class="nav hideIn-mobile">
+                        <a class="nav-link sidebarToggle" href="#16">
+                            <div class="sidebar-link-icon">
+                                <img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+                                <img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+                            </div>
+                            <span>Hide Menu</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="containerMain_content">
+            <header>
+                <!-- Mobile Top Nav-->
+                <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                    <!-- Mobile Logo -->
+                    <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                        <img src="image/logo-small.png" class="" alt="Send Your Media">
+                    </a>
+                    <!-- Navbar Search-->
+                    <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                        <div class="input-group">
+                            <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                            <div class="input-group-append">
+                                <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                    <!-- Navbar-->
+                </nav>
+                <!-- Mobile Top Nav End-->
+                <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light justify-content-end">
+                    <!-- Navbar Search-->
+                    <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                        <div class="input-group">
+                            <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                            <div class="input-group-append">
+                                <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn min-w-auto input-group-text bg-none border-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                    </button>
+                    <!-- Navbar-->
+                </nav>
+            </header>
+            <main class="namefieldPanel">
+                <!-- Page Content -->
+                <section class="container-fluid mt-4">
+                        <div class="container-inner-resp">
+                            <div class="d-flex">
+                                <ul class="list-group">
+                                    <li class="list-group-item tab-switch">
+                                        <label class="switch mb-0">
+                                            <input type="checkbox" checked>
+                                            <span class="slider-switch round"></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item tab-item">
+                                        <a class="nav-link nav-tabs" id="overview-tab">Overview</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-tabs" id="insights-tab">Insights</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-tabs" id="contacts-tab">Contacts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-tabs activityLog" id="activityLog-tab">Activity Log</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-tabs active" id="manualTasks-tab" data-toggle="tab" href="#manualTasks" role="tab" aria-controls="manualTasks" aria-selected="false">Tasks</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-tabs" id="settings-tab">Settings</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card w-card-content">
+                    <div class="tab-pane p-4" id="manualTasks" role="tabpanel" aria-labelledby="manualTasks-tab">
+                        <div class="d-flex  mb-5">
+                            <div class="d-grid step-box mr-2 shadow">
+                                <b class="text-center">2</b>
+                                <span>Total</span>
+                            </div>
+                            <div class="d-grid step-box mr-2">
+                                <b class="text-center">0</b>
+                                <span>Today</span>
+                            </div>
+                            <div class="d-grid step-box mr-2">
+                                <b class="text-center">1</b>
+                                <span>Overdue</span>
+                            </div>
+                            <div class="d-grid step-box mr-2">
+                                <b class="text-center">1</b>
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end align-items-center flex-wrap">
+                            <div class="form-group dateRangeSelector align-items-center d-flex mx-3">
+                                <span class="width-100">Date Added:</span>
+                                <div id="creation-date" class="input-daterange position-relative w-225">
+                                    <input type="text" name="daterange" id="creationDate" class="form-control text-left mb-0" placeholder="">
+                                    <label class="icon-calendar c-pointer" for="creationDate">
+                                        <svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 9V11H4V9H6ZM10 9V11H8V9H10ZM14 9V11H12V9H14ZM16 2C16.5304 2 17.0391 2.21071 17.4142 2.58579C17.7893 2.96086 18 3.46957 18 4V18C18 18.5304 17.7893 19.0391 17.4142 19.4142C17.0391 19.7893 16.5304 20 16 20H2C0.89 20 0 19.1 0 18V4C0 3.46957 0.210714 2.96086 0.585786 2.58579C0.960859 2.21071 1.46957 2 2 2H3V0H5V2H13V0H15V2H16ZM16 18V7H2V18H16ZM6 13V15H4V13H6ZM10 13V15H8V13H10ZM14 13V15H12V13H14Z" fill="#606262"/>
+                                        </svg>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center ml-3">
+                                <span class="mr-3">Status :</span>
+                                <!-- <div class="dropdown">
+                                    <button class="btn statusTask btn-select dropdown-toggle" type="button" id="filter1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        All
+                                    </button>
+                                    <div class="dropdown-menu statusTaskData dropdown-menu-right" aria-labelledby="filter1">
+                                        <a class="dropdown-item" href="#">All</a>
+                                        <a class="dropdown-item" href="#">Active</a>
+                                        <a class="dropdown-item" href="#">Failed</a>
+                                        <a class="dropdown-item" href="#">Finished </a>
+                                        <a class="dropdown-item" href="#">Paused </a>
+                                        <a class="dropdown-item" href="#">Pending </a>
+                                        <a class="dropdown-item" href="#">Unsubscribed </a>
+                                    </div>
+                                </div> -->
+                                <div class="custom-select-dropdown" >
+                                    <select>
+                                        <option value="0">All</option>
+                                        <option value="1">All</option>
+                                        <option value="2">Active</option>
+                                        <option value="3">Failed</option>
+                                        <option value="4">Finished</option>
+                                        <option value="5">Paused</option>
+                                        <option value="6">Pending</option>
+                                        <option value="7">Unsubscribed</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <table 
+                        id="b-table" 
+                        data-toggle="table" 
+                        data-filter-control="true" 
+                        class="table borderlessTable">
+                                <thead>
+                                    <tr>
+                                        <th class="width-5"></th>
+                                        <th class="width-30" data-field="title" >Title</th>
+                                        <th class="width-20" data-field="contact" data-filter-control="input">Contact</th>
+                                        <th class="width-10" data-field="dueDate" data-filter-control="input">Due Date</th>
+                                        <th class="width-10" data-field="dueTime" data-filter-control="input">Due Time</th>
+                                     </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <label class="checkbox-circle"  data-toggle="modal" data-target=".new-email-modal">
+                                                <input type="checkbox" value="1001" />
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                        <td class="sidepanelNameToggle">Follow up call after package opened</td>
+                                        <td>William Gates</td>
+                                        <td>12/02/20</td>
+                                        <td>1:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="checkbox-circle"  data-toggle="modal" data-target=".new-email-modal">
+                                                <input type="checkbox" value="1001" />
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </td>
+                                        <td class="sidepanelNameToggle">Follow up call after package opened</td>
+                                        <td>William Gates</td>
+                                        <td>12/02/20</td>
+                                        <td>1:00pm</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+                     </div>
+                 </div>
+
+                  <!-- name panel popup start -->
+                  <div class="col-xs-12 col-sm-6 col-md-7 col-lg-6 col-xl-4 p-0 bg-light border-right add-task-left add-name-panel">
+                    <div class="panel-heading">
+                        <h4 class="mb-0">
+                            <span class="align-middle taskCheckbox">
+                                <label class="checkbox-circle">
+                                    <input type="checkbox" value="1002" />
+                                    <span class="checkmark"></span>
+                                </label>
+                            </span>
+                            <span>Follow Up After Package Opened</span>
+                        </h4>
+                        <a hre="#" class="sidepanelNameToggle">
+                            <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="p-4 panel-body">
+                        <div>
+                            <div class="pb-3"><b>Task Details</b></div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0 flex-wrap d-flex justify-content-between">
+                                <div class="dropdown mb-10">
+                                    <button class="btn insertBtn btn-white dropdown-toggle p-10" type="button" id="dropdownMenuButton-name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="image/call.png" class="call-icon" alt="call">
+                                        <span class="ml-27">Call</span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menuData" aria-labelledby="dropdownMenuButton-name">
+                                        <a class="dropdown-item" href="#">Call</a>
+                                        <a class="dropdown-item" href="#">Task</a>
+                                    </div>
+                                </div>
+                                <div class="d-flex ">
+                                    <div class="d-flex mb-0">
+                                        <span class="m-10 mr-1">Due</span>
+                                        <div id="expiration-date-name" class="input-daterange position-relative w-120">
+                                            <input type="text" id="expirationDate-name" class="rounded-0 form-control text-left" placeholder="12/02/21">
+                                            <label class="icon-calendar c-pointer" for="expirationDate-name">
+                                                <svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6 9V11H4V9H6ZM10 9V11H8V9H10ZM14 9V11H12V9H14ZM16 2C16.5304 2 17.0391 2.21071 17.4142 2.58579C17.7893 2.96086 18 3.46957 18 4V18C18 18.5304 17.7893 19.0391 17.4142 19.4142C17.0391 19.7893 16.5304 20 16 20H2C0.89 20 0 19.1 0 18V4C0 3.46957 0.210714 2.96086 0.585786 2.58579C0.960859 2.21071 1.46957 2 2 2H3V0H5V2H13V0H15V2H16ZM16 18V7H2V18H16ZM6 13V15H4V13H6ZM10 13V15H8V13H10ZM14 13V15H12V13H14Z" fill="#606262"/>
+                                                </svg>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <span class="m-10 mr-1 ml-2">at</span>
+                                        <div class="custom-select-dropdown plainBg form-label-dropdown s-left width-7">
+                                            <select>
+                                                <option value="0">1:00pm</option>
+                                                <option value="1">1:00pm</option>
+                                                <option value="2">2:00pm</option>
+                                                <option value="3">3:00pm</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="text" class="form-control rounded-0" id="title-name" aria-describedby="title-name" placeholder="title">
+                            <label for="title-name">Title</label>
+                        </div>
+                        <div class="form-label-group">
+                            <textarea class="form-control rounded-0" id="description-name" rows="18" placeholder="Description"></textarea>
+                            <label for="description-name">Description</label>
+                        </div>
+                        <div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="form-label-group">
+                                        <input type="text" class="form-control rounded-0" id="contactName-name" aria-describedby="contactName-name" placeholder="Contact Name">
+                                        <label for="contactName-name">Associated Contact</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="form-label-group">
+                                        <input type="text" class="form-control rounded-0" id="companyName-name" aria-describedby="companyName-name" placeholder="Company Name">
+                                        <label for="companyName-name">Company Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control rounded-0"  id="teammate-name" aria-describedby="teammate-name" placeholder="Teammates">
+                        </div>
+                        <div class="custom-select-dropdown plainBg form-label-dropdown s-up width-20">
+                            <select>
+                                <option value="0">Owner</option>
+                                <option value="1">Umesh Jhade</option>
+                                <option value="2">Another action</option>
+                                <option value="3">Something else here</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer bg-light">
+                        <button class="btn btn-action btn-success">Save</button>
+                        <button class="btn btn-action btn-light ml-2" data-dismiss="modal" aria-label="Close">Cancel</button>
+                    </div>
+                </div>
+                <!-- name panel popup end -->
+
+
+                 <div class="modal fade new-email-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <!-- Add New Task Panel from select -->
+                    <div class="col-xs-12 col-sm-6 col-md-7 col-lg-6 col-xl-4 p-0 bg-light border-right search-package-left add-package-panel">
+                        <div class="panel-heading">
+                            <h4 class="mb-0">
+                                <span class="align-middle taskCheckbox">
+                                    <label class="checkbox-circle">
+                                        <input type="checkbox" value="1002" />
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </span>
+                                <span>Follow Up After Package Opened</span>
+                            </h4>
+                            <a hre="#" class="sidepanelToggle">
+                                <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="p-4 panel-body">
+                            <div>
+                                <div class="pb-3"><b>Task Details</b></div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0 flex-wrap d-flex justify-content-between">
+                                    <div class="dropdown mb-10">
+                                        <button class="btn insertBtn1 btn-white dropdown-toggle p-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="image/call.png" class="call-icon" alt="call">
+                                            <span class="ml-27">Call</span>
+                                        </button>
+                                        <div class="dropdown-menu dropdown-menuData1" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Call</a>
+                                            <a class="dropdown-item" href="#">Task</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex mb-0">
+                                            <span class="m-10 mr-1">Due</span>
+                                            <div id="expiration-date1" class="input-daterange position-relative w-120">
+                                                <input type="text" id="expirationDate1" class="rounded-0 form-control text-left" placeholder="12/02/21">
+                                                <label class="icon-calendar c-pointer" for="expirationDate1">
+                                                    <svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M6 9V11H4V9H6ZM10 9V11H8V9H10ZM14 9V11H12V9H14ZM16 2C16.5304 2 17.0391 2.21071 17.4142 2.58579C17.7893 2.96086 18 3.46957 18 4V18C18 18.5304 17.7893 19.0391 17.4142 19.4142C17.0391 19.7893 16.5304 20 16 20H2C0.89 20 0 19.1 0 18V4C0 3.46957 0.210714 2.96086 0.585786 2.58579C0.960859 2.21071 1.46957 2 2 2H3V0H5V2H13V0H15V2H16ZM16 18V7H2V18H16ZM6 13V15H4V13H6ZM10 13V15H8V13H10ZM14 13V15H12V13H14Z" fill="#606262"/>
+                                                    </svg>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex ">
+                                            <span class="m-10 mr-1 ml-2">at</span>
+                                            <!-- <div class="dropdown">
+                                                <button class="btn btn-white dropdown-toggle p-10" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    1:00pm
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">1:00pm</a>
+                                                    <a class="dropdown-item" href="#">2:00pm</a>
+                                                    <a class="dropdown-item" href="#">3:00pm</a>
+                                                </div>
+                                            </div> -->
+                                            <div class="custom-select-dropdown plainBg form-label-dropdown s-left width-7">
+                                                <select>
+                                                    <option value="0">1:00pm</option>
+                                                    <option value="1">1:00pm</option>
+                                                    <option value="2">2:00pm</option>
+                                                    <option value="3">3:00pm</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-label-group">
+                                <input type="text" class="form-control rounded-0" id="title1" aria-describedby="title" placeholder="Title">
+                                <label for="title1">Title</label>
+                            </div>
+                            <div class="form-label-group">
+                                <textarea class="form-control rounded-0" id="description1" rows="18" placeholder="Description"></textarea>
+                                <label for="description1">Description</label>
+                            </div>
+                            <div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                            <div class="form-label-group">
+                                                <input type="text" class="form-control rounded-0" id="contactName1" aria-describedby="contactName" placeholder="Contact Name">
+                                                <label for="contactName1">Associated Contact</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                            <div class="form-label-group">
+                                                <input type="text" class="form-control rounded-0" id="companyName1" aria-describedby="companyName" placeholder="Company Name">
+                                                <label for="companyName1">Company Name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-label-group">
+                                    <input type="text" class="form-control rounded-0" id="teammate1" aria-describedby="teammate1" placeholder="Teammates">
+                                    <label for="teammate1">Teammates</label>
+                                </div>
+                                <!-- <div class="dropdown">
+                                    <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Owner
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Umesh Jhade</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div> -->
+                                <div class="custom-select-dropdown plainBg form-label-dropdown s-up width-20">
+                                    <select>
+                                        <option value="0">Owner</option>
+                                        <option value="1">Umesh Jhade</option>
+                                        <option value="2">Another action</option>
+                                        <option value="3">Something else here</option>
+                                    </select>
+                                </div>
+                        </div>
+                        <div class="modal-footer bg-light">
+                            <button class="btn btn-action btn-success">Save</button>
+                            <button class="btn btn-action btn-light ml-2" data-dismiss="modal" aria-label="Close">Cancel</button>
+                        </div>
+                    </div>
+                    <!-- Add New Task Panel from select End -->
+                    <!-- select call outcome pop up start -->
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="myLargeModalLabel">Select Outcome</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="modal-body p-0 px-3">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="bg-change list-group-item bg-model-grey d-flex justify-content-between align-items-center d-flex justify-content-between align-items-center">
+                                                <span>Busy</span>
+                                                <span class="d-flex c-pointer select-checkbox">
+                                                    <label class="checkbox-circle">
+                                                        <input type="radio" value="1001" class="radio" name="selectOutcome"/>
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </span>  
+                                            </li>
+                                            <li class="bg-change list-group-item bg-model-grey d-flex justify-content-between align-items-center">
+                                                <span>Connected</span>
+                                                <span class="d-flex c-pointer select-checkbox">
+                                                    <label class="checkbox-circle">
+                                                        <input type="radio" value="1001" class="radio" name="selectOutcome" />
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </span>  
+                                            </li>
+                                            <li class="bg-change list-group-item bg-model-grey d-flex justify-content-between align-items-center">
+                                                <span>Left Voicemail</span>
+                                               <span class="d-flex c-pointer select-checkbox">
+                                                    <label class="checkbox-circle">
+                                                        <input type="radio" value="1001" class="radio" name="selectOutcome" />
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </span>  
+                                            </li>
+                                            <li class="bg-change list-group-item bg-model-grey d-flex justify-content-between align-items-center">
+                                                <span>Missed</span>
+                                               <span class="d-flex c-pointer select-checkbox">
+                                                    <label class="checkbox-circle">
+                                                        <input type="radio" value="1001" class="radio" name="selectOutcome" />
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </span>  
+                                            </li>
+                                            <li class="bg-change list-group-item bg-model-grey d-flex justify-content-between align-items-center">
+                                                <span>No Answer</span>
+                                               <span class="d-flex c-pointer select-checkbox">
+                                                    <label class="checkbox-circle">
+                                                        <input type="radio" value="1001" class="radio" name="selectOutcome" />
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </span>  
+                                            </li>
+                                            <li class="bg-change list-group-item bg-model-grey d-flex justify-content-between align-items-center">
+                                                <span>Wrong Number</span>
+                                                <span class="d-flex c-pointer select-checkbox">
+                                                    <label class="checkbox-circle">
+                                                        <input type="radio" value="1001" class="radio" name="selectOutcome" />
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </span>  
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer bg-light d-flex justify-content-between flex-wrap">
+                                <div class="button-res">
+                                    <button type="button" class="btn btn-action btn-success sidepanelToggle flex-wrap">Save & Create New Task</button>
+                                </div>
+                                <div class="d-flex mt-10">
+                                    <button type="button" class="btn btn-action btn-success">Save</button>
+                                    <button type="button" class="btn btn-action btn-light ml-2" >Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- select call outcome pop up end -->
+                   </div>
+             </div>
+             </section>
+                <!-- Page Content End-->
+            </main>
+        </div>
+    </div>
+    <!-- Scritps -->
+
+   <script src="plugin/jQuery/jquery-3.6.0.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="plugin/daterangepicker/moment.min.js"></script>
+        <script src="plugin/jquery-ui/jquery-ui.js"></script>
+        <script src="plugin/daterangepicker/daterangepicker.js"></script>
+        <script src="plugin/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+        <script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="js/add-sequence.js"></script>
+        <script src="js/common.js"></script>
+</body>
+
+</html>

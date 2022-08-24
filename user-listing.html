@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <!-- Styles -->
+        <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-submenu@3.0.1/dist/css/bootstrap-submenu.css">
+        <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+        <link href="CSS/floating-labels.css" rel="stylesheet" />
+        <link href="CSS/styles.css" rel="stylesheet" />
+        <link href="CSS/responsive.css" rel="stylesheet" />
+        <link href="CSS/user-listing.css" rel="stylesheet" />
+    </head>
+    <body class="sidebar-fixed">
+        <div id="containerMain">
+            <div id="containerMain_nav">
+                <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu drop-180">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+            </div>
+            <div id="containerMain_content">
+                <header>
+                    <!-- Mobile Top Nav-->
+                    <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                        <!-- Mobile Logo -->
+                        <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                            <img src="image/logo-small.png" class="" alt="Send Your Media">
+                        </a>
+                        <!-- Navbar Search-->
+                        <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                        <!-- Navbar-->
+                    </nav>
+                    <!-- Mobile Top Nav End-->
+                    <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+                        <!-- Breadcrumb-->
+                        <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html"></a>Admin Panel</a></li>
+                                <span class="pl-2 pr-2">
+                                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.589996 10.58L5.17 6L0.589996 1.41L2 0L8 6L2 12L0.589996 10.58Z" fill="black" />
+                                    </svg>
+                                </span>
+                                <li class="breadcrumb-item active">User Listing</li>
+                        </ol>
+                        <!-- Navbar Search-->
+                        <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn min-w-auto input-group-text bg-none border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                        </button>
+                        <!-- Navbar-->
+                    </nav>
+                </header>
+                <main class="pt-4 pb-4">
+                    <!-- Page Content -->
+                    <section class="container-fluid">
+                        <div class="card">
+                            <div class="d-flex justify-content-between p-3">
+                                <div>
+                                    <div class="pb-2 text-15 mb-3">
+                                        <div class="d-inline-block mr-3"><strong>Active Users : </strong>2</div>
+                                        <div class="d-inline-block"><strong>Inactive Users : </strong>0</div>
+                                    </div>
+                                    <button type="button" class="btn btn-success align-items-center" data-toggle="modal" data-target=".new-user-modal">
+                                        New User
+                                    </button>
+                                </div>
+                                <div class="align-self-end d-flex justify-content-center">
+                                    <button type="button" class="btn btn-warning d-none delete">Delete</button>
+                                </div>
+                            </div>
+                            <table id="b-table" data-toggle="table" class="table borderlessTable">
+                                <thead>
+                                    <tr>
+                                        <th class="width-4" data-field="no.">#</th>
+                                        <th class="width-25" data-field="users">Users</th>
+                                        <th data-field="active" class="width-4 text-center">Active</th>
+                                        <th data-field="viewAddressBook" class="width-4 text-center">View Address Book</th>
+                                        <th data-field="viewTemplates" class="width-4 text-center">View Templates</th>
+                                        <th data-field="createsPackages" class="width-4 text-center">Creates Packages</th>
+                                        <th data-field="permissions" class="width-4 text-center">Permissions</th>
+                                        <th data-field="edit" class="width-4">Edit</th>
+                                        <th data-field="checkbox" class="width-4">
+                                            <input type="checkbox" class="select-all checkbox" name="select-all" />
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Alex Norbert (Company Admin)</td>                                     
+                                        <td><i class="fas fa-check text-success text-20"></i></td>
+                                        <td><img src="image/icons/view-datatable.png"/></td>
+                                        <td><img src="image/icons/view-datatable.png"/></td>
+                                        <td><i class="fas fa-times text-warning text-20"></i></td>
+                                        <td class="c-pointer text-center" data-toggle="modal" data-target=".edit-user-modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"/></svg></i>
+                                        </td>
+                                        <td class="c-pointer" data-toggle="modal" data-target=".edit-user-modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"/></svg></i>
+                                        </td>
+                                        <td><input type="checkbox" class="select-item checkbox" name="select-item" value="1000"/></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Rakesh Patel (Company Admin)</td>                                     
+                                        <td><i class="fas fa-check text-success text-20"></i></td>
+                                        <td><img src="image/icons/view-datatable.png"/></td>
+                                        <td><img src="image/icons/view-datatable.png"/></td>
+                                        <td><i class="fas fa-times text-warning text-20"></i></td>
+                                        <td class="c-pointer text-center" data-toggle="modal" data-target=".edit-user-modal">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"/></svg></i>
+                                        </td>
+                                        <td class="c-pointer" data-toggle="modal" data-target=".edit-user-modal"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z"/></svg></i></td>
+                                        <td><input type="checkbox" class="select-item checkbox" name="select-item" value="1000"/></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- New User popup -->
+                             <div id="new-user-modal" class="modal fade new-user-modal" tabindex="-1" role="dialog" aria-labelledby="newUer" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title" id="newUer">New User</h2>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="firstName" aria-describedby="firstName" placeholder="First Name">
+                                                        <label for="firstName">First Name</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="email" aria-describedby="email" placeholder="Email">
+                                                        <label for="email">Email</label>
+                                                    </div>
+                                                    <div class="d-flex just">
+                                                        <div class="form-check mr-4">
+                                                            <input class="form-check-input" type="checkbox" value="" id="active">
+                                                            <label class="form-check-label" for="active">Active</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="admin">
+                                                            <label class="form-check-label" for="admin">Admin</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="loginInfo">
+                                                        <label class="form-check-label" for="loginInfo">Send login info via email</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="lastName" aria-describedby="lastName" placeholder="Last Name">
+                                                        <label for="lastName">Last Name</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="password" aria-describedby="password" placeholder="Password">
+                                                        <label for="password">Password</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="confirmPassword" aria-describedby="confirmPassword" placeholder="Confirm Password">
+                                                        <label for="confirmPassword">Confirm Password</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer bg-light">
+                                            <button class="btn btn-action btn-success">Save</button>
+                                            <button class="btn btn-action btn-light ml-2" data-dismiss="modal" aria-label="Close">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                            <!-- New User popup End-->
+
+                            <!-- Edit User popup -->
+                             <div class="modal fade edit-user-modal" tabindex="-1" role="dialog" aria-labelledby="editUser" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title" id="editUer">Edit User</h2>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="editFirstName" aria-describedby="firstName" placeholder="First Name">
+                                                        <label for="editFirstName">First Name</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="editEmail" aria-describedby="email" placeholder="Email">
+                                                        <label for="editEmail">Email</label>
+                                                    </div>
+                                                    <div class="d-flex just">
+                                                        <div class="form-check mr-4">
+                                                            <input class="form-check-input" type="checkbox" value="" id="active">
+                                                            <label class="form-check-label" for="active">Active</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="admin">
+                                                            <label class="form-check-label" for="admin">Admin</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="loginInfo">
+                                                        <label class="form-check-label" for="loginInfo">Send login info via email</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="editLastName" aria-describedby="lastName" placeholder="Last Name">
+                                                        <label for="editLastName">Last Name</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="editPassword" aria-describedby="password" placeholder="Password">
+                                                        <label for="editPassword">Password</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="confirmEditPassword" aria-describedby="confirmPassword" placeholder="Confirm Password">
+                                                        <label for="confirmEditPassword">Confirm Password</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer bg-light">
+                                            <button class="btn btn-action btn-success">Save</button>
+                                            <button class="btn btn-action btn-light ml-2" data-dismiss="modal" aria-label="Close">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                            <!-- Edit User popup End-->
+                        </div>
+                    </section>
+                    <!-- Page Content End-->
+                </main>  
+            </div>
+        </div>
+        <!-- Scritps -->
+        <script src="plugin/jQuery/jquery-3.6.0.slim.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="https://unpkg.com/bootstrap-submenu@3.0.1/dist/js/bootstrap-submenu.js" defer></script>
+        <script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/user-listing.js"></script>
+    </body>
+</html>

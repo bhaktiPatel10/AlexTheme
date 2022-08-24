@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <!-- Styles -->
+        <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" >
+        <link href="CSS/floating-labels.css" rel="stylesheet" />
+        <link href="CSS/styles.css" rel="stylesheet" />
+        <link href="CSS/responsive.css" rel="stylesheet" />
+        <link href="CSS/text-messages.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./plugin/country-code/prism.css">
+        <link rel="stylesheet" href="./plugin/country-code/intlTelInput.css">
+        <!-- <link rel="stylesheet" href="./plugin/country-code/demo.css"> -->
+        <!-- <link rel="stylesheet" href="./plugin/country-code/isValidNumber.css"> -->
+
+    </head>
+    <body class="sidebar-fixed">
+        <div id="containerMain">
+            <div id="containerMain_nav">
+                <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav  dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu ml-180">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav  dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+            </div>
+            <div id="containerMain_content">
+                <header>
+                    <!-- Mobile Top Nav-->
+                    <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                        <!-- Mobile Logo -->
+                        <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                            <img src="image/logo-small.png" class="" alt="Send Your Media">
+                        </a>
+                        <!-- Navbar Search-->
+                        <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                        <!-- Navbar-->
+                    </nav>
+                    <!-- Mobile Top Nav End-->
+                    <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+                        <!-- Breadcrumb-->
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"></a>Text Messages</a></li>
+                        </ol>
+                        <!-- Navbar Search-->
+                        <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn min-w-auto input-group-text bg-none border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                        </button>
+                        <!-- Navbar-->
+                    </nav>
+                </header>
+                <main>
+                    <!-- Page Content -->
+                    <section>
+                        <div class="container-inner">
+                            <div class="row container-inner-resp">
+                                <!-- Text Inbox Left -->
+                                <div class="col-11 col-sm-8 col-md-5 col-lg-3 col-xl-3 bg-light h- text-messages-left">
+                                    <div class="row text-messages-left-inner">
+                                        <div class="border-bottom w-100 d-flex justify-content-between left-pad border-left">
+                                            <div class="msg-search">
+                                                <div class="btn-group w-100 px-2">
+                                                    <input id="" type="search" class="form-control rounded-0 mb-0 searchinput" placeholder="Search">
+                                                    <span class="search-loupe"><i class="fas fa-search"></i> </span>    
+                                                    <span class="searchclear d-none"><i class="fas fa-times-circle"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="align-items-center d-flex" data-toggle="modal" data-target="#newMessages">
+                                                <svg width="21" height="21" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M12 3C16.95 3 21 7.05 21 12C21 16.95 16.95 21 12 21C7.05 21 3 16.95 3 12C3 7.05 7.05 3 12 3ZM12 1.5C6.225 1.5 1.5 6.225 1.5 12C1.5 17.775 6.225 22.5 12 22.5C17.775 22.5 22.5 17.775 22.5 12C22.5 6.225 17.775 1.5 12 1.5Z"
+                                                        fill="black" />
+                                                    <path d="M18 11.25H12.75V6H11.25V11.25H6V12.75H11.25V18H12.75V12.75H18V11.25Z" fill="black" />
+                                                </svg>
+                                            </div>
+                                            <!-- new message modelbox start -->
+                                            <div class="modal fade" id="newMessages" tabindex="-1" role="dialog" aria-labelledby="newMessagesLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered modal-md">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h2 class="modal-title" id="myLargeModalLabel">Text Message</h2>
+                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body p-4">
+                                                            <div class="row">
+                                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                                    <div class="row">
+                                                                        <div class="form-label-group position-relative col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                                                            <input type="text" class="form-control rounded-0" id="first_name" aria-describedby="first_name"  placeholder="First Name">
+                                                                            <label for="first_name" class="ml-3">First Name</label>
+                                                                        </div> 
+                                                                        <div class="form-label-group position-relative col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                                                            <input type="text" class="form-control rounded-0" id="last_name" aria-describedby="last_name"  placeholder="Last Name">
+                                                                            <label for="last_name" class="ml-3">Last Name</label>
+                                                                        </div>
+                                                                        <div id="result" class=" position-relative  col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                                            <input type="text" class="phone form-control rounded-0 " id="phone"  placeholder="Mobile Number">
+                                                                        </div> 
+                                                                        
+                                                                        <!-- <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8"> -->
+                                                                            <!-- <div class="form-label-group">
+                                                                                <input class="form-control rounded-0" id="mobile number"  placeholder="Mobile Number"></textarea>
+                                                                                <label for="mobile number">Mobile Number</label>
+                                                                            </div> -->
+                                                                        <!-- </div> -->
+                                                                    </div>
+                                                                    <!-- <div class="form-group">
+                                                                        <textarea class="form-control rounded-0" id="message" rows="10" placeholder="Message"></textarea>
+                                                                    </div> -->
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer justify-content-center py-0 px-2 mb-4">
+                                                            <div class="d-flex">
+                                                                <div><button class="btn btn-action btn-success ml-3" data-dismiss="modal" onclick="changeVal()">Send Text</button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                             <!-- new message modelbox end -->
+                                        </div>
+                                        <div class="tab-content border-right over-h">
+                                            <ul class="list-group">
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center selected">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item d-flex align-items-center">
+                                                    <div class="image-parent">
+                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="d-flex justify-content-between">
+                                                            <span>+131423493849</span>
+                                                            <span class="text-muted text-12">12/22/2020</span>
+                                                        </div>
+                                                        <span class="d-inline-block w-100 "><b>Seamless AI code:9028</b></span>
+                                                    </div>
+                                                </li>
+                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Text Inbox Left End -->
+
+                                <!-- Text Inbox Right -->  
+                                <div class="col-12 col-sm-12 col-md-7 col-lg-9 col-xl-9 bg-table-grey text-messages-right">
+                                    <div class="row">
+                                        <div class="bg-light p-4 d-flex justify-content-between border-bottom h-70 w-100 align-items-center">
+                                            <div class="m-0 p-0">
+                                                To: <span id="fn"></span> <span id="ln"></span> <span id="ph"></span>
+                                           </div>
+                                        </div>
+                                        <div class="w-100 over-h">
+                                            <div class="msg_history bg-light pt-4 px-4">
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>Amet,dui etiam arcu vitae</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Morbi arcu tempor,etiam sem</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>Aliquet pulvirar mattis sed quis</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Felis morbi mattis arcu semper vitae elit pellentesque Elit tempor adipiscing amet ultrices
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>Aliquam elementum lectus morbi enim in ut elementum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Purus eget est nunc,dolor porttitor nulla lacus</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>In urna ipsum</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Sed habitant pretium egestas mauris condimentum sapien,tortor</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>Sed et sed</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Malesuada integer molestie</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>Elit diam consequat accumsan mollis sapien aliquet dolor</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Malesuada integer molestie</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="d-inline-block">
+                                                        <div class="msg_box border bg-table-grey">
+                                                            <p>Elit diam consequat accumsan</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pb-3">
+                                                    <div class="sent-box">
+                                                        <div class="float-right msg_box border">
+                                                            <p>Malesuada integer molestie</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="type_msg d-flex border">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control rounded-0 border-right-0" placeholder="Type your message...">
+                                                    <div class="input-group-append">
+                                                        <button class="btn search-icon" type="button">
+                                                            <i class="fa fa-search"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="align-items-center d-flex send-icon">
+                                                    <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M18.5875 8.33238L2.08754 0.0823827C1.95821 0.0177078 1.81295 -0.00820611 1.66924 0.0077615C1.52554 0.0237291 1.38951 0.0808973 1.27754 0.172383C1.1706 0.262002 1.09079 0.379673 1.04707 0.512166C1.00334 0.644659 0.997446 0.786721 1.03004 0.922383L3.25004 8.99988L1.00004 17.0549C0.969455 17.1682 0.965886 17.2871 0.989614 17.402C1.01334 17.5169 1.06371 17.6247 1.13665 17.7166C1.2096 17.8085 1.3031 17.882 1.40964 17.9312C1.51617 17.9804 1.63276 18.0039 1.75004 17.9999C1.86744 17.9992 1.98304 17.9709 2.08754 17.9174L18.5875 9.66738C18.7104 9.60444 18.8135 9.50882 18.8855 9.39105C18.9575 9.27328 18.9956 9.13792 18.9956 8.99988C18.9956 8.86185 18.9575 8.72649 18.8855 8.60872C18.8135 8.49094 18.7104 8.39532 18.5875 8.33238ZM2.91254 15.8324L4.57004 9.74988H11.5V8.24988H4.57004L2.91254 2.16738L16.57 8.99988L2.91254 15.8324Z" fill="black" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Text Inbox Right End -->
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Page Content End-->
+                </main>  
+            </div>
+        </div>
+        <!-- Scritps -->
+        <script src="plugin/jQuery/jquery-3.6.0.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="plugin/jquery-ui/jquery-ui.js"></script>
+        <script src="plugin/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/email-packages.js"></script>
+        <script src="js/text-messages.js"></script>
+        <script src="./plugin/country-code/prism.js"></script>
+        <script src="./plugin/country-code/intlTelInput.js"></script>
+        <script src="./plugin/country-code/isValidNumber.js"></script>
+    </body>
+</html>

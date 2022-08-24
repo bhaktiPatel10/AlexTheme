@@ -1,0 +1,1535 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <!-- Styles -->
+        <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" >
+        <link href="plugin/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet" />
+        <link href="plugin/jquery-ui/jquery-ui.css" rel="stylesheet">
+        <link href="./plugin/load-on-scroll/scrollpagination.css" rel="stylesheet">
+        <link href="CSS/floating-labels.css" rel="stylesheet" />
+        <link href="CSS/styles.css" rel="stylesheet" />
+        <link href="CSS/responsive.css" rel="stylesheet" />
+        <link href="CSS/email-packages.css" rel="stylesheet" />
+        <link href="CSS/email-inbox.css" rel="stylesheet" />
+    </head>
+    <body class="sidebar-fixed">
+        <div id="containerMain">
+            <div id="containerMain_nav">
+                <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu ml-180">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+            </div>
+            <div id="containerMain_content">
+                <header>
+                    <!-- Mobile Top Nav-->
+                    <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                        <!-- Mobile Logo -->
+                        <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                            <img src="image/logo-small.png" class="" alt="Send Your Media">
+                        </a>
+                        <!-- Navbar Search-->
+                        <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                        <!-- Navbar-->
+                    </nav>
+                    <!-- Mobile Top Nav End-->
+                    <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+                        <!-- Breadcrumb-->
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"></a>Email Inbox</a></li>
+                        </ol>
+                    
+                        <!-- Navbar Search-->
+                        <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn min-w-auto input-group-text bg-none border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                        </button>
+                        <!-- Navbar-->
+                    </nav>
+                </header>
+                <main>
+                    <!-- Page Content -->
+                    <section>
+                        <div class="container-inner">
+                            <div class="row container-inner-resp">
+                                <!-- Add Inbox Left -->
+                                <div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-2 bg-light  border-right email-inbox-left">
+                                    <div class="email-inbox-left-inner collapse show bg-light pt-2 pl-0">
+                                        <ul class="nav flex-column flex-nowrap ">
+                                            <li class="d-flex">
+                                                <button class="btn btn-success btn-action d-sm-inline text-truncate mb-3" type="button" data-toggle="modal" data-target=".new-email-modal">New Email</button>
+                                            </li>
+                                            <div class="firstPanelHeight overflow-y-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link collapsed text-truncate position-relative" href="#submenu1" data-toggle="collapse" data-target="#submenu1"><i class="fa fa-angle-right collapseMenuIcon"></i> <span class="d-sm-inline">Inbox</span> <span class="badge badge-warning">9</span></a>
+                                                <div class="collapse" id="submenu1" aria-expanded="false">
+                                                    <ul class="flex-column pl-2 nav">
+                                                        <li class="nav-item"><a class="nav-link" href="#"><span>Fax</span></a></li>
+                                                        <li class="nav-item"><a class="nav-link" href="#"><span>SYM</span></a></li>
+                                                        <li class="nav-item"><a class="nav-link" href="#"><span>Vonage</span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Drafts</span><span class="badge badge-light">3</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Scheduled</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Outbox</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Sent</span><span class="badge badge-light">1</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Archive</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Deleted Items</span><span class="badge badge-light">3</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Clutter</span></a></li>
+                                            <li class="nav-item"><a class="nav-link text-truncate" href="#">Junk Mail</span><span class="badge badge-light">4</span></a></li>
+                                        </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Email Inbox Left End -->
+
+                                <div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                                    <!-- Email Menu Bar -->
+                                    <div class="navbar email-navbar-main">
+                                        <ul class="email-navbar">
+                                            <li>
+                                                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Delete">
+                                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                    width="13pt" height="13pt" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                    fill="#A6A6A6" stroke="none">
+                                                    <path d="M1862 5096 c-146 -55 -253 -169 -296 -315 -11 -36 -16 -94 -16 -168
+                                                    l0 -113 -337 0 c-362 0 -392 -3 -488 -53 -165 -84 -252 -241 -243 -439 3 -82
+                                                    8 -102 40 -168 49 -100 120 -171 220 -218 l78 -37 2 -1545 3 -1545 28 -78 c71
+                                                    -202 229 -353 422 -402 51 -13 222 -15 1283 -15 1085 0 1231 2 1286 16 162 42
+                                                    310 163 385 315 75 154 71 53 71 1745 0 1434 1 1515 18 1520 57 19 133 64 175
+                                                    103 266 249 154 694 -198 786 -48 12 -125 15 -392 15 l-333 0 0 94 c0 51 -5
+                                                    117 -10 147 -24 124 -110 247 -218 313 -112 67 -97 66 -791 65 l-626 0 -63
+                                                    -23z m1327 -244 c98 -53 130 -116 131 -254 l0 -98 -761 0 -761 0 4 113 c3 101
+                                                    6 116 31 154 34 54 91 92 154 103 26 4 298 7 603 7 l555 -2 44 -23z m1069
+                                                    -618 c140 -58 175 -231 69 -338 -24 -24 -60 -47 -83 -54 -55 -16 -3308 -18
+                                                    -3367 -1 -21 5 -54 24 -74 42 -115 101 -88 283 52 348 38 18 106 19 1703 19
+                                                    1481 0 1667 -2 1700 -16z m-208 -2156 c0 -1260 -2 -1510 -14 -1549 -49 -161
+                                                    -158 -258 -313 -280 -42 -6 -520 -8 -1214 -7 l-1144 3 -57 23 c-102 41 -185
+                                                    133 -225 248 -16 45 -18 161 -20 1557 l-4 1507 1496 0 1495 0 0 -1502z"/>
+                                                    <path d="M1794 3254 c-69 -34 -64 56 -64 -1247 l0 -1175 26 -31 c71 -85 203
+                                                    -42 219 72 3 23 5 553 3 1177 -3 1107 -3 1136 -23 1164 -34 51 -104 69 -161
+                                                    40z"/>
+                                                    <path d="M2503 3254 c-18 -9 -40 -28 -50 -43 -17 -25 -18 -88 -21 -1161 -2
+                                                    -624 0 -1154 3 -1177 16 -114 148 -157 219 -72 l26 31 0 1175 c0 1306 5 1214
+                                                    -66 1248 -40 19 -71 19 -111 -1z"/>
+                                                    <path d="M3210 3253 c-20 -10 -43 -33 -53 -53 -16 -33 -17 -106 -15 -1200 3
+                                                    -1066 4 -1167 20 -1188 27 -39 56 -54 103 -54 57 0 101 30 115 80 8 26 10 394
+                                                    8 1199 l-3 1163 -30 29 c-39 39 -97 49 -145 24z"/>
+                                                    </g>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Mark as read">
+                                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                    width="13pt" height="13pt" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                    fill="#A6A6A6" stroke="none">
+                                                    <path d="M566 5094 l-26 -27 0 -545 0 -546 -270 -271 -270 -272 0 -1510 c0
+                                                    -1473 0 -1512 20 -1574 48 -157 172 -281 328 -329 63 -20 98 -20 2212 -20
+                                                    2114 0 2149 0 2212 20 156 48 280 172 328 329 20 62 20 101 20 1574 l0 1510
+                                                    -270 272 -270 271 0 546 0 545 -26 27 -27 26 -784 0 -784 0 -24 -24 c-45 -45
+                                                    -45 -107 0 -152 l24 -24 711 0 710 0 0 -1013 0 -1012 -913 -913 -912 -912
+                                                    -908 908 -907 907 0 1018 0 1017 706 0 706 0 29 29 c41 41 41 101 0 142 l-29
+                                                    29 -780 0 -779 0 -27 -26z m-26 -1721 l0 -288 -145 145 -145 145 142 142 c79
+                                                    79 144 143 145 143 2 0 3 -129 3 -287z m4182 -135 l-142 -143 0 285 0 285 142
+                                                    -143 143 -142 -143 -142z m-3814 -2175 l-677 -677 -13 30 c-10 23 -14 296 -16
+                                                    1369 l-2 1340 692 -692 693 -693 -677 -677z m4003 -592 c-6 -35 -14 -68 -18
+                                                    -72 -5 -5 -312 295 -683 666 l-675 675 690 690 690 690 3 -1292 c1 -808 -1
+                                                    -1317 -7 -1357z m-2781 724 c360 -360 388 -385 421 -385 19 0 46 7 59 16 14 9
+                                                    193 184 398 388 l372 371 677 -677 677 -677 -30 -13 c-43 -19 -4245 -19 -4288
+                                                    0 l-30 13 675 675 c370 370 676 674 679 674 2 0 178 -173 390 -385z"/>
+                                                    <path d="M2485 5096 c-45 -45 -45 -107 0 -152 19 -18 35 -24 70 -24 64 0 105
+                                                    39 105 100 0 61 -41 100 -105 100 -35 0 -51 -6 -70 -24z"/>
+                                                    <path d="M2398 4464 c-428 -66 -778 -382 -888 -800 -100 -384 13 -792 294
+                                                    -1062 181 -174 387 -272 636 -303 107 -14 141 -9 176 26 33 33 34 103 1 140
+                                                    -19 23 -34 28 -107 36 -338 38 -600 219 -739 510 -64 132 -84 221 -84 374 0
+                                                    159 21 245 92 390 119 241 326 404 597 472 103 25 295 23 400 -5 263 -70 476
+                                                    -244 588 -483 52 -108 69 -187 69 -304 -1 -200 -79 -403 -181 -470 -87 -57
+                                                    -181 -50 -222 17 -19 32 -20 49 -20 464 0 237 -3 445 -6 463 -4 17 -18 42 -32
+                                                    56 -57 57 -172 16 -172 -62 l0 -33 -45 29 c-71 45 -157 64 -268 59 -88 -4
+                                                    -102 -7 -180 -46 -236 -117 -352 -392 -291 -690 81 -401 488 -588 773 -355 29
+                                                    25 46 33 49 25 2 -7 18 -32 36 -55 144 -188 449 -154 617 69 106 140 174 425
+                                                    150 629 -55 467 -450 851 -941 915 -100 13 -196 11 -302 -6z m229 -718 c70
+                                                    -36 131 -127 153 -227 16 -73 8 -229 -15 -294 -41 -116 -124 -203 -215 -225
+                                                    -203 -49 -390 236 -329 500 48 208 248 329 406 246z"/>
+                                                    </g>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Mark as unread">
+                                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                    width="13pt" height="13pt" viewBox="0 0 512.000000 512.000000"
+                                                    preserveAspectRatio="xMidYMid meet">
+                                                    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                    fill="#A6A6A6" stroke="none">
+                                                    <path d="M159 4151 l-24 -19 0 -1572 0 -1572 24 -19 c23 -19 75 -19 2401 -19
+                                                    2326 0 2378 0 2401 19 l24 19 0 1572 0 1572 -24 19 c-23 19 -75 19 -2401 19
+                                                    -2326 0 -2378 0 -2401 -19z m4539 -154 c-14 -12 -378 -352 -807 -756 -429
+                                                    -404 -802 -749 -828 -768 -72 -52 -193 -110 -280 -135 -113 -33 -333 -33 -447
+                                                    0 -91 26 -198 77 -274 131 -29 21 -404 368 -833 772 -429 404 -793 744 -807
+                                                    756 l-27 23 2165 0 2165 0 -27 -23z m-3580 -861 l703 -660 -28 -27 c-34 -32
+                                                    -1481 -1241 -1500 -1252 -11 -7 -13 234 -13 1359 l0 1366 68 -63 c37 -34 383
+                                                    -360 770 -723z m3720 -1261 l-3 -686 -745 621 c-410 342 -755 632 -768 644
+                                                    l-23 22 768 721 768 721 3 -678 c1 -373 1 -987 0 -1365z m-2851 461 c153 -108
+                                                    373 -176 573 -176 201 0 420 68 573 177 l49 34 58 -48 c32 -26 373 -311 758
+                                                    -633 l700 -585 -1069 -3 c-588 -1 -1550 -1 -2138 0 l-1069 3 756 632 c417 348
+                                                    758 633 759 633 2 0 24 -15 50 -34z"/>
+                                                    </g>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li> 
+                                                <a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Archive">
+                                                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                        width="13pt" height="13pt" viewBox="0 0 512.000000 512.000000"
+                                                        preserveAspectRatio="xMidYMid meet">
+                                                        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                        fill="#A6A6A6" stroke="none">
+                                                        <path d="M80 4653 c-19 -10 -45 -33 -57 -52 l-23 -34 0 -1651 c0 -1630 0
+                                                        -1651 20 -1684 11 -18 34 -41 52 -52 31 -19 51 -20 335 -20 l302 0 3 -304 c3
+                                                        -289 4 -306 24 -332 11 -15 33 -37 48 -48 l27 -21 2097 -3 c1981 -2 2099 -1
+                                                        2132 15 19 10 45 33 57 52 l23 34 0 1651 c0 1630 0 1651 -20 1684 -11 18 -34
+                                                        41 -52 52 -31 19 -51 20 -335 20 l-302 0 -3 304 c-3 289 -4 306 -24 332 -11
+                                                        15 -33 37 -48 48 l-27 21 -2097 3 c-1981 2 -2099 1 -2132 -15z m3780 -297 c0
+                                                        -8 -1651 -1616 -1658 -1616 -7 0 -1268 1224 -1562 1516 l-105 104 1663 0 c914
+                                                        0 1662 -2 1662 -4z m238 -2059 l-3 -612 -626 610 c-345 336 -627 613 -628 617
+                                                        -1 3 281 282 627 618 l627 612 3 -617 c1 -339 1 -892 0 -1228z m-3158 1228
+                                                        c341 -333 621 -607 622 -609 2 -2 -213 -214 -477 -471 -264 -257 -546 -533
+                                                        -627 -614 l-148 -146 0 1223 c0 672 3 1222 6 1222 3 0 284 -272 624 -605z
+                                                        m3870 -1320 l0 -1445 -1895 0 -1895 0 0 200 0 200 1636 0 1636 0 38 21 c20 11
+                                                        45 35 56 52 18 31 19 71 22 1225 l2 1192 200 0 200 0 0 -1445z m-2856 330 c90
+                                                        -85 175 -159 190 -165 42 -16 98 -12 133 10 18 11 100 85 183 166 l150 147 88
+                                                        -84 c48 -46 329 -320 625 -609 l539 -525 -831 -3 c-457 -1 -1205 -1 -1661 0
+                                                        l-830 3 622 607 c343 334 625 608 627 608 2 0 76 -70 165 -155z"/>
+                                                        <path d="M1745 2050 c-11 -4 -33 -22 -50 -40 -27 -28 -30 -38 -30 -98 0 -74
+                                                        16 -106 70 -139 28 -17 61 -18 465 -18 420 0 436 1 470 20 97 57 99 207 4 266
+                                                        -30 18 -53 19 -470 18 -242 0 -448 -4 -459 -9z"/>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <div class="nav-item" data-toggle="tooltip" data-placement="top" title="Move">
+                                                    <a href="#" class="nav-item nav-link user-action" data-toggle="modal" data-target=".bd-example-modal-sm">
+                                                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                        width="13pt" height="13pt" viewBox="0 0 512.000000 512.000000"
+                                                        preserveAspectRatio="xMidYMid meet">
+                                                        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                                                        fill="#A6A6A6" stroke="none">
+                                                        <path d="M244 4541 c-59 -27 -109 -75 -138 -133 l-26 -52 0 -1796 0 -1796 26
+                                                        -52 c29 -58 79 -106 138 -133 39 -18 126 -19 2317 -19 l2275 0 52 26 c58 29
+                                                        106 79 133 138 18 39 19 112 19 1836 0 1724 -1 1797 -19 1836 -27 59 -75 109
+                                                        -133 138 l-52 26 -2275 0 c-2191 0 -2278 -1 -2317 -19z m4569 -164 c52 -34 62
+                                                        -62 66 -184 l3 -113 -2321 0 -2321 0 0 93 c0 142 24 195 96 217 16 5 1015 8
+                                                        2239 7 2094 -2 2212 -3 2238 -20z m65 -2010 c-3 -1464 -4 -1554 -21 -1580 -9
+                                                        -15 -29 -35 -44 -44 -26 -17 -143 -18 -2253 -18 -2110 0 -2227 1 -2253 18 -15
+                                                        9 -35 29 -44 44 -17 26 -18 116 -21 1580 l-2 1553 2320 0 2320 0 -2 -1553z"/>
+                                                        <path d="M340 4300 c-13 -13 -20 -33 -20 -60 0 -63 24 -80 115 -80 91 0 115
+                                                        17 115 80 0 63 -24 80 -115 80 -62 0 -79 -4 -95 -20z"/>
+                                                        <path d="M660 4300 c-13 -13 -20 -33 -20 -60 0 -63 24 -80 115 -80 91 0 115
+                                                        17 115 80 0 63 -24 80 -115 80 -62 0 -79 -4 -95 -20z"/>
+                                                        <path d="M980 4300 c-13 -13 -20 -33 -20 -60 0 -63 24 -80 115 -80 91 0 115
+                                                        17 115 80 0 63 -24 80 -115 80 -62 0 -79 -4 -95 -20z"/>
+                                                        <path d="M564 3421 c-59 -27 -109 -75 -138 -133 l-26 -52 0 -836 0 -836 26
+                                                        -52 c29 -58 79 -106 138 -133 39 -18 99 -19 1357 -19 l1315 0 52 26 c58 29
+                                                        106 79 133 138 16 36 19 69 19 259 l0 217 420 0 c407 0 421 1 440 20 27 27 27
+                                                        93 0 120 -19 19 -33 20 -440 20 l-420 0 0 80 0 80 660 0 c647 0 660 0 680 20
+                                                        13 13 20 33 20 60 0 27 -7 47 -20 60 -20 20 -33 20 -680 20 l-660 0 0 80 0 80
+                                                        300 0 c287 0 301 1 320 20 13 13 20 33 20 60 0 27 -7 47 -20 60 -19 19 -33 20
+                                                        -320 20 l-300 0 0 218 c0 189 -3 222 -19 258 -27 59 -75 109 -133 138 l-52 26
+                                                        -1315 0 c-1258 0 -1318 -1 -1357 -19z m2649 -164 c39 -25 57 -58 63 -113 l6
+                                                        -49 -681 -340 -681 -340 -680 340 c-629 314 -680 342 -680 365 0 73 39 132 96
+                                                        150 16 5 592 8 1279 7 1177 -2 1252 -3 1278 -20z m-2297 -530 l342 -172 -292
+                                                        -510 c-167 -291 -298 -511 -308 -513 -25 -5 -76 46 -88 86 -12 43 -14 1282 -2
+                                                        1281 4 0 161 -77 348 -172z m2364 -449 c0 -394 -4 -637 -10 -660 -12 -40 -63
+                                                        -91 -88 -86 -10 2 -141 222 -308 513 l-292 510 342 172 c187 95 344 172 349
+                                                        172 4 1 7 -279 7 -621z m-1360 -38 c19 0 122 46 268 119 l239 119 269 -470
+                                                        c148 -259 271 -475 272 -479 2 -5 -470 -9 -1048 -9 -578 0 -1050 4 -1048 9 2
+                                                        4 124 220 272 479 l269 470 239 -119 c146 -73 249 -119 268 -119z"/>
+                                                        <path d="M4180 2780 c-13 -13 -20 -33 -20 -60 0 -70 20 -80 160 -80 140 0 160
+                                                        10 160 80 0 70 -20 80 -160 80 -107 0 -122 -2 -140 -20z"/>
+                                                        </g>
+                                                        </svg>
+                                                    </a>
+                                                    <!-- <div class="dropdown-menu">
+                                                        <a href="#" class="dropdown-item"> Profile</a>
+                                                        <a href="#" class="dropdown-item">Calendar</a>
+                                                        <a href="#" class="dropdown-item">Settings</a>
+                                                    </div> -->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- Move to modal -->
+                                    <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered modal-sm">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" id="mySmallModalLabel">Move To</h4>
+                                                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">×</span>
+                                                </button> -->
+                                                <a hre="#" class="sidepanelToggle cursor-pointer" data-dismiss="modal" aria-label="Close">
+                                                    <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item cursor-pointer">Cras justo odio</li>
+                                                    <li class="list-group-item cursor-pointer">Dapibus ac facilisis in</li>
+                                                    <li class="list-group-item cursor-pointer">Morbi leo risus</li>
+                                                    <li class="list-group-item cursor-pointer">Porta ac consectetur ac</li>
+                                                    <li class="list-group-item cursor-pointer">Vestibulum at eros</li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <!-- Move to modal end -->
+                                    <!-- Email Menu Bar End   -->
+                                    <div class="row flex-no-wrap">
+                                        <!-- Email Inbox Middle -->
+                                        <div class="col-8 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-light border-right email-inbox-middle">
+                                            <div class="row email-inbox-middle-inner">
+                                                <ul class="nav nav-tabs w-100" id="myTab" role="tablist">
+                                                    <li class="nav-item">
+                                                    <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                    <a class="nav-link" id="unread-tab" data-toggle="tab" href="#unread" role="tab" aria-controls="unread" aria-selected="false">Unread</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content screenHeight overflow-y-auto" id="myTabContent">
+                                                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item selected">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox1" name="choices"/>
+                                                                        <label for="checkbox1"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap">Alex Norbert</span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Support ticket 1234</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap">The issue your reported</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox2" />
+                                                                        <label for="checkbox2"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap">John Doe</span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your account is active</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap">Below you will find your</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox3" />
+                                                                        <label for="checkbox3"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap">Bill Gates</span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your message</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap">Thank you for reaching</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox13" />
+                                                                        <label for="checkbox13"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap">Jon doe</span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your message</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap">Thank you for reaching</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox14" />
+                                                                        <label for="checkbox14"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap">Alex Norbert</span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your message</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap">Thank you for reaching</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox15" />
+                                                                        <label for="checkbox15"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap">Bill Gates</span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your message</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap">Thank you for reaching</span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- <div class="email-pagination d-flex align-items-center">
+                                                            <div class="pageSummary"><span class="currentPageSize"></span> of <span class="totalPages"></span></div>
+                                                            <div class="prevNext">
+                                                                <button class="prevPage btn btn-light">
+                                                                 <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                                                </button>
+                                                                <button class="nextPage btn btn-light">
+                                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div> -->
+                                                    </div>
+                                                    <div class="tab-pane fade" id="unread" role="tabpanel" aria-labelledby="unread-tab">
+                                                        <ul id="infinite-container-threading" class="list-group">
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox4" name="choices"/>
+                                                                        <label for="checkbox4"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Bill Gates</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your message</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Thank you for reaching</b></span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox5" name="choices"/>
+                                                                        <label for="checkbox5"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Skype</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Support ticket 1234</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>The issue your reported</b></span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox6" name="choices"/>
+                                                                        <label for="checkbox6"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile3">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>John Doe</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Your account is active</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Below you will find your</b></span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="round">
+                                                                        <input type="checkbox" id="checkbox7" name="choices"/>
+                                                                        <label for="checkbox7"></label>
+                                                                    </div>
+                                                                    <div class="image-parent">
+                                                                        <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                                    </div>
+                                                                    <div class="d-inline-block overflow-auto">
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Skype</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>Support ticket 1234</b></span>
+                                                                        <span class="d-inline-block w-100 text-wrap"><b>The issue your reported</b></span>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- <div class="email-pagination d-flex align-items-center">
+                                                            <div class="pageSummary"><span class="currentPageSize"></span> of <span class="totalPages"></span></div>
+                                                            <div class="prevNext">
+                                                                <button class="prevPage btn btn-light">
+                                                                 <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                                                </button>
+                                                                <button class="nextPage btn btn-light">
+                                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Email Inbox Middle End -->
+
+                                        <!-- Email Inbox Right -->  
+                                        <div class="col-12 bg-table-grey col-sm-12 col-md-8 col-lg-8 col-xl-8 email-inbox-right">
+                                            <h4 class="mt-3">Updates to our terms of use</h4>
+                                            <div class="  mb-3">
+                                                <ul class="list-group accordion email-threading overflow-y-auto mailboxHeight" id="emailThread">
+                                                    <li class="card">
+                                                        <div class="card-header border-bottom" id="headingOne">
+                                                          <div class="d-flex align-items-center mail-details cursor-pointer" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                                <div class="image-parent">
+                                                                    <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                                </div>
+                                                              <div class="d-inline-block overflow-auto w-100 h-65">
+                                                                <div class="h-20">
+                                                                    <span class="d-flex w-100">Alex Norbert
+                                                                        <div class="icon-list d-none px-1"><<a  href="#"> jdoe@doesit.com</a> ></div>
+                                                                    </span> 
+                                                                </div>
+                                                                <div class="d-flex justify-content-between msg-content">
+                                                                    <span class="time-list d-inline-block msg  w-75 text-wrap" id="time-list">
+                                                                        Hello
+                                                                    </span>
+                                                                    <span class="toolbar-icons icon-list d-none w-75" id="email-details">
+                                                                        <span class="date text-grey">Thu 04/30/2021</span>
+                                                                        <div><span>To:</span> You</div>
+                                                                    </span>
+                                                                    <div class="time-list h-20 d-flex text-grey w-200 justify-content-end" id="time-list">
+                                                                        <p>Tue</p>
+                                                                        <p class="px-2">4/17/2021</p>
+                                                                        <p>11:54 AM</p>
+                                                                    </div>
+                                                                    <div class="toolbar-icons h-20 icon-list d-none w-155">
+                                                                        <span class="pr-2">
+                                                                            <a href="#"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M14.44 14.0001C14.351 14.0013 14.2634 13.9788 14.186 13.9348C14.1087 13.8909 14.0444 13.8271 14 13.7501C13.334 12.6156 12.3849 11.6736 11.2455 11.0162C10.106 10.3589 8.8154 10.0087 7.49997 10.0001V13.0001C7.49948 13.0988 7.46978 13.1951 7.41461 13.277C7.35944 13.3589 7.28128 13.4226 7.18997 13.4601C7.09891 13.4984 6.99856 13.5088 6.90156 13.4901C6.80457 13.4714 6.71528 13.4244 6.64497 13.3551L0.644969 7.35507C0.598105 7.30859 0.560908 7.25329 0.535524 7.19236C0.510139 7.13143 0.49707 7.06608 0.49707 7.00007C0.49707 6.93406 0.510139 6.86871 0.535524 6.80778C0.560908 6.74685 0.598105 6.69155 0.644969 6.64507L6.64497 0.64507C6.71528 0.575691 6.80457 0.528693 6.90156 0.510006C6.99856 0.491319 7.09891 0.50178 7.18997 0.54007C7.28128 0.57758 7.35944 0.641279 7.41461 0.723139C7.46978 0.804999 7.49948 0.901357 7.49997 1.00007V4.05507C9.56857 4.32076 11.47 5.32954 12.8499 6.8934C14.2297 8.45725 14.9939 10.4695 15 12.5551C14.9988 12.8894 14.9771 13.2234 14.935 13.5551C14.9225 13.6591 14.8776 13.7566 14.8068 13.8337C14.7359 13.9109 14.6426 13.9638 14.54 13.9851L14.44 14.0001ZM7.24997 9.00007C8.52517 8.98176 9.78915 9.24052 10.9546 9.75848C12.12 10.2764 13.159 11.0413 14 12.0001C13.8495 10.1863 13.0578 8.48539 11.7667 7.20256C10.4756 5.91973 8.76971 5.13887 6.95497 5.00007C6.83031 4.98881 6.71441 4.93119 6.63016 4.83862C6.54592 4.74604 6.49946 4.62524 6.49997 4.50007V2.20507L1.70497 7.00007L6.49997 11.7951V9.50007C6.49997 9.36746 6.55265 9.24028 6.64642 9.14652C6.74018 9.05275 6.86736 9.00007 6.99997 9.00007H7.26997H7.24997Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2 pr-2">
+                                                                            <a href="#">
+                                                                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M9.50006 13.5C9.42676 13.5 9.35437 13.4839 9.288 13.4528C9.22164 13.4217 9.16294 13.3764 9.11606 13.32L4.11606 7.32002C4.04122 7.23018 4.00024 7.11695 4.00024 7.00002C4.00024 6.88309 4.04122 6.76986 4.11606 6.68002L9.11606 0.680019C9.18184 0.60113 9.27033 0.544417 9.36949 0.517593C9.46864 0.490769 9.57366 0.495136 9.67024 0.5301C9.76683 0.565063 9.85031 0.628927 9.90932 0.713006C9.96833 0.797085 10 0.897299 10.0001 1.00002V4.51602C13.5036 4.74752 15.5001 7.44602 15.5001 12C15.5001 12.105 15.467 12.2072 15.4057 12.2924C15.3443 12.3775 15.2577 12.4412 15.1582 12.4744C15.0586 12.5075 14.9511 12.5086 14.851 12.4773C14.7508 12.446 14.663 12.384 14.6001 12.3C13.1891 10.419 11.9046 9.62702 10.0001 9.51452V13C10.0001 13.1326 9.94738 13.2598 9.85361 13.3536C9.75984 13.4473 9.63266 13.5 9.50006 13.5ZM5.15106 7.00002L9.00006 11.619V9.00002C9.00006 8.86741 9.05273 8.74023 9.1465 8.64647C9.24027 8.5527 9.36745 8.50002 9.50006 8.50002C10.4194 8.46451 11.3354 8.62897 12.1849 8.98204C13.0345 9.33511 13.7972 9.86838 14.4206 10.545C14.0431 7.27802 12.3301 5.50002 9.50006 5.50002C9.36745 5.50002 9.24027 5.44734 9.1465 5.35357C9.05273 5.2598 9.00006 5.13263 9.00006 5.00002V2.38102L5.15106 7.00002Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M5.73206 13.459L0.616057 7.32004C0.541223 7.2302 0.500244 7.11697 0.500244 7.00004C0.500244 6.88311 0.541223 6.76988 0.616057 6.68004L5.73206 0.540039L6.50006 1.18004L1.65106 7.00004L6.50006 12.819L5.73206 13.459Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2 pr-2">
+                                                                            <a href="#">
+                                                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M0.560031 14.0001C0.64898 14.0013 0.73665 13.9788 0.813994 13.9348C0.891339 13.8909 0.95556 13.8271 1.00003 13.7501C1.66596 12.6156 2.61512 11.6736 3.75454 11.0162C4.89397 10.3589 6.1846 10.0087 7.50003 10.0001V13.0001C7.50052 13.0988 7.53022 13.1951 7.58539 13.277C7.64056 13.3589 7.71872 13.4226 7.81003 13.4601C7.90109 13.4984 8.00144 13.5088 8.09844 13.4901C8.19543 13.4714 8.28472 13.4244 8.35503 13.3551L14.355 7.35507C14.4019 7.30859 14.4391 7.25329 14.4645 7.19236C14.4899 7.13143 14.5029 7.06608 14.5029 7.00007C14.5029 6.93406 14.4899 6.86871 14.4645 6.80778C14.4391 6.74685 14.4019 6.69155 14.355 6.64507L8.35503 0.64507C8.28472 0.575691 8.19543 0.528693 8.09844 0.510006C8.00144 0.491319 7.90109 0.50178 7.81003 0.54007C7.71872 0.57758 7.64056 0.641279 7.58539 0.723139C7.53022 0.804999 7.50052 0.901357 7.50003 1.00007V4.05507C5.43143 4.32076 3.53001 5.32954 2.15014 6.8934C0.770266 8.45725 0.00608921 10.4695 3.05176e-05 12.5551C0.00121498 12.8894 0.0229216 13.2234 0.0650301 13.5551C0.0775194 13.6591 0.122369 13.7566 0.193244 13.8337C0.264119 13.9109 0.357441 13.9638 0.460031 13.9851L0.560031 14.0001ZM7.75003 9.00007C6.47483 8.98176 5.21085 9.24052 4.04544 9.75848C2.88002 10.2764 1.84095 11.0413 1.00003 12.0001C1.15046 10.1863 1.94223 8.48539 3.23331 7.20256C4.52439 5.91973 6.23029 5.13887 8.04503 5.00007C8.16969 4.98881 8.28559 4.93119 8.36984 4.83862C8.45408 4.74604 8.50054 4.62524 8.50003 4.50007V2.20507L13.295 7.00007L8.50003 11.7951V9.50007C8.50003 9.36746 8.44735 9.24028 8.35358 9.14652C8.25982 9.05275 8.13264 9.00007 8.00003 9.00007H7.73003H7.75003Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2 pr-2">
+                                                                            <a href="#">
+                                                                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M4 5H5V11H4V5Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M7 5H8V11H7V5Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M0 2V3H1V13C1 13.2652 1.10536 13.5196 1.29289 13.7071C1.48043 13.8946 1.73478 14 2 14H10C10.2652 14 10.5196 13.8946 10.7071 13.7071C10.8946 13.5196 11 13.2652 11 13V3H12V2H0ZM2 13V3H10V13H2Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M4 0H8V1H4V0Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2">
+                                                                            <a href="#">
+                                                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M13 3.5H11.5V0.5H2.5V3.5H1C0.734784 3.5 0.48043 3.60536 0.292893 3.79289C0.105357 3.98043 0 4.23478 0 4.5V9.5C0 9.76522 0.105357 10.0196 0.292893 10.2071C0.48043 10.3946 0.734784 10.5 1 10.5H2.5V13.5H11.5V10.5H13C13.2652 10.5 13.5196 10.3946 13.7071 10.2071C13.8946 10.0196 14 9.76522 14 9.5V4.5C14 4.23478 13.8946 3.98043 13.7071 3.79289C13.5196 3.60536 13.2652 3.5 13 3.5ZM3.5 1.5H10.5V3.5H3.5V1.5ZM10.5 12.5H3.5V7.5H10.5V12.5ZM13 9.5H11.5V6.5H2.5V9.5H1V4.5H13V9.5Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                              </div>
+                                                          </div>
+                                                        </div>
+                                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#emailThread">
+                                                          <div class="card-body">
+                                                            <div class="open-thread cursor-pointer" data-toggle="collapse" data-target="#thread1"><span>...</span></div>
+                                                              <div id="thread1" class="collapse">
+                                                                  <div class="pr-4 pl-4 pt-2">
+                                                                      <p>Hi Alex,</p>
+                                                                      <p>Below you will find your account information as promised.</p>
+                                                                      <p>Account opened on 1/1/21.</p>
+                                                                      <p>If you have any further questions, please contact us.</p>
+                                                                      <p>Thanks,</p>
+                                                                      <p>
+                                                                          John Doe<br/>
+                                                                          Does it, inc.
+                                                                      </p>
+                                                                  </div>
+                                                              </div>
+                                                              <div>
+                                                                  <a href="#">Reply</a> &nbsp; <span class="verti-devider"></span> &nbsp; <a href="#">Forward</a>
+                                                              </div>
+                                                          </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="card">
+                                                        <div class="card-header" id="headingTwo">
+                                                          <div class="d-flex align-items-center mail-details cursor-pointer" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <div class="image-parent">
+                                                                    <img src="image/plceholder-profile-pic.png" class="img-fluid" alt="profile1">
+                                                                </div>
+                                                              <div class="d-inline-block overflow-auto w-100 h-65">
+                                                                <div class="h-20">
+                                                                    <span class="d-flex w-100">Alex Norbert
+                                                                        <div class="icon-list d-none px-1"><<a  href="#"> jdoe@doesit.com</a> ></div>
+                                                                    </span> 
+                                                                </div>
+                                                                <div class="d-flex justify-content-between msg-content">
+                                                                    <span class="time-list d-inline-block msg  w-75 text-wrap" id="time-list">
+                                                                        Hello,receiving this email bacause we are updating the microsoft Services Agreement,which applies to one or more Microsoft products or service you use.
+                                                                    </span>
+                                                                    <span class="toolbar-icons icon-list d-none w-75" id="email-details">
+                                                                        <span class="date text-grey">Thu 04/30/2021</span>
+                                                                        <div><span>To:</span> You</div>
+                                                                    </span>
+                                                                    <div class="time-list h-20 d-flex text-grey w-200 justify-content-end" id="time-list">
+                                                                        <p>Tue</p>
+                                                                        <p class="px-2">4/17/2021</p>
+                                                                        <p>11:54 AM</p>
+                                                                    </div>
+                                                                    <div class="toolbar-icons h-20 icon-list d-none w-155">
+                                                                        <span class="pr-2">
+                                                                            <a href="#"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M14.44 14.0001C14.351 14.0013 14.2634 13.9788 14.186 13.9348C14.1087 13.8909 14.0444 13.8271 14 13.7501C13.334 12.6156 12.3849 11.6736 11.2455 11.0162C10.106 10.3589 8.8154 10.0087 7.49997 10.0001V13.0001C7.49948 13.0988 7.46978 13.1951 7.41461 13.277C7.35944 13.3589 7.28128 13.4226 7.18997 13.4601C7.09891 13.4984 6.99856 13.5088 6.90156 13.4901C6.80457 13.4714 6.71528 13.4244 6.64497 13.3551L0.644969 7.35507C0.598105 7.30859 0.560908 7.25329 0.535524 7.19236C0.510139 7.13143 0.49707 7.06608 0.49707 7.00007C0.49707 6.93406 0.510139 6.86871 0.535524 6.80778C0.560908 6.74685 0.598105 6.69155 0.644969 6.64507L6.64497 0.64507C6.71528 0.575691 6.80457 0.528693 6.90156 0.510006C6.99856 0.491319 7.09891 0.50178 7.18997 0.54007C7.28128 0.57758 7.35944 0.641279 7.41461 0.723139C7.46978 0.804999 7.49948 0.901357 7.49997 1.00007V4.05507C9.56857 4.32076 11.47 5.32954 12.8499 6.8934C14.2297 8.45725 14.9939 10.4695 15 12.5551C14.9988 12.8894 14.9771 13.2234 14.935 13.5551C14.9225 13.6591 14.8776 13.7566 14.8068 13.8337C14.7359 13.9109 14.6426 13.9638 14.54 13.9851L14.44 14.0001ZM7.24997 9.00007C8.52517 8.98176 9.78915 9.24052 10.9546 9.75848C12.12 10.2764 13.159 11.0413 14 12.0001C13.8495 10.1863 13.0578 8.48539 11.7667 7.20256C10.4756 5.91973 8.76971 5.13887 6.95497 5.00007C6.83031 4.98881 6.71441 4.93119 6.63016 4.83862C6.54592 4.74604 6.49946 4.62524 6.49997 4.50007V2.20507L1.70497 7.00007L6.49997 11.7951V9.50007C6.49997 9.36746 6.55265 9.24028 6.64642 9.14652C6.74018 9.05275 6.86736 9.00007 6.99997 9.00007H7.26997H7.24997Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2 pr-2">
+                                                                            <a href="#">
+                                                                                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M9.50006 13.5C9.42676 13.5 9.35437 13.4839 9.288 13.4528C9.22164 13.4217 9.16294 13.3764 9.11606 13.32L4.11606 7.32002C4.04122 7.23018 4.00024 7.11695 4.00024 7.00002C4.00024 6.88309 4.04122 6.76986 4.11606 6.68002L9.11606 0.680019C9.18184 0.60113 9.27033 0.544417 9.36949 0.517593C9.46864 0.490769 9.57366 0.495136 9.67024 0.5301C9.76683 0.565063 9.85031 0.628927 9.90932 0.713006C9.96833 0.797085 10 0.897299 10.0001 1.00002V4.51602C13.5036 4.74752 15.5001 7.44602 15.5001 12C15.5001 12.105 15.467 12.2072 15.4057 12.2924C15.3443 12.3775 15.2577 12.4412 15.1582 12.4744C15.0586 12.5075 14.9511 12.5086 14.851 12.4773C14.7508 12.446 14.663 12.384 14.6001 12.3C13.1891 10.419 11.9046 9.62702 10.0001 9.51452V13C10.0001 13.1326 9.94738 13.2598 9.85361 13.3536C9.75984 13.4473 9.63266 13.5 9.50006 13.5ZM5.15106 7.00002L9.00006 11.619V9.00002C9.00006 8.86741 9.05273 8.74023 9.1465 8.64647C9.24027 8.5527 9.36745 8.50002 9.50006 8.50002C10.4194 8.46451 11.3354 8.62897 12.1849 8.98204C13.0345 9.33511 13.7972 9.86838 14.4206 10.545C14.0431 7.27802 12.3301 5.50002 9.50006 5.50002C9.36745 5.50002 9.24027 5.44734 9.1465 5.35357C9.05273 5.2598 9.00006 5.13263 9.00006 5.00002V2.38102L5.15106 7.00002Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M5.73206 13.459L0.616057 7.32004C0.541223 7.2302 0.500244 7.11697 0.500244 7.00004C0.500244 6.88311 0.541223 6.76988 0.616057 6.68004L5.73206 0.540039L6.50006 1.18004L1.65106 7.00004L6.50006 12.819L5.73206 13.459Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2 pr-2">
+                                                                            <a href="#">
+                                                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M0.560031 14.0001C0.64898 14.0013 0.73665 13.9788 0.813994 13.9348C0.891339 13.8909 0.95556 13.8271 1.00003 13.7501C1.66596 12.6156 2.61512 11.6736 3.75454 11.0162C4.89397 10.3589 6.1846 10.0087 7.50003 10.0001V13.0001C7.50052 13.0988 7.53022 13.1951 7.58539 13.277C7.64056 13.3589 7.71872 13.4226 7.81003 13.4601C7.90109 13.4984 8.00144 13.5088 8.09844 13.4901C8.19543 13.4714 8.28472 13.4244 8.35503 13.3551L14.355 7.35507C14.4019 7.30859 14.4391 7.25329 14.4645 7.19236C14.4899 7.13143 14.5029 7.06608 14.5029 7.00007C14.5029 6.93406 14.4899 6.86871 14.4645 6.80778C14.4391 6.74685 14.4019 6.69155 14.355 6.64507L8.35503 0.64507C8.28472 0.575691 8.19543 0.528693 8.09844 0.510006C8.00144 0.491319 7.90109 0.50178 7.81003 0.54007C7.71872 0.57758 7.64056 0.641279 7.58539 0.723139C7.53022 0.804999 7.50052 0.901357 7.50003 1.00007V4.05507C5.43143 4.32076 3.53001 5.32954 2.15014 6.8934C0.770266 8.45725 0.00608921 10.4695 3.05176e-05 12.5551C0.00121498 12.8894 0.0229216 13.2234 0.0650301 13.5551C0.0775194 13.6591 0.122369 13.7566 0.193244 13.8337C0.264119 13.9109 0.357441 13.9638 0.460031 13.9851L0.560031 14.0001ZM7.75003 9.00007C6.47483 8.98176 5.21085 9.24052 4.04544 9.75848C2.88002 10.2764 1.84095 11.0413 1.00003 12.0001C1.15046 10.1863 1.94223 8.48539 3.23331 7.20256C4.52439 5.91973 6.23029 5.13887 8.04503 5.00007C8.16969 4.98881 8.28559 4.93119 8.36984 4.83862C8.45408 4.74604 8.50054 4.62524 8.50003 4.50007V2.20507L13.295 7.00007L8.50003 11.7951V9.50007C8.50003 9.36746 8.44735 9.24028 8.35358 9.14652C8.25982 9.05275 8.13264 9.00007 8.00003 9.00007H7.73003H7.75003Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2 pr-2">
+                                                                            <a href="#">
+                                                                                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M4 5H5V11H4V5Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M7 5H8V11H7V5Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M0 2V3H1V13C1 13.2652 1.10536 13.5196 1.29289 13.7071C1.48043 13.8946 1.73478 14 2 14H10C10.2652 14 10.5196 13.8946 10.7071 13.7071C10.8946 13.5196 11 13.2652 11 13V3H12V2H0ZM2 13V3H10V13H2Z" fill="#A6A6A6"></path>
+                                                                                    <path d="M4 0H8V1H4V0Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                        <span class="pl-2">
+                                                                            <a href="#">
+                                                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M13 3.5H11.5V0.5H2.5V3.5H1C0.734784 3.5 0.48043 3.60536 0.292893 3.79289C0.105357 3.98043 0 4.23478 0 4.5V9.5C0 9.76522 0.105357 10.0196 0.292893 10.2071C0.48043 10.3946 0.734784 10.5 1 10.5H2.5V13.5H11.5V10.5H13C13.2652 10.5 13.5196 10.3946 13.7071 10.2071C13.8946 10.0196 14 9.76522 14 9.5V4.5C14 4.23478 13.8946 3.98043 13.7071 3.79289C13.5196 3.60536 13.2652 3.5 13 3.5ZM3.5 1.5H10.5V3.5H3.5V1.5ZM10.5 12.5H3.5V7.5H10.5V12.5ZM13 9.5H11.5V6.5H2.5V9.5H1V4.5H13V9.5Z" fill="#A6A6A6"></path>
+                                                                                </svg>
+                                                                            </a>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                              </div>
+                                                          </div>
+                                                        </div>
+                                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#emailThread">
+                                                          <div class="card-body">
+                                                            <div class="open-thread cursor-pointer" data-toggle="collapse" data-target="#thread2"><span>...</span></div>
+                                                              <div id="thread2" class="collapse">
+                                                                  <div class="pr-4 pl-4 pt-2">
+                                                                      <p>Hi Alex,</p>
+                                                                      <p>Below you will find your account information as promised.</p>
+                                                                      <p>Account opened on 1/1/21.</p>
+                                                                      <p>If you have any further questions, please contact us.</p>
+                                                                      <p>Thanks,</p>
+                                                                      <p>
+                                                                          John Doe<br/>
+                                                                          Does it, inc.
+                                                                      </p>
+                                                                  </div>
+                                                              </div>
+                                                              <div>
+                                                                  <a href="#">Reply</a> &nbsp; <span class="verti-devider"></span> &nbsp; <a href="#">Forward</a>
+                                                              </div>
+                                                          </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- Email Inbox Right End -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- New Email popup -->
+                        <div class="modal fade new-email-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                            <!-- Add Package Panel -->
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 pt-0 bg-light border-right search-package-left add-package-panel">
+                                <div class="panel-heading">
+                                    <h4 class="mb-0">Select Packages</h4>
+                                    <a hre="#" class="sidepanelToggle">
+                                        <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="pt-3 pl-15 pr-15">
+                                    <div class="btn-group w-100 mt-2 mb-4">
+                                        <input id="" type="search" class="form-control rounded-0 mb-0 searchinput" placeholder="Search for a Package...">
+                                        <span class="search-loupe"><i class="fas fa-search"></i> </span>    
+                                        <span class="searchclear d-none"><i class="fas fa-times-circle"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div id="expiration-date" class="input-daterange position-relative">
+                                            <input type="text" id="expirationDate" class="form-control text-left" placeholder="Expiration Date">
+                                            <label class="icon-calendar c-pointer" for="expirationDate">
+                                                <svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6 9V11H4V9H6ZM10 9V11H8V9H10ZM14 9V11H12V9H14ZM16 2C16.5304 2 17.0391 2.21071 17.4142 2.58579C17.7893 2.96086 18 3.46957 18 4V18C18 18.5304 17.7893 19.0391 17.4142 19.4142C17.0391 19.7893 16.5304 20 16 20H2C0.89 20 0 19.1 0 18V4C0 3.46957 0.210714 2.96086 0.585786 2.58579C0.960859 2.21071 1.46957 2 2 2H3V0H5V2H13V0H15V2H16ZM16 18V7H2V18H16ZM6 13V15H4V13H6ZM10 13V15H8V13H10ZM14 13V15H12V13H14Z" fill="#606262"/>
+                                                </svg>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-check text-right">
+                                        <input class="form-check-input" checked="checked" type="checkbox" value="" id="neverExpires">
+                                        <label class="form-check-label" for="neverExpires">
+                                            Never Expires
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="package-left-table email-threading-panel">
+                                    <ul class="nav flex-column flex-nowrap overflow-hidden sortableList cursor-scroll">
+                                        <li class="nav-item d-block position-relative justify-content-between align-items-center">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input select-package1"  name="lineup1[]" type="checkbox" value="">
+                                                    </div>
+                                                    <span class="ml-2">
+                                                        <a class="nav-link collapsed text-truncate" href="#subtitle1" data-toggle="collapse" data-target="#subtitle1">
+                                                            <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                            </svg>
+                                                            <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                            </svg>
+                                                        </a>
+                                                    </span>
+                                                    <span class="mr-2 d-flex">
+                                                        <span class="filledBox"></span>
+                                                    </span>
+                                                    <span>Subtitle 1</span>
+                                                </div>
+                                                <span class="d-flex justify-content-end mr-2">
+                                                    <img src="image/icons/reorder_lines.svg" alt="reOrder" />
+                                                </span>
+                                            </div>
+                                        </li>  
+                                        <li class="nav-item d-block position-relative justify-content-between align-items-center">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input select-package1" type="checkbox" name="lineup1[]" value="">
+                                                    </div>
+                                                    <span class="ml-2">
+                                                        <a class="nav-link collapsed text-truncate" href="#subtitle2" data-toggle="collapse" data-target="#subtitle2">
+                                                            <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                            </svg>
+                                                            <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                            </svg>
+                                                        </a>
+                                                    </span>
+                                                    <span class="mr-2 d-flex">
+                                                    <span class="filledBox"></span>
+                                                    </span>
+                                                    <span>Subtitle 1</span>
+                                                </div>
+                                                <span class="d-flex justify-content-end mr-2">
+                                                    <img src="image/icons/reorder_lines.svg" alt="reOrder" />
+                                                </span>
+                                            </div>
+                                        </li>  
+                                        <li class="nav-item d-block position-relative justify-content-between align-items-center">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input select-package1" type="checkbox" name="lineup1[]" value="">
+                                                    </div>
+                                                    <span class="ml-2">
+                                                        <a class="nav-link collapsed text-truncate w-33" href="#subtitle3" data-toggle="collapse" data-target="#subtitle3">
+                                                            <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                            </svg>
+                                                            <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                            </svg>
+                                                        </a>
+                                                    </span>
+                                                    <span class="mr-2 d-flex">
+                                                    <span class="filledBox"></span>
+                                                    </span>
+                                                    <span>Subtitle 1</span>
+                                                </div>
+                                                <span class="d-flex justify-content-end mr-2">
+                                                    <img src="image/icons/reorder_lines.svg" alt="reOrder" />
+                                                </span>
+                                            </div>
+                                            
+                                            <div class="collapse" id="subtitle3" aria-expanded="false">
+                                                <ul class="flex-column pl-2 nav collapse-submenu">
+                                                    <li class="nav-item">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="">
+                                                            </div>
+                                                            <span class="ml-35">
+                                                                <a class="nav-link collapsed text-truncate" href="#videos" data-toggle="collapse" data-target="#videos">
+                                                                    <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                                    </svg>
+                                                                    <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </span>
+                                                            <div>
+                                                                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M14.75 15.5H2C1.60218 15.5 1.22064 15.342 0.93934 15.0607C0.658035 14.7794 0.5 14.3978 0.5 14V2C0.5 1.60218 0.658035 1.22064 0.93934 0.93934C1.22064 0.658035 1.60218 0.5 2 0.5H14.75C15.1478 0.5 15.5294 0.658035 15.8107 0.93934C16.092 1.22064 16.25 1.60218 16.25 2V5.045L20.315 2.1425C20.4269 2.0628 20.5586 2.01538 20.6957 2.00543C20.8327 1.99547 20.9699 2.02336 21.0922 2.08605C21.2144 2.14874 21.3171 2.24382 21.3891 2.3609C21.461 2.47799 21.4994 2.61259 21.5 2.75V13.25C21.4994 13.3874 21.461 13.522 21.3891 13.6391C21.3171 13.7562 21.2144 13.8513 21.0922 13.9139C20.9699 13.9766 20.8327 14.0045 20.6957 13.9946C20.5586 13.9846 20.4269 13.9372 20.315 13.8575L16.25 10.955V14C16.25 14.3978 16.092 14.7794 15.8107 15.0607C15.5294 15.342 15.1478 15.5 14.75 15.5ZM2 2V14H14.75V9.5C14.7506 9.36259 14.789 9.22799 14.8609 9.1109C14.9329 8.99382 15.0356 8.89874 15.1578 8.83605C15.2801 8.77336 15.4173 8.74547 15.5543 8.75543C15.6914 8.76538 15.8231 8.8128 15.935 8.8925L20 11.795V4.205L15.935 7.1075C15.8231 7.1872 15.6914 7.23462 15.5543 7.24457C15.4173 7.25453 15.2801 7.22664 15.1578 7.16395C15.0356 7.10126 14.9329 7.00618 14.8609 6.8891C14.789 6.77201 14.7506 6.63741 14.75 6.5V2H2Z" fill="black"/>
+                                                                </svg>
+                                                            <span>Videos</span>     
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="">
+                                                            </div>
+                                                            <span class="ml-35">
+                                                                <a class="nav-link collapsed text-truncate" href="#audio" data-toggle="collapse" data-target="#audio">
+                                                                    <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                                    </svg>
+                                                                    <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </span>
+                                                            <div>
+                                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M21.75 23.25C21.5795 23.25 21.4142 23.1918 21.2812 23.085L17.7375 20.25H15C14.8011 20.25 14.6103 20.171 14.4697 20.0304C14.329 19.8897 14.25 19.6989 14.25 19.5V15.75C14.25 15.5511 14.329 15.3604 14.4697 15.2197C14.6103 15.079 14.8011 15 15 15H17.7375L21.282 12.165C21.3923 12.077 21.5252 12.0218 21.6654 12.0059C21.8056 11.99 21.9475 12.0139 22.0747 12.075C22.2019 12.1361 22.3093 12.2319 22.3846 12.3513C22.4598 12.4707 22.4998 12.6089 22.5 12.75V22.5C22.5 22.6989 22.421 22.8897 22.2803 23.0304C22.1397 23.171 21.9489 23.25 21.75 23.25ZM15.75 18.75H18C18.1705 18.7502 18.3358 18.8084 18.4688 18.915L21 20.94V14.31L18.468 16.335C18.3352 16.4415 18.1702 16.4997 18 16.5H15.75V18.75Z" fill="black"/>
+                                                                    <path d="M12 21H6V3.00001H12V7.50001C12.0012 7.89747 12.1596 8.27831 12.4407 8.55936C12.7217 8.84041 13.1025 8.99882 13.5 9.00001H18V11.25H19.5V7.50001C19.5026 7.40144 19.4839 7.30347 19.4451 7.21284C19.4062 7.12221 19.3482 7.04107 19.275 6.97501L14.025 1.72501C13.959 1.65177 13.8778 1.59372 13.7872 1.55488C13.6966 1.51603 13.5986 1.49731 13.5 1.50001H6C5.60254 1.5012 5.2217 1.65961 4.94065 1.94066C4.6596 2.22171 4.50119 2.60255 4.5 3.00001V21C4.50119 21.3975 4.6596 21.7783 4.94065 22.0594C5.2217 22.3404 5.60254 22.4988 6 22.5H12V21ZM13.5 3.30001L17.7 7.50001H13.5V3.30001Z" fill="black"/>
+                                                                </svg>
+                                                            <span>Audio</span>     
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="">
+                                                            </div>
+                                                            <span class="ml-35">
+                                                                <a class="nav-link collapsed text-truncate" href="#images" data-toggle="collapse" data-target="#images">
+                                                                    <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                                    </svg>
+                                                                    <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </span>
+                                                            <div>
+                                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M14.25 10.5C14.695 10.5 15.13 10.368 15.5 10.1208C15.87 9.87357 16.1584 9.52217 16.3287 9.11104C16.499 8.69991 16.5436 8.24751 16.4568 7.81105C16.37 7.37459 16.1557 6.97368 15.841 6.65901C15.5263 6.34434 15.1254 6.13005 14.689 6.04323C14.2525 5.95642 13.8001 6.00097 13.389 6.17127C12.9778 6.34157 12.6264 6.62996 12.3792 6.99997C12.132 7.36998 12 7.80499 12 8.25C12 8.84674 12.2371 9.41903 12.659 9.84099C13.081 10.2629 13.6533 10.5 14.25 10.5ZM14.25 7.5C14.3983 7.5 14.5433 7.54399 14.6667 7.6264C14.79 7.70881 14.8861 7.82594 14.9429 7.96299C14.9997 8.10003 15.0145 8.25083 14.9856 8.39632C14.9567 8.54181 14.8852 8.67544 14.7803 8.78033C14.6754 8.88522 14.5418 8.95665 14.3963 8.98559C14.2508 9.01453 14.1 8.99968 13.963 8.94291C13.8259 8.88615 13.7088 8.79002 13.6264 8.66668C13.544 8.54334 13.5 8.39834 13.5 8.25C13.5 8.05109 13.579 7.86032 13.7197 7.71967C13.8603 7.57902 14.0511 7.5 14.25 7.5Z" fill="black"/>
+                                                                    <path d="M19.5 3H4.5C4.10218 3 3.72064 3.15804 3.43934 3.43934C3.15804 3.72064 3 4.10218 3 4.5V19.5C3 19.8978 3.15804 20.2794 3.43934 20.5607C3.72064 20.842 4.10218 21 4.5 21H19.5C19.8978 21 20.2794 20.842 20.5607 20.5607C20.842 20.2794 21 19.8978 21 19.5V4.5C21 4.10218 20.842 3.72064 20.5607 3.43934C20.2794 3.15804 19.8978 3 19.5 3ZM19.5 19.5H4.5V15L8.25 11.25L12.4425 15.4425C12.7235 15.7219 13.1037 15.8787 13.5 15.8787C13.8963 15.8787 14.2765 15.7219 14.5575 15.4425L15.75 14.25L19.5 18V19.5ZM19.5 15.8775L16.8075 13.185C16.5265 12.9056 16.1463 12.7488 15.75 12.7488C15.3537 12.7488 14.9735 12.9056 14.6925 13.185L13.5 14.3775L9.3075 10.185C9.02646 9.90562 8.64628 9.74881 8.25 9.74881C7.85372 9.74881 7.47354 9.90562 7.1925 10.185L4.5 12.8775V4.5H19.5V15.8775Z" fill="black"/>
+                                                                </svg>
+                                                                <span>Images</span>     
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="">
+                                                            </div>
+                                                            <span class="ml-35">
+                                                                <a class="nav-link collapsed text-truncate" href="#documents" data-toggle="collapse" data-target="#documents">
+                                                                    <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                                    </svg>
+                                                                    <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </span>
+                                                            <div>
+                                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M19.275 6.975L14.025 1.725C13.875 1.575 13.725 1.5 13.5 1.5H6C5.175 1.5 4.5 2.175 4.5 3V21C4.5 21.825 5.175 22.5 6 22.5H18C18.825 22.5 19.5 21.825 19.5 21V7.5C19.5 7.275 19.425 7.125 19.275 6.975ZM13.5 3.3L17.7 7.5H13.5V3.3ZM18 21H6V3H12V7.5C12 8.325 12.675 9 13.5 9H18V21Z" fill="black"/>
+                                                                    <path d="M7.5 16.5H16.5V18H7.5V16.5Z" fill="black"/>
+                                                                    <path d="M7.5 12H16.5V13.5H7.5V12Z" fill="black"/>
+                                                                </svg>
+                                                                <span>Documents</span>     
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" value="">
+                                                            </div>
+                                                            <span class="ml-35">
+                                                                <a class="nav-link collapsed text-truncate w-33 h-30" href="#download" data-toggle="collapse" data-target="#download">
+                                                                    <svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+                                                                    </svg>
+                                                                    <svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </span>
+                                                            <div>
+                                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M19.5 18V21H4.5V18H3V21C3 21.3978 3.15804 21.7794 3.43934 22.0607C3.72064 22.342 4.10218 22.5 4.5 22.5H19.5C19.8978 22.5 20.2794 22.342 20.5607 22.0607C20.842 21.7794 21 21.3978 21 21V18H19.5Z" fill="black"/>
+                                                                    <path d="M19.5 10.5L18.4425 9.4425L12.75 15.1275V1.5H11.25V15.1275L5.5575 9.4425L4.5 10.5L12 18L19.5 10.5Z" fill="black"/>
+                                                                    </svg>
+                                                                    
+                                                            <span>Download</span>     
+                                                            </div>
+                                                        </div>  
+                                                        <div class="collapse" id="download" aria-expanded="false">
+                                                            <ul class="flex-column nav collapse-child-submenu">
+                                                                <li class="nav-item d-flex align-items-center pt-2">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="">
+                                                                    </div>
+                                                                    <span class="ml-110">New File</span>
+                                                                </li>
+                                                                <li class="nav-item d-flex align-items-center pt-2">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="">
+                                                                    </div>
+                                                                    <span class="ml-110">Old File</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>       
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Add Package Panel End -->
+
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="modal-title" id="myLargeModalLabel">New Email</h2>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <div class="form-label-group position-relative">
+                                                    <input type="text" class="form-control rounded-0" id="to" aria-describedby="to" placeholder="To">
+                                                    <a class="input-btn text-black zIndex-9999" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                        Cc/Bcc
+                                                    </a>
+                                                    <label for="to">To</label>
+                                                </div>
+                                                <div class="collapse" id="collapseExample">
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="cc" aria-describedby="cc" placeholder="Cc">
+                                                        <label for="cc">Cc</label>
+                                                    </div>
+                                                    <div class="form-label-group">
+                                                        <input type="text" class="form-control rounded-0" id="bcc" aria-describedby="bcc" placeholder="Bcc">
+                                                        <label for="bcc">Bcc</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-label-group position-relative">
+                                                    <input type="text" class="form-control rounded-0" id="subject" aria-describedby="subject" placeholder="Subject">
+                                                    <label for="subject">Subject</label>
+                                                    <div class="dropdown input-btn-cc dropdown-left">
+                                                        <button class="btn insertBtn btn-secondary bg-border dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Insert Template
+                                                        </button>
+                                                        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                                            <li class="dropdown-submenu dropdown-menu-right"><a class="dropdown-item dropdown-toggle" href="#"> My Templates</a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li  class="dropdown-submenu w-175">
+                                                                        <a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates One</a>
+                                                                        <div class="dropdown-menu dropdown-template-list dropdown-menu-right w-max-content w-150">
+                                                                            <ul class="submenu-breadcrumb">
+                                                                                <ol class="breadcrumb">
+                                                                                    <span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+                                                                                    <li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+                                                                                        <span class="px-2">\</span>
+                                                                                    <li class="breadcrumb-item active">Templates One</li>
+                                                                                </ol>
+                                                                            </ul>
+                                                                            <div class="btn-group w-100 pb-3 px-2">
+                                                                                <input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput1 searchInput" placeholder="Search Templates">
+                                                                                <span class="top-search searchLoupe search-loupe1"><i class="fas fa-search"></i> </span>    
+                                                                                <span class="top-circle searchClear searchclear1 d-none"><i class="fas fa-times-circle"></i></span>
+                                                                            </div>
+                                                                            <ul class="templateList templateListData">
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li  class="dropdown-submenu  w-175">
+                                                                        <a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates Two</a>
+                                                                        <div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+                                                                            <ul class="submenu-breadcrumb">
+                                                                                <ol class="breadcrumb">
+                                                                                    <span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+                                                                                    <li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+                                                                                        <span class="px-2">\</span>
+                                                                                    <li class="breadcrumb-item active">Templates Two</li>
+                                                                                </ol>
+                                                                            </ul>
+                                                                            <div class="btn-group w-100 pb-3 px-2">
+                                                                                <input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput2 searchInput" placeholder="Search Templates">
+                                                                                <span class="top-search search-loupe2 searchLoupe"><i class="fas fa-search"></i> </span>    
+                                                                                <span class="top-circle searchclear2 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+                                                                            </div>
+                                                                            <ul class="templateList templateListData1">
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li  class="dropdown-submenu  w-175">
+                                                                        <a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates Three</a>
+                                                                        <div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+                                                                            <ul class="submenu-breadcrumb">
+                                                                                <ol class="breadcrumb">
+                                                                                    <span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+                                                                                    <li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+                                                                                        <span class="px-2">\</span>
+                                                                                    <li class="breadcrumb-item active">Templates Three</li>
+                                                                                </ol>
+                                                                            </ul>
+                                                                            <div class="btn-group w-100 pb-3 px-2">
+                                                                                <input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput3 searchInput" placeholder="Search Templates">
+                                                                                <span class="top-search search-loupe3 searchLoupe"><i class="fas fa-search"></i> </span>    
+                                                                                <span class="top-circle searchclear3 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+                                                                            </div>
+                                                                            <ul class="templateList templateListData2">
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                         
+                                                            <li class="dropdown-submenu dropdown-menu-right"><a class="dropdown-item dropdown-toggle" href="#"> Team Templates</a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li  class="dropdown-submenu w-175">
+                                                                        <a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Recentaly Used</a>
+                                                                        <div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+                                                                            <ul class="submenu-breadcrumb">
+                                                                                <ol class="breadcrumb">
+                                                                                    <span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+                                                                                    <li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+                                                                                        <span class="px-2">\</span>
+                                                                                    <li class="breadcrumb-item active">Recentaly Used</li>
+                                                                                </ol>
+                                                                            </ul>
+                                                                            <div class="btn-group w-100 pb-3 px-2">
+                                                                                <input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput4 searchInput" placeholder="Search Templates">
+                                                                                <span class="top-search search-loupe4 searchLoupe"><i class="fas fa-search"></i> </span>    
+                                                                                <span class="top-circle searchclear4 d-none searchClear"><i class="fas fa-times-circle"></i></span>
+                                                                            </div>
+                                                                            <ul class="templateList templateListData3">
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Seq Stage 3</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li  class="dropdown-submenu  w-175">
+                                                                        <a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>First Touch (1)</a>
+                                                                        <div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+                                                                            <ul class="submenu-breadcrumb">
+                                                                                <ol class="breadcrumb">
+                                                                                    <span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+                                                                                    <li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+                                                                                        <span class="px-2">\</span>
+                                                                                    <li class="breadcrumb-item active">First Touch (1)</li>
+                                                                                </ol>
+                                                                            </ul>
+                                                                            <div class="btn-group w-100 pb-3 px-2">
+                                                                                <input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput5 searchInput" placeholder="Search Templates">
+                                                                                <span class="top-search search-loupe5 searchLoupe"><i class="fas fa-search"></i> </span>    
+                                                                                <span class="top-circle searchclear5 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+                                                                            </div>
+                                                                            <ul class="templateList templateListData4">
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Team Templates One.3</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li  class="dropdown-submenu  w-175">
+                                                                        <a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates Three</a>
+                                                                        <div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+                                                                            <ul class="submenu-breadcrumb">
+                                                                                <ol class="breadcrumb">
+                                                                                    <span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+                                                                                    <li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+                                                                                        <span class="px-2">\</span>
+                                                                                    <li class="breadcrumb-item active">Templates Three</li>
+                                                                                </ol>
+                                                                            </ul>
+                                                                            <div class="btn-group w-100 pb-3 px-2">
+                                                                                <input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput6 searchInput" placeholder="Search Templates">
+                                                                                <span class="top-search search-loupe6 searchLoupe"><i class="fas fa-search"></i> </span>    
+                                                                                <span class="top-circle searchclear6 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+                                                                            </div>
+                                                                            <ul class="templateList templateListData5">
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+                                                                                <li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea class="form-control rounded-0" id="message" rows="18" placeholder="Type your message..."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <div class="d-flex justify-content-between">
+                                                    <a href="" class="sidepanelToggle d-flex align-items-center pb-3 pt-1">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M23.5028 4.79309C23.4974 4.46654 23.2905 4.17459 22.9859 4.06379L12.4093 0.18084C12.2268 0.11384 12.0261 0.11649 11.8454 0.18829L0.994382 4.50309C0.704232 4.61789 0.496582 4.90504 0.496582 5.23674V17.0306C0.496582 17.3155 0.649882 17.5782 0.897932 17.7182L11.6119 23.7655C11.6158 23.7677 11.6199 23.7692 11.6238 23.7713C11.6359 23.7773 11.6481 23.783 11.6603 23.7888C11.8898 23.8978 12.1289 23.8894 12.3386 23.7893C12.3512 23.7834 12.3636 23.7775 12.3761 23.7713C12.3802 23.7694 12.3843 23.7677 12.3882 23.7655L23.1021 17.7182C23.3501 17.5782 23.5036 17.3155 23.5036 17.0306C23.5035 2.95969 23.5028 4.99894 23.5028 4.79309ZM12.1484 1.76724L20.7142 4.91189L17.4774 6.51054L9.17738 2.94864L12.1484 1.76724ZM11.9856 9.22289L3.30298 5.28454L6.96533 3.82834L15.3403 7.56604L11.9856 9.22289ZM21.9243 16.5697L12.7896 21.7256V10.5872L16.3105 8.84814V13.0537L18.3826 12.0175V7.82474L21.9243 6.07554V16.5697Z" fill="#5E9331"/>
+                                                        </svg>
+                                                        <span class="ml-2">Add Package</span>
+                                                    </a>
+                                                    
+                                                    <div class="form-check">
+                                                        <span class="text-success c-pointer mr-4" data-toggle="modal" data-target=".variable-list-modal">{ }</span>
+                                                        <input class="form-check-input" type="checkbox" value="" id="addSign">
+                                                        <label class="form-check-label" for="addSign">
+                                                            Add Signature
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="emailOpened">
+                                                    <label class="form-check-label" for="emailOpened">
+                                                        Email me when package is opened
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="everyTimeOpened">
+                                                    <label class="form-check-label" for="everyTimeOpened">
+                                                        Email me every time the package is opened
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="bccMe">
+                                                    <label class="form-check-label" for="bccMe">
+                                                        Bcc me
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="noLogo">
+                                                    <label class="form-check-label" for="noLogo">
+                                                        Do not show company logo
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-26">
+                                                <div class="form-label-group">
+                                                    <input type="text" class="form-control" id="password" aria-describedby="searchForPackage1" placeholder="Password (Optional)">
+                                                    <label for="password">Password (Optional)</label>
+                                                </div>
+                                                <div class="form-label-group">
+                                                    <input type="text" class="form-control" id="passwordConfirm" aria-describedby="searchForPackage1" placeholder="Password confirmation">
+                                                    <label for="passwordConfirm">Password confirmation</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg-light justify-content-between py-0 px-2">
+                                        <div class="d-flex text-center align-items-center mb-4">
+                                            <div class="noOfPackages1 text-cloud mt-4"><span class="mx-2"></span><a></a></div>
+                                            <div>
+                                                <span class="expiryDateOfthreading"></span><br>
+                                                <div id="expiry-date1" class="input-daterange position-relative">
+                                                    <button class="btn btn-action btn-light mx-3">Expiration</button>
+                                                    <input type="text" id="expiryDate" class="form-control mb-0 c-pointer text-left schdeule-date-input" placeholder="Expiration Date">
+                                                </div>
+                                            </div>
+                                            <div class="form-check form-check-mb-0 ml-3 mt-4 display-inline">
+                                                <input class="form-check-input" type="checkbox" value="" id="neverExires">
+                                                <label class="form-check-label" for="neverExires">
+                                                    Never Expires
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-end  text-right mb-4">
+                                            <div class="d-flex flex-wrap justify-content-end">
+                                                <div>
+                                                    <span class="schdeuleDateOfthreading"></span><br>
+                                                    <button class="btn btn-warning btn-action h-fit-content">
+                                                        Cancel
+                                                    </button>
+                                                </div>
+                                                <div class="d-flex mt-4">
+                                                    <div id="schedule-date1" class="input-daterange position-relative ml-3">
+                                                        <button class="btn btn-action btn-light">Schedule</button>
+                                                        <input type="text" id="scheduleDate" class="form-control mb-0 c-pointer text-left schdeule-date-input"
+                                                            placeholder="Expiration Date">
+                                                    </div>
+                                                    <div><button class="btn btn-action btn-success ml-3">Send</button></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!--  Variable List Popup -->
+                    <div class="modal fade variable-list-modal modal-sm modal-dialog-centered variable-list" tabindex="-1" role="dialog" aria-labelledby="editTemplate" aria-hidden="true" style="display: none;">
+                        <div class="modal-dialog  modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title" id="editTemplate">Contact Attributes</h2>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="#000000"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group">
+                                    <li class="list-group-item">First Name</li>
+                                    <li class="list-group-item">Last Name</li>
+                                    <li class="list-group-item">Email</li>
+                                    <li class="list-group-item">Mobile</li>
+                                    <li class="list-group-item">Job Title</li>
+                                    <li class="list-group-item">Company Name</li>
+                                    <div class="modal-header">
+                                        <h2 class="modal-title" >My Attributes</h2>
+                                    </div>
+                                    <!-- <li class="list-group-item modal-header">My Attributes</li> -->
+                                    <li class="list-group-item">My First Name</li>
+                                    <li class="list-group-item">My Last Name</li>
+                                    <li class="list-group-item">My Name</li>
+                                    <li class="list-group-item">My Email</li>
+                                    <li class="list-group-item">My Direct Number</li>
+                                    <li class="list-group-item">My Extension</li>
+                                    <li class="list-group-item">My Mobile</li>
+                                    <li class="list-group-item">My LinkedIn</li>
+                                    <li class="list-group-item">My Job Title </li>
+                                    <li class="list-group-item">My Company</li>
+                                    <li class="list-group-item">My Company Number</li>
+                                    <li class="list-group-item">My Company Linked In</li>
+                                    <li class="list-group-item">My Company Twitter</li>
+                                    <li class="list-group-item">My Company Facebook</li>
+                                    <li class="list-group-item">My Company Website</li>
+                                </ul>
+                                </div>                                
+                            </div>
+                        </div>   
+                    </div> 
+                         <!--  Variable List Popup End -->
+                    </section>
+                    <!-- Page Content End-->
+                </main>  
+            </div>
+        </div>
+        <!-- Scritps -->
+        <script src="plugin/jQuery/jquery-3.6.0.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/jquery-ui/jquery-ui.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="plugin/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+        <script src="./plugin/load-on-scroll/scrollpagination.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/email-inbox.js"></script>
+    </body>
+</html>

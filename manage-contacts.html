@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <!-- Styles -->
+        <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-submenu@3.0.1/dist/css/bootstrap-submenu.css">
+        <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+        <link href="CSS/floating-labels.css" rel="stylesheet" />
+        <link href="CSS/styles.css" rel="stylesheet" />
+        <link href="CSS/responsive.css" rel="stylesheet" />
+        <link href="CSS/manage-contacts.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./plugin/country-code/prism.css">
+        <link rel="stylesheet" href="./plugin/country-code/intlTelInput.css">
+    </head>
+    <body class="sidebar-fixed">
+        <div id="containerMain">
+            <div id="containerMain_nav">
+                <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu ml-180  l-118">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+            </div>
+            <div id="containerMain_content">
+                <header>
+                    <!-- Mobile Top Nav-->
+                    <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                        <!-- Mobile Logo -->
+                        <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                            <img src="image/logo-small.png" class="" alt="Send Your Media">
+                        </a>
+                        <!-- Navbar Search-->
+                        <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                        <!-- Navbar-->
+                    </nav>
+                    <!-- Mobile Top Nav End-->
+                    <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+                        <!-- Breadcrumb-->
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"></a>Address Book</a></li>
+                            <span class="pl-2 pr-2">
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.589996 10.58L5.17 6L0.589996 1.41L2 0L8 6L2 12L0.589996 10.58Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <li class="breadcrumb-item active">Company Address Book</li>
+                            <span class="pl-2 pr-2">
+                                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.589996 10.58L5.17 6L0.589996 1.41L2 0L8 6L2 12L0.589996 10.58Z" fill="black"/>
+                                </svg>
+                            </span>
+                            <li class="breadcrumb-item active">Manage</li>
+                        </ol>
+                    
+                        <!-- Navbar Search-->
+                        <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn min-w-auto input-group-text bg-none border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                        </button>
+                        <!-- Navbar-->
+                    </nav>
+                </header>
+                <main class="pt-4 pb-4">
+                    <!-- Page Content -->
+                    <section class="container-fluid ">
+                            <div class="container-inner card-container container-inner-resp bg-light">
+                                <div>
+                                    <div class="display-flex">
+                                        <div class="width-100">
+                                            <div class="p-3 d-flex justify-content-between">
+                                                <div class="d-flex">
+                                                    <button type="button" class="btn btn-success  align-items-center" data-toggle="modal" data-target=".add-new-contact">
+                                                        Add Contact
+                                                    </button>
+                                                    <div class="d-flex align-items-center px-5">
+                                                        <h4 class="mr-2 mb-0">Import Contacts</h4>
+                                                        <a href="#" class="gmail mr-2"><img alt="google" src="image/Gmail.png"></a>
+                                                        <a href="#" class="mr-2"><img alt="microsoft" src="image/Microsoft_365_logo.png"></a>
+                                                        <a href="#" class="mr-2"><img alt="excel" src="image/excel_imp.png"></a>
+                                                    </div>
+                                                 </div>
+                                                <div class="d-flex">
+                                                    <!-- <div class="dropdown actions d-none mr-3">
+                                                        <button class="btn insertBtn btn-select dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Action
+                                                        </button>
+                                                        <div class="dropdown-menu dropdown-menuData dropdown-menu-right py-0">
+                                                            <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target=".edit-contact">Edit</a>
+                                                            <div class="dropdown-submenu dropdown-menu-right dropleft">
+                                                                <a class="dropdown-item dropdown-toggle border-bottom pl-3" href="#">Move to Address Book</a>
+                                                                <div class="dropdown-menu py-0">
+                                                                    <a class="dropdown-item" href="#">Default Address Book</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dropdown-submenu dropdown-menu-right dropleft">
+                                                                <a class="dropdown-item dropdown-toggle border-bottom pl-3" href="#">Copy to Address Book</a>
+                                                                <div class="dropdown-menu  dropdown-menu-right py-0">
+                                                                    <a class="dropdown-item" href="#">Default Address Book</a>
+                                                                </div>
+                                                            </div>
+                                                            <a class="dropdown-item border-bottom" href="#">Unsubscribe</a>
+                                                            <a class="dropdown-item " href="#">Delete</a>
+                                                        </div>
+                                                    </div>           -->
+                                                    <div class="dropdown actions d-none mr-3">
+                                                        <button class="btn btn-select dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Action
+                                                        </button>
+                                                        <div class="dropdown-menu dropdown-menu-right py-0">
+                                                            <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target=".edit-contact">Edit</a>
+                                                            <div class="dropdown-submenu">
+                                                                <a class="dropdown-item border-bottom" href="#">Move to Address Book</a>
+                                                                <div class="dropdown-menu w-140">
+                                                                    <a class="dropdown-item text-wrap" href="#">Default Address Book</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="dropdown-submenu">
+                                                                <a class="dropdown-item border-bottom" href="#">Copy to Address Book</a>
+                                                                <div class="dropdown-menu w-140">
+                                                                    <a class="dropdown-item text-wrap" href="#">Default Address Book</a>
+                                                                </div>
+                                                            </div>
+                                                            <a class="dropdown-item border-bottom" href="#">Unsubscribe</a>
+                                                            <a class="dropdown-item " href="#">Delete</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custom-select-dropdown" >
+                                                        <select>
+                                                            <option value="0">Subscribed:</option>
+                                                            <option value="1">Subscribed</option>
+                                                            <option value="2">Unsubscribed</option>
+                                                            <option value="3">Cleaned</option>
+                                                        </select>
+                                                    </div>
+                                                    <!-- <div class="dropdown">
+                                                        <button class="btn btn-select dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Subscribed
+                                                        </button>
+                                                        <div class="dropdown-menu  dropdown-menu-right">
+                                                            <a class="dropdown-item" href="#">Subscribed</a>
+                                                            <a class="dropdown-item" href="#">Unsubscribed</a>
+                                                            <a class="dropdown-item" href="#">Cleaned</a>
+                                                        </div>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                           
+                                            <table
+                                                id="b-table" 
+                                                data-toggle="table" 
+                                                class="table borderlessTable">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="width-4" data-field="no" data-filter-control="input">#</th>
+                                                            <th class="width-10" data-field="fist-name" data-filter-control="input" data-sortable="true">First Name</th>
+                                                            <th class="width-10" data-field="last-name" data-filter-control="select" data-sortable="true">Last Name</th>
+                                                            <th class="width-15" data-field="company" data-filter-control="select">Company</th>
+                                                            <th class="width-10" data-field="title" data-filter-control="select">Title</th>
+                                                            <th class="width-20" data-field="email" data-sortable="true">Email</th>
+                                                            <th class="width-10" data-field="mobile">Mobile</th>
+                                                            <th class="width-4" data-field="checkbox">
+                                                                <input type="checkbox" class="select-all checkbox" name="select-all" />
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Alex</td>                                     
+                                                            <td>Norbert</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td>alex2norbert@gmail.com</td>
+                                                            <td></td>
+                                                            <td><input type="checkbox" class="select-item checkbox" name="select-item" value="1000"/></td>
+                                                        </tr>
+                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--    Add contact popup -->
+                                <div class="modal fade add-new-contact" id="addNewContact" tabindex="-1" role="dialog" aria-labelledby="addNewContactLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="addNewContactLabel">New Contact - East Coast Prospects</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <svg width="11" height="13" viewBox="0 0 11 13" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body p-0">
+                                                <div class="row bg-light m-0">
+                                                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3 col-xl-3 align-items-center d-flex image-parent py-2 justify-content-center">
+                                                        <img class="img-fluid" src="image/plceholder-profile-pic-1.png">
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 col-xl-9 py-2">
+                                                        <h5 class="mb-0">Jane Doe</h5>
+                                                        <div class="text-grey">
+                                                            Vice President
+                                                            <span class="mx-2">
+                                                                <svg width="7" height="7" viewBox="0 0 7 7" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="7" height="7" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="mr-2">
+                                                                <svg width="20" height="18" viewBox="0 0 20 18" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M10 4V0H0V18H20V4H10ZM4 16H2V14H4V16ZM4 12H2V10H4V12ZM4 8H2V6H4V8ZM4 4H2V2H4V4ZM8 16H6V14H8V16ZM8 12H6V10H8V12ZM8 8H6V6H8V8ZM8 4H6V2H8V4ZM18 16H10V14H12V12H10V10H12V8H10V6H18V16ZM16 8H14V10H16V8ZM16 12H14V14H16V12Z" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>                                                                                
+                                                            <span>
+                                                                Acme, Inc        
+                                                            </span>    
+                                                        </div>
+                                                        <div class="text-grey d-flex align-items-center">
+                                                            <span class="d-flex">
+                                                                <svg width="18" height="18" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M13 0.5H1C0.734784 0.5 0.48043 0.605357 0.292893 0.792893C0.105357 0.98043 0 1.23478 0 1.5V9.5C0 9.76522 0.105357 10.0196 0.292893 10.2071C0.48043 10.3946 0.734784 10.5 1 10.5H13C13.2652 10.5 13.5196 10.3946 13.7071 10.2071C13.8946 10.0196 14 9.76522 14 9.5V1.5C14 1.23478 13.8946 0.98043 13.7071 0.792893C13.5196 0.605357 13.2652 0.5 13 0.5ZM11.9 1.5L7 4.89L2.1 1.5H11.9ZM1 9.5V1.955L6.715 5.91C6.7987 5.96806 6.89813 5.99918 7 5.99918C7.10187 5.99918 7.2013 5.96806 7.285 5.91L13 1.955V9.5H1Z" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>        
+                                                            <span class="ml-1">jdoe@acme.com</span>
+                                                        </div>
+                                                        <div class="text-grey d-flex align-items-center">
+                                                            <span>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="#A6A6A6" fill-opacity="0.6"/>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="mr-3 ml-1">(212) 788-1234</span>
+                                                            <span>
+                                                                <svg width="14" height="22" viewBox="0 0 14 22" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M11 0H3C1.34 0 0 1.34 0 3V19C0 20.66 1.34 22 3 22H11C12.66 22 14 20.66 14 19V3C14 1.34 12.66 0 11 0ZM9 20H5V19H9V20ZM12.25 17H1.75V3H12.25V17Z" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="ml-1">(212) 300-1335</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row p-4">
+                                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="firstName" aria-describedby="firstName" placeholder="First Name">
+                                                            <label for="firstName">First Name</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="jobTitle" aria-describedby="jobTitle" placeholder="Job Title">
+                                                            <label for="jobTitle">Job Title</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="email" aria-describedby="email" placeholder="Email">
+                                                            <label for="email">Email</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="emailOptOut">
+                                                            <label class="form-check-label" for="emailOptOut">
+                                                                Email Opt Out
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="linkedIn" aria-describedby="linkedIn" placeholder="LinkedIn">
+                                                            <label for="linkedIn" class="t-22">Linked In</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="facebook" aria-describedby="facebook" placeholder="Facebook">
+                                                            <label for="facebook" class="t-22">Facebook</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="address1" aria-describedby="address1" placeholder="Address 1">
+                                                            <label for="address1">Address 1</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="city" aria-describedby="city" placeholder="City">
+                                                            <label for="city">City</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="zipCode" aria-describedby="zipCode" placeholder="Zip Code">
+                                                            <label for="zipCode">Zip Code</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="industry" aria-describedby="industry" placeholder="Industry">
+                                                            <label for="industry">Industry</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="lastName" aria-describedby="lastName" placeholder="Last Name">
+                                                            <label for="lastName">Last Name</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="company" aria-describedby="company" placeholder="Company">
+                                                            <label for="company">Company</label>
+                                                        </div>
+                                                        <!-- <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="mobile" aria-describedby="mobile" placeholder="Mobile">
+                                                            <label for="mobile">Mobile</label>
+                                                        </div> -->
+                                                        <div id="result" class=" mb-3 position-relative">
+                                                            <input type="text" class="phone form-control rounded-0 " id="phone" placeholder="Mobile Number">
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="textOptOut">
+                                                            <label class="form-check-label" for="textOptOut">
+                                                                Text Opt Out
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="website" aria-describedby="website" placeholder="Website">
+                                                            <label for="website" class="t-22">Website</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="twitter" aria-describedby="twitter" placeholder="Twitter">
+                                                            <label for="twitter" class="t-22">Twitter</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="address2" aria-describedby="address2" placeholder="Address 2">
+                                                            <label for="address2">Address 2</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="state" aria-describedby="state" placeholder="State">
+                                                            <label for="state">State</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="country" aria-describedby="country" placeholder="Country">
+                                                            <label for="country">Country</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <!-- <div class="dropdown timeZone">
+                                                                <button class="btn btn-white dropdown-toggle w-100 h-42" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        Time Zone
+                                                                </button>
+                                                                <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                                                    <a class="dropdown-item" href="#">One</a>
+                                                                    <a class="dropdown-item" href="#">Two</a>
+                                                                </div>
+                                                            </div> -->
+                                                            <div class="custom-select-dropdown plainBg form-label-dropdown w-100">
+                                                                <select>
+                                                                    <option value="0">Time Zone</option>
+                                                                    <option value="1">One</option>
+                                                                    <option value="2">Two</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                        <div class="form-label-group mb-0">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="tags" aria-describedby="tags" placeholder="Tags">
+                                                            <label for="tags">Tags</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer bg-light">
+                                                <button class="btn btn-action btn-success">Save</button>
+                                                <button class="btn btn-action btn-light ml-2" data-dismiss="modal" aria-label="Close">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--- Add contact popup End -->
+                                <!--  Edit popup -->
+                                <div class="modal fade edit-contact" id="editContact" tabindex="-1" role="dialog" aria-labelledby="editContactLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="editContactLabel">Edit Contact - East Coast Prospects</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <svg width="11" height="13" viewBox="0 0 11 13" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body p-0">
+                                                <div class="row bg-light m-0">
+                                                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-3 col-xl-3 align-items-center d-flex image-parent py-2 justify-content-center">
+                                                        <img class="img-fluid" src="image/plceholder-profile-pic-1.png">
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-9 col-xl-9 py-2">
+                                                        <h5 class="mb-0">Jane Doe</h5>
+                                                        <div class="text-grey">
+                                                            Vice President
+                                                            <span class="mx-2">
+                                                                <svg width="7" height="7" viewBox="0 0 7 7" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect width="7" height="7" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="mr-2">
+                                                                <svg width="20" height="18" viewBox="0 0 20 18" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M10 4V0H0V18H20V4H10ZM4 16H2V14H4V16ZM4 12H2V10H4V12ZM4 8H2V6H4V8ZM4 4H2V2H4V4ZM8 16H6V14H8V16ZM8 12H6V10H8V12ZM8 8H6V6H8V8ZM8 4H6V2H8V4ZM18 16H10V14H12V12H10V10H12V8H10V6H18V16ZM16 8H14V10H16V8ZM16 12H14V14H16V12Z" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>                                                                                
+                                                            <span>
+                                                                Acme, Inc        
+                                                            </span>    
+                                                        </div>
+                                                        <div class="text-grey d-flex align-items-center">
+                                                            <span class="d-flex">
+                                                                <svg width="18" height="18" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M13 0.5H1C0.734784 0.5 0.48043 0.605357 0.292893 0.792893C0.105357 0.98043 0 1.23478 0 1.5V9.5C0 9.76522 0.105357 10.0196 0.292893 10.2071C0.48043 10.3946 0.734784 10.5 1 10.5H13C13.2652 10.5 13.5196 10.3946 13.7071 10.2071C13.8946 10.0196 14 9.76522 14 9.5V1.5C14 1.23478 13.8946 0.98043 13.7071 0.792893C13.5196 0.605357 13.2652 0.5 13 0.5ZM11.9 1.5L7 4.89L2.1 1.5H11.9ZM1 9.5V1.955L6.715 5.91C6.7987 5.96806 6.89813 5.99918 7 5.99918C7.10187 5.99918 7.2013 5.96806 7.285 5.91L13 1.955V9.5H1Z" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>        
+                                                            <span class="ml-1">jdoe@acme.com</span>
+                                                        </div>
+                                                        <div class="text-grey d-flex align-items-center">
+                                                            <span>
+                                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M3.62 7.79C5.06 10.62 7.38 12.93 10.21 14.38L12.41 12.18C12.68 11.91 13.08 11.82 13.43 11.94C14.55 12.31 15.76 12.51 17 12.51C17.55 12.51 18 12.96 18 13.51V17C18 17.55 17.55 18 17 18C7.61 18 0 10.39 0 1C0 0.45 0.45 0 1 0H4.5C5.05 0 5.5 0.45 5.5 1C5.5 2.25 5.7 3.45 6.07 4.57C6.18 4.92 6.1 5.31 5.82 5.59L3.62 7.79Z" fill="#A6A6A6" fill-opacity="0.6"/>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="mr-3 ml-1">(212) 788-1234</span>
+                                                            <span>
+                                                                <svg width="14" height="22" viewBox="0 0 14 22" fill="#A6A6A6" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M11 0H3C1.34 0 0 1.34 0 3V19C0 20.66 1.34 22 3 22H11C12.66 22 14 20.66 14 19V3C14 1.34 12.66 0 11 0ZM9 20H5V19H9V20ZM12.25 17H1.75V3H12.25V17Z" fill="#A6A6A6"/>
+                                                                </svg>
+                                                            </span>
+                                                            <span class="ml-1">(212) 300-1335</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row p-4">
+                                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editFirstName" aria-describedby="firstName" placeholder="First Name">
+                                                            <label for="editFirstName">First Name</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editJobTitle" aria-describedby="jobTitle" placeholder="Job Title">
+                                                            <label for="editJobTitle">Job Title</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editEmail" aria-describedby="email" placeholder="Email">
+                                                            <label for="editEmail">Email</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="emailOptOut">
+                                                            <label class="form-check-label" for="emailOptOut">
+                                                                Email Opt Out
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editLinkedIn" aria-describedby="linkedIn" placeholder="LinkedIn">
+                                                            <label for="editLinkedIn" class="t-22">LinkedIn</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editFacebook" aria-describedby="facebook" placeholder="Facebook">
+                                                            <label for="editFacebook" class="t-22">Facebook</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editAddress1" aria-describedby="address1" placeholder="Address 1">
+                                                            <label for="editAddress1">Address 1</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editCity" aria-describedby="city" placeholder="City">
+                                                            <label for="editCity">City</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editZipCode" aria-describedby="zipCode" placeholder="Zip Code">
+                                                            <label for="editZipCode">Zip Code</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editIndustry" aria-describedby="industry" placeholder="Industry">
+                                                            <label for="editIndustry">Industry</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editLastName" aria-describedby="lastName" placeholder="Last Name">
+                                                            <label for="editLastName">Last Name</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editCompany" aria-describedby="company" placeholder="Company">
+                                                            <label for="editCompany">Company</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editMobile" aria-describedby="mobile" placeholder="Mobile">
+                                                            <label for="editMobile">Mobile</label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="textOptOut">
+                                                            <label class="form-check-label" for="textOptOut">
+                                                                Text Opt Out
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editWebsite" aria-describedby="website" placeholder="Website">
+                                                            <label for="editWebsite"  class="t-22">Website</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <div class="text-right">
+                                                                <a href="details.html" target="_blank">
+                                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M16 16H2V2H9V0H2C0.89 0 0 0.9 0 2V16C0 17.1 0.89 18 2 18H16C17.1 18 18 17.1 18 16V9H16V16ZM11 0V2H14.59L4.76 11.83L6.17 13.24L16 3.41V7H18V0H11Z" fill="black" fill-opacity="0.5"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editTwitter" aria-describedby="twitter" placeholder="Twitter">
+                                                            <label for="editTwitter" class="t-22">Twitter</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editAddress2" aria-describedby="address2" placeholder="Address 2">
+                                                            <label for="editAddress2">Address 2</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editState" aria-describedby="state" placeholder="State">
+                                                            <label for="editState">State</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editCountry" aria-describedby="country" placeholder="Country">
+                                                            <label for="editCountry">Country</label>
+                                                        </div>
+                                                        <div class="form-label-group">
+                                                            <!-- <div class="dropdown timeZone">
+                                                                <button class="btn btn-white dropdown-toggle w-100 h-42" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        Time Zone
+                                                                </button>
+                                                                <div class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                                                    <a class="dropdown-item" href="#">One</a>
+                                                                    <a class="dropdown-item" href="#">Two</a>
+                                                                </div>
+                                                            </div> -->
+                                                            <div class="custom-select-dropdown plainBg form-label-dropdown w-100">
+                                                                <select>
+                                                                    <option value="0">Time Zone</option>
+                                                                    <option value="1">One</option>
+                                                                    <option value="2">Two</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                        <div class="form-label-group mb-0">
+                                                            <input type="text" class="mb-0 form-control rounded-0" id="editTags" aria-describedby="tags" placeholder="Tags">
+                                                            <label for="editTags">Tags</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer bg-light">
+                                                <button class="btn btn-action btn-success">Save</button>
+                                                <button class="btn btn-action btn-light ml-2" data-dismiss="modal" aria-label="Close">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--- Edit popup End -->
+                            </div>
+                    </section>
+                    <!-- Page Content End-->
+                </main>                 
+            </div>
+        </div>
+        <!-- Scritps -->
+        <script src="plugin/jQuery/jquery-3.6.0.slim.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="https://unpkg.com/bootstrap-submenu@3.0.1/dist/js/bootstrap-submenu.js" defer></script>
+        <script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/manage-contacts.js"></script>
+        <script src="./plugin/country-code/prism.js"></script>
+        <script src="./plugin/country-code/intlTelInput.js"></script>
+        <script src="./plugin/country-code/isValidNumber.js"></script>
+    </body>
+</html>

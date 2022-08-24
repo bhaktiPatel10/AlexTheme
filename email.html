@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Dashboard</title>
+		<!-- Styles -->
+		<link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+		<link href="plugin/bootstrap-datepicker/bootstrap-datepicker.css" rel="stylesheet" />
+		<link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+		<link href="plugin/jquery-ui/jquery-ui.css" rel="stylesheet">
+		<link href="CSS/floating-labels.css" rel="stylesheet" />
+		<link href="CSS/styles.css" rel="stylesheet" />
+		<link href="CSS/responsive.css" rel="stylesheet" />
+		<link href="CSS/email-packages.css" rel="stylesheet" />
+		<link href="CSS/email.css" rel="stylesheet"/>
+		<link href="plugin/bootstrap/bootstrap.min.css" />
+		
+	
+	</head>
+	<body class="sidebar-fixed">
+		<div id="containerMain">
+			<div id="containerMain_nav">
+				<nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu ml-180">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div id="containerMain_content">
+				<header>
+					<!-- Mobile Top Nav-->
+					<nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+						<!-- Mobile Logo -->
+						<a class="nav-link navbar-brand mobile-logo" href="index.html">
+							<img src="image/logo-small.png" class="" alt="Send Your Media">
+						</a>
+						<!-- Navbar Search-->
+						<form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+							<div class="input-group">
+								<input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+								<div class="input-group-append">
+									<button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+						<button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+						<!-- Navbar-->
+					</nav>
+					<!-- Mobile Top Nav End-->
+					<nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+						<!-- Breadcrumb-->
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="index.html"></a>Email Packages</a></li>
+							<span class="pl-2 pr-2">
+								<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.589996 10.58L5.17 6L0.589996 1.41L2 0L8 6L2 12L0.589996 10.58Z" fill="black"/>
+								</svg>
+							</span>
+							<li class="breadcrumb-item active">Add Contents</li>
+						</ol>
+					
+						<!-- Navbar Search-->
+						<form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+							<div class="input-group">
+								<input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+								<div class="input-group-append">
+									<button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+								</div>
+							</div>
+						</form>
+						<button class="btn min-w-auto input-group-text bg-none border-0">
+							<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+						</button>
+						<!-- Navbar-->
+					</nav>
+				</header>
+				<main>
+					<!-- Page Content -->
+					<section>
+					   <div class="container-inner">
+							<div class="row">
+								<!-- Package Search Left -->
+								<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 bg-light border-right search-package-left">
+									<div class="pl-15 pr-15 w-card-content">
+										<div class="d-flex">
+											<div class="btn-group w-100 mt-2 mb-4">
+												<input id="" type="search" class="form-control rounded-0 mb-0 searchinput" placeholder="Search for a Package...">
+												<span class="search-loupe"><i class="fas fa-search"></i> </span>    
+												<span class="searchclear d-none"><i class="fas fa-times-circle"></i></span>
+											</div>
+										</div>
+										<div class="form-group">
+											<div id="expiration-date" class="input-daterange position-relative">
+												<input type="text" id="expirationDate" class="form-control text-left" placeholder="Expiration Date">
+												<label class="icon-calendar c-pointer" for="expirationDate">
+													<svg  width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 9V11H4V9H6ZM10 9V11H8V9H10ZM14 9V11H12V9H14ZM16 2C16.5304 2 17.0391 2.21071 17.4142 2.58579C17.7893 2.96086 18 3.46957 18 4V18C18 18.5304 17.7893 19.0391 17.4142 19.4142C17.0391 19.7893 16.5304 20 16 20H2C0.89 20 0 19.1 0 18V4C0 3.46957 0.210714 2.96086 0.585786 2.58579C0.960859 2.21071 1.46957 2 2 2H3V0H5V2H13V0H15V2H16ZM16 18V7H2V18H16ZM6 13V15H4V13H6ZM10 13V15H8V13H10ZM14 13V15H12V13H14Z" fill="#606262"/>
+													</svg>
+												</label>
+											</div>
+										</div>
+										<div class="form-check text-right">
+											<input class="form-check-input" checked="checked" type="checkbox" value="" id="neverExpires">
+											<label class="form-check-label" for="neverExpires">
+												Never Expires
+											</label>
+										</div>
+									</div>
+									<div class="package-left-table">
+										<ul class="nav flex-column flex-nowrap overflow-hidden sortableList cursor-scroll">
+											<li class="nav-item d-block position-relative justify-content-between align-items-center">
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="d-flex align-items-center">
+														<div class="form-check">
+															<input class="form-check-input select-package1"  name="lineup1[]" type="checkbox" value="">
+														</div>
+														<span class="ml-2">
+															<a class="nav-link collapsed text-truncate" href="#subtitle1" data-toggle="collapse" data-target="#subtitle1">
+																<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																</svg>
+																<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																</svg>
+															</a>
+														</span>
+														<span class="mr-2 d-flex">
+															<span class="filledBox"></span>
+														</span>
+														<span>Subtitle 1</span>
+													</div>
+													<span class="d-flex justify-content-end mr-2">
+														<img src="image/icons/reorder_lines.svg" alt="reOrder" />
+													</span>
+												</div>
+											</li>  
+											<li class="nav-item d-block position-relative justify-content-between align-items-center">
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="d-flex align-items-center">
+														<div class="form-check">
+															<input class="form-check-input select-package1" type="checkbox" name="lineup1[]" value="">
+														</div>
+														<span class="ml-2">
+															<a class="nav-link collapsed text-truncate" href="#subtitle2" data-toggle="collapse" data-target="#subtitle2">
+																<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																</svg>
+																<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																</svg>
+															</a>
+														</span>
+														<span class="mr-2 d-flex">
+														<span class="filledBox"></span>
+														</span>
+														<span>Subtitle 1</span>
+													</div>
+													<span class="d-flex justify-content-end mr-2">
+														<img src="image/icons/reorder_lines.svg" alt="reOrder" />
+													</span>
+												</div>
+											</li>  
+											<li class="nav-item d-block position-relative justify-content-between align-items-center">
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="d-flex align-items-center">
+														<div class="form-check">
+															<input class="form-check-input select-package1" type="checkbox" name="lineup1[]" value="">
+														</div>
+														<span class="ml-2">
+															<a class="nav-link collapsed text-truncate w-33" href="#subtitle3" data-toggle="collapse" data-target="#subtitle3">
+																<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																</svg>
+																<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																</svg>
+															</a>
+														</span>
+														<span class="mr-2 d-flex">
+														<span class="filledBox"></span>
+														</span>
+														<span>Subtitle 1</span>
+													</div>
+													<span class="d-flex justify-content-end mr-2">
+														<img src="image/icons/reorder_lines.svg" alt="reOrder" />
+													</span>
+												</div>
+												
+												<div class="collapse" id="subtitle3" aria-expanded="false">
+													<ul class="flex-column pl-2 nav collapse-submenu">
+														<li class="nav-item">
+															<div class="d-flex align-items-center">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="">
+																</div>
+																<span class="ml-35">
+																	<a class="nav-link collapsed text-truncate" href="#videos" data-toggle="collapse" data-target="#videos">
+																		<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																		</svg>
+																		<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																		</svg>
+																	</a>
+																</span>
+																<div>
+																	<svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M14.75 15.5H2C1.60218 15.5 1.22064 15.342 0.93934 15.0607C0.658035 14.7794 0.5 14.3978 0.5 14V2C0.5 1.60218 0.658035 1.22064 0.93934 0.93934C1.22064 0.658035 1.60218 0.5 2 0.5H14.75C15.1478 0.5 15.5294 0.658035 15.8107 0.93934C16.092 1.22064 16.25 1.60218 16.25 2V5.045L20.315 2.1425C20.4269 2.0628 20.5586 2.01538 20.6957 2.00543C20.8327 1.99547 20.9699 2.02336 21.0922 2.08605C21.2144 2.14874 21.3171 2.24382 21.3891 2.3609C21.461 2.47799 21.4994 2.61259 21.5 2.75V13.25C21.4994 13.3874 21.461 13.522 21.3891 13.6391C21.3171 13.7562 21.2144 13.8513 21.0922 13.9139C20.9699 13.9766 20.8327 14.0045 20.6957 13.9946C20.5586 13.9846 20.4269 13.9372 20.315 13.8575L16.25 10.955V14C16.25 14.3978 16.092 14.7794 15.8107 15.0607C15.5294 15.342 15.1478 15.5 14.75 15.5ZM2 2V14H14.75V9.5C14.7506 9.36259 14.789 9.22799 14.8609 9.1109C14.9329 8.99382 15.0356 8.89874 15.1578 8.83605C15.2801 8.77336 15.4173 8.74547 15.5543 8.75543C15.6914 8.76538 15.8231 8.8128 15.935 8.8925L20 11.795V4.205L15.935 7.1075C15.8231 7.1872 15.6914 7.23462 15.5543 7.24457C15.4173 7.25453 15.2801 7.22664 15.1578 7.16395C15.0356 7.10126 14.9329 7.00618 14.8609 6.8891C14.789 6.77201 14.7506 6.63741 14.75 6.5V2H2Z" fill="black"/>
+																	</svg>
+																<span>Videos</span>     
+																</div>
+															</div>
+														</li>
+														<li class="nav-item">
+															<div class="d-flex align-items-center">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="">
+																</div>
+																<span class="ml-35">
+																	<a class="nav-link collapsed text-truncate" href="#audio" data-toggle="collapse" data-target="#audio">
+																		<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																		</svg>
+																		<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																		</svg>
+																	</a>
+																</span>
+																<div>
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M21.75 23.25C21.5795 23.25 21.4142 23.1918 21.2812 23.085L17.7375 20.25H15C14.8011 20.25 14.6103 20.171 14.4697 20.0304C14.329 19.8897 14.25 19.6989 14.25 19.5V15.75C14.25 15.5511 14.329 15.3604 14.4697 15.2197C14.6103 15.079 14.8011 15 15 15H17.7375L21.282 12.165C21.3923 12.077 21.5252 12.0218 21.6654 12.0059C21.8056 11.99 21.9475 12.0139 22.0747 12.075C22.2019 12.1361 22.3093 12.2319 22.3846 12.3513C22.4598 12.4707 22.4998 12.6089 22.5 12.75V22.5C22.5 22.6989 22.421 22.8897 22.2803 23.0304C22.1397 23.171 21.9489 23.25 21.75 23.25ZM15.75 18.75H18C18.1705 18.7502 18.3358 18.8084 18.4688 18.915L21 20.94V14.31L18.468 16.335C18.3352 16.4415 18.1702 16.4997 18 16.5H15.75V18.75Z" fill="black"/>
+																		<path d="M12 21H6V3.00001H12V7.50001C12.0012 7.89747 12.1596 8.27831 12.4407 8.55936C12.7217 8.84041 13.1025 8.99882 13.5 9.00001H18V11.25H19.5V7.50001C19.5026 7.40144 19.4839 7.30347 19.4451 7.21284C19.4062 7.12221 19.3482 7.04107 19.275 6.97501L14.025 1.72501C13.959 1.65177 13.8778 1.59372 13.7872 1.55488C13.6966 1.51603 13.5986 1.49731 13.5 1.50001H6C5.60254 1.5012 5.2217 1.65961 4.94065 1.94066C4.6596 2.22171 4.50119 2.60255 4.5 3.00001V21C4.50119 21.3975 4.6596 21.7783 4.94065 22.0594C5.2217 22.3404 5.60254 22.4988 6 22.5H12V21ZM13.5 3.30001L17.7 7.50001H13.5V3.30001Z" fill="black"/>
+																	</svg>
+																<span>Audio</span>     
+																</div>
+															</div>
+														</li>
+														<li class="nav-item">
+															<div class="d-flex align-items-center">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="">
+																</div>
+																<span class="ml-35">
+																	<a class="nav-link collapsed text-truncate" href="#images" data-toggle="collapse" data-target="#images">
+																		<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																		</svg>
+																		<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																		</svg>
+																	</a>
+																</span>
+																<div>
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M14.25 10.5C14.695 10.5 15.13 10.368 15.5 10.1208C15.87 9.87357 16.1584 9.52217 16.3287 9.11104C16.499 8.69991 16.5436 8.24751 16.4568 7.81105C16.37 7.37459 16.1557 6.97368 15.841 6.65901C15.5263 6.34434 15.1254 6.13005 14.689 6.04323C14.2525 5.95642 13.8001 6.00097 13.389 6.17127C12.9778 6.34157 12.6264 6.62996 12.3792 6.99997C12.132 7.36998 12 7.80499 12 8.25C12 8.84674 12.2371 9.41903 12.659 9.84099C13.081 10.2629 13.6533 10.5 14.25 10.5ZM14.25 7.5C14.3983 7.5 14.5433 7.54399 14.6667 7.6264C14.79 7.70881 14.8861 7.82594 14.9429 7.96299C14.9997 8.10003 15.0145 8.25083 14.9856 8.39632C14.9567 8.54181 14.8852 8.67544 14.7803 8.78033C14.6754 8.88522 14.5418 8.95665 14.3963 8.98559C14.2508 9.01453 14.1 8.99968 13.963 8.94291C13.8259 8.88615 13.7088 8.79002 13.6264 8.66668C13.544 8.54334 13.5 8.39834 13.5 8.25C13.5 8.05109 13.579 7.86032 13.7197 7.71967C13.8603 7.57902 14.0511 7.5 14.25 7.5Z" fill="black"/>
+																		<path d="M19.5 3H4.5C4.10218 3 3.72064 3.15804 3.43934 3.43934C3.15804 3.72064 3 4.10218 3 4.5V19.5C3 19.8978 3.15804 20.2794 3.43934 20.5607C3.72064 20.842 4.10218 21 4.5 21H19.5C19.8978 21 20.2794 20.842 20.5607 20.5607C20.842 20.2794 21 19.8978 21 19.5V4.5C21 4.10218 20.842 3.72064 20.5607 3.43934C20.2794 3.15804 19.8978 3 19.5 3ZM19.5 19.5H4.5V15L8.25 11.25L12.4425 15.4425C12.7235 15.7219 13.1037 15.8787 13.5 15.8787C13.8963 15.8787 14.2765 15.7219 14.5575 15.4425L15.75 14.25L19.5 18V19.5ZM19.5 15.8775L16.8075 13.185C16.5265 12.9056 16.1463 12.7488 15.75 12.7488C15.3537 12.7488 14.9735 12.9056 14.6925 13.185L13.5 14.3775L9.3075 10.185C9.02646 9.90562 8.64628 9.74881 8.25 9.74881C7.85372 9.74881 7.47354 9.90562 7.1925 10.185L4.5 12.8775V4.5H19.5V15.8775Z" fill="black"/>
+																	</svg>
+																	<span>Images</span>     
+																</div>
+															</div>
+														</li>
+														<li class="nav-item">
+															<div class="d-flex align-items-center">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="">
+																</div>
+																<span class="ml-35">
+																	<a class="nav-link collapsed text-truncate" href="#documents" data-toggle="collapse" data-target="#documents">
+																		<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																		</svg>
+																		<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																		</svg>
+																	</a>
+																</span>
+																<div>
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M19.275 6.975L14.025 1.725C13.875 1.575 13.725 1.5 13.5 1.5H6C5.175 1.5 4.5 2.175 4.5 3V21C4.5 21.825 5.175 22.5 6 22.5H18C18.825 22.5 19.5 21.825 19.5 21V7.5C19.5 7.275 19.425 7.125 19.275 6.975ZM13.5 3.3L17.7 7.5H13.5V3.3ZM18 21H6V3H12V7.5C12 8.325 12.675 9 13.5 9H18V21Z" fill="black"/>
+																		<path d="M7.5 16.5H16.5V18H7.5V16.5Z" fill="black"/>
+																		<path d="M7.5 12H16.5V13.5H7.5V12Z" fill="black"/>
+																	</svg>
+																	<span>Documents</span>     
+																</div>
+															</div>
+														</li>
+														<li class="nav-item">
+															<div class="d-flex align-items-center">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="">
+																</div>
+																<span class="ml-35">
+																	<a class="nav-link collapsed text-truncate w-33 h-30" href="#download" data-toggle="collapse" data-target="#download">
+																		<svg class="arrow-up-svg" width="5" height="10" viewBox="0 0 5 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 10L5 5L0 0V10Z" fill="#666666"/>
+																		</svg>
+																		<svg class="arrow-down-svg" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+																			<path d="M0 -4.37114e-07L5 5L10 0L0 -4.37114e-07Z" fill="#666666"/>
+																		</svg>
+																	</a>
+																</span>
+																<div>
+																	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																		<path d="M19.5 18V21H4.5V18H3V21C3 21.3978 3.15804 21.7794 3.43934 22.0607C3.72064 22.342 4.10218 22.5 4.5 22.5H19.5C19.8978 22.5 20.2794 22.342 20.5607 22.0607C20.842 21.7794 21 21.3978 21 21V18H19.5Z" fill="black"/>
+																		<path d="M19.5 10.5L18.4425 9.4425L12.75 15.1275V1.5H11.25V15.1275L5.5575 9.4425L4.5 10.5L12 18L19.5 10.5Z" fill="black"/>
+																		</svg>
+																		
+																<span>Download</span>     
+																</div>
+															</div>  
+															<div class="collapse" id="download" aria-expanded="false">
+																<ul class="flex-column nav collapse-child-submenu">
+																	<li class="nav-item d-flex align-items-center pt-2">
+																		<div class="form-check">
+																			<input class="form-check-input" type="checkbox" value="">
+																		</div>
+																		<span class="ml-110">New File</span>
+																	</li>
+																	<li class="nav-item d-flex align-items-center pt-2">
+																		<div class="form-check">
+																			<input class="form-check-input" type="checkbox" value="">
+																		</div>
+																		<span class="ml-110">Old File</span>
+																	</li>
+																</ul>
+															</div>       
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- Package Search Left End -->
+
+								<!-- Package Search Right -->  
+								<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 col-xl-9 search-package-right">
+									<div class="row search-package-right-inner overflow-hidden">
+										<ul class="nav nav-tabs w-100" id="myTab" role="tablist">
+											<li class="nav-item">
+											<a class="nav-link active" id="email-tab" data-toggle="tab" href="#email" role="tab" aria-controls="email" aria-selected="true">Email</a>
+											</li>
+											<li class="nav-item">
+											<a class="nav-link" id="emailPreview-tab">Email Preview</a>
+											</li>
+											<li class="nav-item">
+											<a class="nav-link" id="packagePreview-tab">Package Preview</a>
+											</li>
+										</ul>
+										<div class="tab-content full-height" id="myTabContent">
+                                            <!-- email tab start -->
+											<div class="tab-pane fade show active" id="email" role="tabpanel" aria-labelledby="email-tab">
+												<div class="row email-tab">
+													<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+														<div class="form-label-group position-relative">
+															<input type="text" class="form-control rounded-0" id="to" placeholder="To" required autofocus >
+															<label for="to">To</label>
+															<div class="dropdown input-btn-bcc">
+																<button class="btn insertBtn1 btn-secondary bg-border dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Address Book
+																</button>
+																<div class="dropdown-menu dropdown-menuData dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+																	<a class="dropdown-item" href="#" data-toggle="modal" data-target=".subscribers-modal-lg"> Send to Subscribers</a>
+																	<a class="dropdown-item" href="#" data-toggle="modal" data-target=".address-book-modal-lg">Send to Address Book</a>
+																</div>
+															</div>
+															<!-- <div class="custom-select-dropdown input-btn-bcc" >
+																<select id="selectbox">
+																	<option value="0">Address Book</option>
+																	<option value="1"  data-toggle="modal" data-target=".subscribers-modal-lg">Send to Subscribers</option>
+																	<option value="2" data-toggle="modal" data-target=".address-book-modal-lg">Send to Address Book</option>
+																</select>
+															</div>
+														</div> -->
+														
+														<div class="form-label-group position-relative">
+															<input type="text" class="form-control rounded-0" id="cc" placeholder="Cc" required autofocus>
+															<label for="cc">Cc</label>
+															<div class="dropdown input-btn-cc">
+																<button class="btn insertBtn2 bg-border btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Address Book
+																</button>
+																<div class="dropdown-menu dropdown-menuData1 dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+																	<a class="dropdown-item" href="#" data-toggle="modal" data-target=".subscribers-modal-lg"> Send to Subscribers</a>
+																	<a class="dropdown-item" href="#" data-toggle="modal" data-target=".address-book-modal-lg">Send to Address Book</a>
+																</div>
+															</div>
+														</div>
+														<div class="form-label-group position-relative">
+															<input type="text" class="form-control rounded-0" id="bcc" placeholder="bcc" required autofocus>
+															<label for="bcc">Bcc</label>
+															<div class="dropdown input-btn-bcc">
+																<button class="btn insertBtn3 bg-border btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Address Book
+																</button>
+																<div class="dropdown-menu dropdown-menuData2 dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+																	<a class="dropdown-item" href="#" data-toggle="modal" data-target=".subscribers-modal-lg"> Send to Subscribers</a>
+																	<a class="dropdown-item" href="#" data-toggle="modal" data-target=".address-book-modal-lg">Send to Address Book</a>
+																</div>
+															</div>
+														</div>
+														<div class="form-label-group position-relative">
+															<input type="text" class="form-control rounded-0" id="subject" placeholder="subject" required autofocus>
+															<label for="subject">Subject</label>
+															<div class="dropdown input-btn-cc dropdown-left">
+																<button class="btn insertBtn bg-border btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Insert Template
+																</button>
+																<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+																	<li class="dropdown-submenu dropdown-menu-right"><a class="dropdown-item dropdown-toggle" href="#"> My Templates</a>
+																		<ul class="dropdown-menu">
+																			<li  class="dropdown-submenu w-175">
+																				<a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates One</a>
+																				<div class="dropdown-menu dropdown-template-list dropdown-menu-right w-max-content w-150">
+																					<ul class="submenu-breadcrumb">
+																						<ol class="breadcrumb">
+																							<span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+																							<li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+																								<span class="px-2">\</span>
+																							<li class="breadcrumb-item active">Templates One</li>
+																						</ol>
+																					</ul>
+																					<div class="btn-group w-100 pb-3 px-2">
+																						<input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput1 searchInput" placeholder="Search Templates">
+																						<span class="top-search searchLoupe search-loupe1"><i class="fas fa-search"></i> </span>    
+																						<span class="top-circle searchClear searchclear1 d-none"><i class="fas fa-times-circle"></i></span>
+																					</div>
+																					<ul class="templateList templateListData ">
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																					</ul>
+																				</div>
+																			</li>
+																			<li  class="dropdown-submenu  w-175">
+																				<a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates Two</a>
+																				<div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+																					<ul class="submenu-breadcrumb">
+																						<ol class="breadcrumb">
+																							<span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+																							<li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+																								<span class="px-2">\</span>
+																							<li class="breadcrumb-item active">Templates Two</li>
+																						</ol>
+																					</ul>
+																					<div class="btn-group w-100 pb-3 px-2">
+																						<input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput2 searchInput" placeholder="Search Templates">
+																						<span class="top-search search-loupe2 searchLoupe"><i class="fas fa-search"></i> </span>    
+																						<span class="top-circle searchclear2 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+																					</div>
+																					<ul class="templateList templateListData1">
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																					</ul>
+																				</div>
+																			</li>
+																			<li  class="dropdown-submenu  w-175">
+																				<a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates Three</a>
+																				<div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+																					<ul class="submenu-breadcrumb">
+																						<ol class="breadcrumb">
+																							<span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+																							<li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+																								<span class="px-2">\</span>
+																							<li class="breadcrumb-item active">Templates Three</li>
+																						</ol>
+																					</ul>
+																					<div class="btn-group w-100 pb-3 px-2">
+																						<input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput3 searchInput" placeholder="Search Templates">
+																						<span class="top-search search-loupe3 searchLoupe"><i class="fas fa-search"></i> </span>    
+																						<span class="top-circle searchclear3 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+																					</div>
+																					<ul class="templateList templateListData2">
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																					</ul>
+																				</div>
+																			</li>
+																		</ul>
+																	</li>
+
+																	<li class="dropdown-submenu dropdown-menu-right"><a class="dropdown-item dropdown-toggle" href="#"> Team Templates</a>
+																		<ul class="dropdown-menu">
+																			<li  class="dropdown-submenu w-175">
+																				<a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Recentaly Used</a>
+																				<div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+																					<ul class="submenu-breadcrumb">
+																						<ol class="breadcrumb">
+																							<span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+																							<li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+																								<span class="px-2">\</span>
+																							<li class="breadcrumb-item active">Recentaly Used</li>
+																						</ol>
+																					</ul>
+																					<div class="btn-group w-100 pb-3 px-2">
+																						<input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput4 searchInput" placeholder="Search Templates">
+																						<span class="top-search search-loupe4 searchLoupe"><i class="fas fa-search"></i> </span>    
+																						<span class="top-circle searchclear4 d-none searchClear"><i class="fas fa-times-circle"></i></span>
+																					</div>
+																					<ul class="templateList templateListData3">
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Seq Stage 3</a></li>
+																					</ul>
+																				</div>
+																			</li>
+																			<li  class="dropdown-submenu  w-175">
+																				<a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>First Touch (1)</a>
+																				<div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+																					<ul class="submenu-breadcrumb">
+																						<ol class="breadcrumb">
+																							<span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+																							<li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+																								<span class="px-2">\</span>
+																							<li class="breadcrumb-item active">First Touch (1)</li>
+																						</ol>
+																					</ul>
+																					<div class="btn-group w-100 pb-3 px-2">
+																						<input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput5 searchInput" placeholder="Search Templates">
+																						<span class="top-search search-loupe5 searchLoupe"><i class="fas fa-search"></i> </span>    
+																						<span class="top-circle searchclear5 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+																					</div>
+																					<ul class="templateList templateListData4">
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Team Templates One.3</a></li>
+																					</ul>
+																				</div>
+																			</li>
+																			<li  class="dropdown-submenu  w-175">
+																				<a class="dropdown-item  dropdown-toggle text-wrap" href="#"><span class="pr-2"><i class="far fa-folder"></i></span>Templates Three</a>
+																				<div class="dropdown-menu dropdown-template-list dropdown-menu-right  w-max-content w-150">
+																					<ul class="submenu-breadcrumb">
+																						<ol class="breadcrumb">
+																							<span class="pr-2"><i class="fas fa-chevron-left"></i></span>
+																							<li class="breadcrumb-item"><a href="#"></a>Folders</a></li>
+																								<span class="px-2">\</span>
+																							<li class="breadcrumb-item active">Templates Three</li>
+																						</ol>
+																					</ul>
+																					<div class="btn-group w-100 pb-3 px-2">
+																						<input id="" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput6 searchInput" placeholder="Search Templates">
+																						<span class="top-search search-loupe6 searchLoupe"><i class="fas fa-search"></i> </span>    
+																						<span class="top-circle searchclear6 searchClear d-none"><i class="fas fa-times-circle"></i></span>
+																					</div>
+																					<ul class="templateList templateListData5">
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.1</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.2</a></li>
+																						<li><a class="dropdown-item text-wrap" href="#">Templates One.3</a></li>
+																					</ul>
+																				</div>
+																			</li>
+																		</ul>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="form-group">
+															<textarea type="text" class="form-control rounded-0" rows="18" id="message" placeholder="Type your message..." required autofocus></textarea>
+														</div>
+														<div class="text-right">
+															<span class="text-success c-pointer" data-toggle="modal" data-target=".variable-list-modal">{ }</span>	
+														</div>
+														      <!--  Variable List Popup -->
+															  <div class="modal fade variable-list-modal modal-sm modal-dialog-centered variable-list" tabindex="-1" role="dialog" aria-labelledby="editTemplate" aria-hidden="true" style="display: none;">
+																<div class="modal-dialog  modal-dialog-centered modal-lg">
+																	<div class="modal-content">
+																		<div class="modal-header">
+																			<h2 class="modal-title" id="editTemplate">Contact Attributes</h2>
+																			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																				<svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+																					<path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="#000000"/>
+																				</svg>
+																			</button>
+																		</div>
+																		<div class="modal-body">
+																			<ul class="list-group">
+																			<li class="list-group-item">First Name</li>
+																			<li class="list-group-item">Last Name</li>
+																			<li class="list-group-item">Email</li>
+																			<li class="list-group-item">Mobile</li>
+																			<li class="list-group-item">Job Title</li>
+																			<li class="list-group-item">Company Name</li>
+																			<div class="modal-header">
+																				<h2 class="modal-title" >My Attributes</h2>
+																			</div>
+																			<!-- <li class="list-group-item modal-header">My Attributes</li> -->
+																			<li class="list-group-item">My First Name</li>
+																			<li class="list-group-item">My Last Name</li>
+																			<li class="list-group-item">My Name</li>
+																			<li class="list-group-item">My Email</li>
+																			<li class="list-group-item">My Direct Number</li>
+																			<li class="list-group-item">My Extension</li>
+																			<li class="list-group-item">My Mobile</li>
+																			<li class="list-group-item">My LinkedIn</li>
+																			<li class="list-group-item">My Job Title </li>
+																			<li class="list-group-item">My Company</li>
+																			<li class="list-group-item">My Company Number</li>
+																			<li class="list-group-item">My Company Linked In</li>
+																			<li class="list-group-item">My Company Twitter</li>
+																			<li class="list-group-item">My Company Facebook</li>
+																			<li class="list-group-item">My Company Website</li>
+																		</ul>
+																		</div>                                
+																	</div>
+																</div>   
+															</div> 
+																 <!--  Variable List Popup End -->
+													</div>
+													<div class="row">
+														<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="emailOpened">
+																<label class="form-check-label" for="emailOpened">Email me when a package is opened</label>
+															</div>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="bccMe">
+																<label class="form-check-label" for="bccMe">
+																	Email me every time a package is opened. 
+																</label>
+															</div>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="noLogo">
+																<label class="form-check-label" for="noLogo">
+																	Bcc me
+																</label>
+															</div>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="addSignature">
+																<label class="form-check-label" for="addSignature">
+																	Do not show my company logo
+																</label>
+															</div>
+															<div class="noOfPackages1 text-cloud"><span class="dnone">0  Package added</span><span class="mr-2"></span><a></a></div>
+														</div>
+														
+														<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="emailOpened1">
+																<label class="form-check-label" for="emailOpened1">
+																	Add Signature
+																</label>
+															</div>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="requirePassword">
+																<label class="form-check-label" for="requirePassword">
+																	Require a password to view a package:
+																</label>
+															</div>
+															<div class="form-label-group">
+																<input type="text" class="form-control rounded-0" id="password" placeholder="password" required autofocus>
+																<label for="password">Password</label>
+															</div>
+															<div class="form-label-group">
+																<input type="text" class="form-control" id="passwordConfirmation" aria-describedby="passwordConfirmation" placeholder="Password confirmation">
+																<label for="passwordConfirmation">Password confirmation</label>
+															</div>
+														</div>
+													</div>
+													<div class="d-flex justify-content-end w-100 pl-4 pr-4 text-right">
+														<div class="d-flex flex-wrap justify-content-end">
+															<div>
+																<span class="schdeuleDate"></span></br>
+																<button class="btn btn-warning btn-action h-fit-content">
+																	Cancel
+																</button>
+															</div>
+															<div class="d-flex mt-4">
+																<div id="schedule-date" class="input-daterange position-relative ml-3">
+																	<button class="btn btn-action btn-light">Schedule</button>
+																	<input type="text" id="scheduleDate" class="form-control mb-0 c-pointer text-left schdeule-date-input" placeholder="Expiration Date">
+																</div>
+																<div><button class="btn btn-action btn-success ml-3">Next</button></div>
+															</div>
+														</div>  
+													</div>
+												</div>
+                                            </div>
+                                            <!-- email tab end -->
+                                           
+								</div>
+								<!-- Package Search Right End -->
+							</div>
+						</div>
+						<!-- subscribers popup Start -->
+						<div class="modal fade subscribers-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="modal-title text-left" id="myLargeModalLabel">Subscribers</h2>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+											</svg>
+										</button>
+									</div>
+									<div class="modal-body">
+										 <div>
+												<!-- step 1 section -->
+												<span class="d-block font-weight-bold mb-3">
+													Step 1: Select
+												</span>
+												<div class="pb-1">
+													<div class="row">
+														<div class="col-12 col-sm-12 col-xl-5 col-lg-5 col-md-4 mb-10">
+															<span>Address Book:</span>
+															<div class="dropdown">
+																<!-- <button class="px-10 btn packageBtn btn-white dropdown-option dropdown-toggle h-40" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	Select All
+																</button>	
+																<div class="dropdown-menu packageData w-100" aria-labelledby="dropdownMenuButton">
+																	<a class="dropdown-item" href="#">One</a>
+																	<a class="dropdown-item" href="#">Two</a>
+																	<a class="dropdown-item" href="#">Something else here</a>
+																</div> -->
+																<div class="custom-select-dropdown plainBg form-label-dropdown w-100 ">
+																	<select>
+																		<option value="0">Select All</option>
+																		<option value="1">One</option>
+																		<option value="2">Two</option>
+																		<option value="3">Something else here</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+														<div class="col-12 col-sm-12 col-xl-5 col-lg-5 col-md-4 mb-10">
+															<span>Search:</span>
+															<div class="btn-group w-100 h-40">
+																<input id="searchsub" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput7 searchInput" placeholder="Search" autocomplete="on">
+																<span class="search-loupe7 searchLoupe"><i class="fas fa-search"></i> </span>    
+																<span class="searchclear7 d-none searchClear"><i class="fas fa-times-circle"></i></span>
+															</div>
+														</div>
+														<div class="col-12 col-sm-12 col-xl-2 col-lg-2 col-md-4 mb-10 d-flex justify-content-end align-items-end">
+															<a href="javascript:void(2)" id="selectremoveDeselect2" class="text-success ml-4">Deselect All</a>
+														</div>
+													</div>
+												</div>
+												<div class="table-responsive h-147 minH-164">
+													<table class="table table-main borderTable selectTable bg-light mb-0">
+														<tbody class="border-bottom">
+															<tr>
+																<th scope="row">1</th>
+																<td class="w-365">accountsupport@zoominfo.com</td>
+																<td class="text-success text-fontsize w-140">Add this address</td>
+																<td class="text-right">
+																	<div class="form-check">
+																		<input class="form-check-input" type="checkbox" value="1" id="addAddress1">
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<th scope="row">1</th>
+																<td class="w-365">accountsupport@zoominfo.com</td>
+																<td class="text-success text-fontsize w-140">Add this address</td>
+																<td class="text-right">
+																	<div class="form-check">
+																		<input class="form-check-input" type="checkbox" value="1" id="addAddress1">
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<th scope="row">1</th>
+																<td class="w-365">accountsupport@zoominfo.com</td>
+																<td class="text-success text-fontsize w-140">Add this address</td>
+																<td class="text-right">
+																	<div class="form-check">
+																		<input class="form-check-input" type="checkbox" value="2" id="addAddress2">
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<th scope="row">1</th>
+																<td class="w-365">accountsupport@zoominfo.com</td>
+																<td class="text-success text-fontsize w-140">Add this address</td>
+																<td class="text-right">
+																	<div class="form-check">
+																		<input class="form-check-input" type="checkbox" value="3" id="addAddress3">
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>    
+												<div class="d-flex justify-content-center mt-3">
+													<button type="button" class="width-255 btn btn-success text-uppercase position-relative pr-2 rounded-0 px-4 mb-5">
+														Add All Selected Addresses
+														<i class="bt-arrow fa fa-angle-down position-absolute text-green" aria-hidden="true"></i>
+													</button>
+												</div>
+												<!--  step 1 section end -->
+					
+												<!--  step 2 section -->
+													<div class="border-top pt-4">
+														<span class="d-block mb-4 font-weight-bold">
+															Step 2: Confirm
+														</span>
+														<div class="col-md-12 d-flex justify-content-end align-items-end pr-0 mb-1">
+															<a href="javascript:void(1)" id="selectremoveSelect" class="text-success">Select All</a>
+															<a href="javascript:void(2)" id="selectremoveDeselect" class="text-success ml-4">Deselect All</a>
+														</div>
+													</div>
+													<div class="table-responsive h-147 minH-164">
+														<table class="table table-main  selectremoveTable borderTable bg-light mb-0">
+															<tbody class="border-bottom">
+																<tr>
+																	<th scope="row">1</th>
+																	<td class="w-365">accountsupport@zoominfo.com</td>
+																	<td class="text-success text-fontsize w-140">Add this address</td>
+																	<td class="text-right">
+																		<div class="form-check">
+																			<input class="form-check-input" type="checkbox" value="1"
+																				id="addAddress1">
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<th scope="row">1</th>
+																	<td class="w-365">accountsupport@zoominfo.com</td>
+																	<td class="text-success text-fontsize w-140">Add this address</td>
+																	<td class="text-right">
+																		<div class="form-check">
+																			<input class="form-check-input" type="checkbox" value="2"
+																				id="addAddress2">
+																		</div>
+																	</td>
+																</tr>
+																<tr>
+																	<th scope="row">1</th>
+																	<td class="w-365">accountsupport@zoominfo.com</td>
+																	<td class="text-success text-fontsize w-140">Add this address</td>
+																	<td class="text-right">
+																		<div class="form-check">
+																			<input class="form-check-input" type="checkbox" value="3" id="addAddress3">
+																		</div>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<div class="d-flex justify-content-center pb-4 mt-3">
+														<button type="button" class="width-255 btn btn-warning text-uppercase position-relative rounded-0">
+															Remove All Selected Addresses
+															<i class="fa fa-angle-up position-absolute redbt-arrow text-red" aria-hidden="true"></i>
+														</button>
+													</div>
+													<!--  step 2 section end -->
+													<div class="d-flex justify-content-center pt-2">
+														<button type="button" class="btn btn-light text-uppercase text-success border rounded-0 ok-wh">OK</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- subscribers popup End -->
+								<!-- address book popup Start -->
+								<div class="modal fade address-book-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h2 class="modal-title text-left" id="myLargeModalLabel">Address Books</h2>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M7.986 13L5.126 8.512L2.376 13H0.286L4.18 7.016L0.286 0.943999H2.552L5.412 5.41L8.14 0.943999H10.23L6.358 6.906L10.252 13H7.986Z" fill="white"/>
+													</svg>
+												</button>
+											</div>
+											<div class="modal-body">
+												<div>
+													<div class="pt-4">
+														<!-- step 1 section -->
+														<span class="d-block font-weight-bold mb-3">
+															Step 1: Select
+														</span>
+														<div class="pb-1">
+															<div class="row">
+																<div class="col-12 col-lg-5 col-md-5">
+																	<span>Search:</span>
+																	<div class="btn-group w-100 h-40">
+																		<input id="searchadd" type="search" class="form-control rounded-0 mb-0 px-2 py-2 searchinput" placeholder="Search">
+																		<span class="search-loupe"><i class="fas fa-search"></i> </span>    
+																		<span class="searchclear d-none"><i class="fas fa-times-circle"></i></span>
+																	</div>
+																</div>
+																<div class="col-sm-12 col-lg-7 col-md-7 d-flex justify-content-end align-items-end">
+																	<a href="javascript:void(2)" id="addSelectremoveDeselect2" class="text-success ml-4">Deselect All</a>
+																</div>
+															</div>
+														</div>
+														<div class="table-responsive h-147 minH-164">
+															<table class="table table-main borderTable selectTable bg-light mb-0">
+																<tbody class="border-bottom">
+																	<tr>
+																		<th scope="row">1</th>
+																		<td class="w-280">East Coast Contacts</td>
+																		<td class="text-success text-fontsize w-170">Add this address book</td>
+																		<td class="text-right">
+																			<div class="form-check">
+																				<input class="form-check-input" type="checkbox" value="1" id="addAddress1">
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th scope="row">1</th>
+																		<td class="w-280">West Coast Contacts</td>
+																		<td class="text-success text-fontsize w-170">Add this address book</td>
+																		<td class="text-right">
+																			<div class="form-check">
+																				<input class="form-check-input" type="checkbox" value="2" id="addAddress2">
+																			</div>
+																		</td>
+																	</tr>
+																	<tr>
+																		<th scope="row">1</th>
+																		<td class="w-280">Texas Customers</td>
+																		<td class="text-success text-fontsize w-170">Add this address book</td>
+																		<td class="text-right">
+																			<div class="form-check">
+																				<input class="form-check-input" type="checkbox" value="3" id="addAddress3">
+																			</div>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>    
+														<div class="d-flex justify-content-center mt-3">
+															<button type="button" class="width-255 btn btn-success text-uppercase position-relative pr-2 rounded-0 px-4 mb-5">
+																add selected address Books
+																<i class="bt-arrow fa fa-angle-down position-absolute text-green" aria-hidden="true"></i>
+															</button>
+														</div>
+														<!--  step 1 section end -->
+							
+														<!--  step 2 section -->
+															<div class="border-top pt-4">
+																<span class="d-block mb-4 font-weight-bold">
+																	Step 2: Confirm
+																</span>
+																<div class="col-md-12 d-flex justify-content-end align-items-end pr-0 mb-1">
+																	<a href="javascript:void(1)" id="addSelectremoveSelect" class="text-success">Select All</a>
+																	<a href="javascript:void(2)" id="addSelectremoveDeselect" class="text-success ml-4">Deselect All</a>
+																</div>
+															</div>
+															<div class="table-responsive h-147 minH-164">
+																<table class="table table-main  selectremoveTable borderTable bg-light mb-0">
+																	<tbody class="border-bottom">
+																		<tr>
+																			<th scope="row">1</th>
+																			<td class="w-170">East Coast Contacts</td>
+																			<td class="text-success text-fontsize w-195">Remove this address book</td>
+																			<td class="text-right">
+																				<div class="form-check">
+																					<input class="form-check-input" type="checkbox" value="1" id="addAddress1">
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<th scope="row">1</th>
+																			<td class="w-170">West Coast Contacts</td>
+																			<td class="text-success text-fontsize w-195">Remove this address book </td>
+																			<td class="text-right">
+																				<div class="form-check">
+																					<input class="form-check-input" type="checkbox" value="2" id="addAddress2">
+																				</div>
+																			</td>
+																		</tr>
+																		<tr>
+																			<th scope="row">1</th>
+																			<td class="w-170">Texas Customers</td>
+																			<td class="text-success text-fontsize w-195">Remove this address book</td>
+																			<td class="text-right">
+																				<div class="form-check">
+																					<input class="form-check-input" type="checkbox" value="3" id="addAddress3">
+																				</div>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+															<div class="d-flex justify-content-center pb-4 mt-3">
+																<button type="button" class="width-255 btn btn-warning text-uppercase position-relative rounded-0">
+																	remove selected address books
+																	<i class="fa fa-angle-up position-absolute redbt-arrow text-red" aria-hidden="true"></i>
+																</button>
+															</div>
+															<!--  step 2 section end -->
+															<div class="d-flex justify-content-center pt-2">
+																<button type="button" class="btn btn-light text-uppercase text-success border rounded-0 ok-wh">OK</button>
+															</div>
+														</div>
+													</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- address book popup End -->
+							</section>
+							<!-- Page Content End-->
+						</main>  
+					</div>
+				</div>
+		<!-- Scritps -->
+		<script src="plugin/jQuery/jquery-3.6.0.min.js"></script>
+		<script src="plugin/fontawesome/all.min.js"></script>
+		<script src="plugin/bootstrap/popper.min.js"></script>
+		<script src="plugin/bootstrap/bootstrap.js"></script>
+		<script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+		<script src="plugin/jquery-ui/jquery-ui.js"></script>
+		<script src="plugin/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/email-packages.js"></script>
+		<script src="js/email.js"></script>
+		<script src="plugin/bootstrap/bootstrap.min.js"></script>
+		<script src="plugin/bootstrap/jquery.min.js"></script>
+	</body>
+</html>

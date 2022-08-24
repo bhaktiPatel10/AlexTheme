@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <!-- Styles -->
+        <link href="plugin/bootstrap/bootstrap.css" rel="stylesheet" />
+        <link href="plugin/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" >
+        <link href="CSS/styles.css" rel="stylesheet" />
+        <link href="CSS/responsive.css" rel="stylesheet" />
+        <link href="CSS/details.css" rel="stylesheet" />
+    </head>
+    <body class="sidebar-fixed">
+        <div id="containerMain">
+            <div id="containerMain_nav">
+                <nav class="sidebar accordion sidebar-dark" id="sidenavAccordion">
+					<div class="sidebar-menu">
+						<!-- Logo -->
+						<div class="nav">
+							<a class="navbar-brand" href="index.html" title="Logo">
+								<img src="image/logo.png" class="hideMain-logo" alt="Send Your Media">
+								<img src="image/logo-small.png" class="toogledLogo" alt="Send Your Media">
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="email-packages.html" title="Email Packages">
+								<div class="sidebar-link-icon"><img src="image/icons/email-package.png" alt="Email Packages"></div>
+								<span>Email Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="text-packages.html">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms-package.png" alt="Text Packages"></div>
+								<span>Text Packages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#1">
+								<div class="sidebar-link-icon"><img src="image/icons/link_package.png" alt="Link to Package"></div>
+								<span>Link to Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#2">
+								<div class="sidebar-link-icon"><img src="image/icons/facebook_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#3">
+								<div class="sidebar-link-icon"><img src="image/icons/twitter_package.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#4">
+								<div class="sidebar-link-icon"><img src="image/icons/LinkedIn.png" alt="Post a Package"></div>
+								<span>Post a Package</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav">
+							<a class="nav-link" href="#5">
+								<div class="sidebar-link-icon"><img src="image/icons/email-inbox.png" alt="Inbox"></div>
+								<span>Inbox</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#6">
+								<div class="sidebar-link-icon"><img src="image/icons/textsms_messages.png" alt="Messages"></div>
+								<span>Messages</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#7">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Templates"></div>
+								<span>Templates</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#8">
+								<div class="sidebar-link-icon"><img src="image/icons/sequence.png" alt="Sequences"></div>
+								<span>Sequences</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#9">
+								<div class="sidebar-link-icon"><img src="image/icons/Tasks.png" alt="Tasks"></div>
+								<span>Tasks</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+						
+						<div class="nav">
+							<a class="nav-link" href="#10">
+								<div class="sidebar-link-icon"><img src="image/icons/history.png" alt="History"></div>
+								<span>History</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#11">
+								<div class="sidebar-link-icon"><img src="image/icons/Templates.png" alt="Template Log"></div>
+								<span>Template Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#12">
+								<div class="sidebar-link-icon"><img src="image/icons/activity_log.png" alt="Activity Log"></div>
+								<span>Activity Log</span>
+							</a>
+						</div>
+						<div class="nav">
+							<a class="nav-link" href="#13">
+								<div class="sidebar-link-icon"><img src="image/icons/address_book.png" alt="Contacts"></div>
+								<span>Contacts</span>
+							</a>
+						</div>
+	
+						<div class="pl-3 pr-3">
+							<hr>
+						</div>
+	
+						<div class="nav dropright d-flex">
+							<a class="nav-link" data-toggle="dropdown">
+								<div class="sidebar-link-icon "><img src="image/icons/admin_panel.png" alt="Admin Panel"></div>
+								<span  >Admin Panel</span>
+							</a>
+								<ul class="dropdown-menu op-hover">
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">lead import</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">users</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">user activity</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">templatel log</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">history</a></li>
+									<li class="mt-2 closedrop"><a tabindex="-1" class="link-h" href="#">company tools</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">dashbord</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="dropdown-submenu my-2">
+										<a class="test link-h" tabindex="-1" href="#">resellers <i class="fas fa-caret-right ml-3 text-dark"></i></a>
+										<ul class="dropdown-menu drop-180">
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers home</a></li>
+										<div class="dropdown-divider mr-4"></div>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers media totals</a></li>
+										<li class="mt-2"><a tabindex="-1" class="link-h" href="#">resellers activity</a></li>
+										<li class="my-2"><a tabindex="-1" class="link-h" href="#">resellers activity_log</a></li>
+										</ul>
+									</li>
+								</ul>
+						</div>
+						<div class="nav dropright d-flex">
+							<a class="nav-link"  data-toggle="dropdown">
+								<div class="sidebar-link-icon"><img src="image/icons/my_account_circle.png" alt="My Account"></div>
+								<span >My Account</span>
+								</a>
+								<ul class="dropdown-menu op-hover w-180">
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">My accout Details</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Billing</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">SMS Setting</a></li>
+									<li class="mt-2"><a tabindex="-1" class="link-h" href="#">Integrations</a></li>
+									<div class="dropdown-divider mr-4"></div>
+									<li class="my-2"><a tabindex="-1" class="link-h" href="#">Logout</a></li>
+								</ul>
+					
+						</div>
+	
+						<div class="nav hideIn-mobile">
+							<a class="nav-link sidebarToggle" href="#16">
+								<div class="sidebar-link-icon">
+									<img src="image/icons/arrow_open_side_bar.png" class="show-sidebar-icon" alt="Show Menu">
+									<img src="image/icons/arrow_back-24px.png" class="hide-sidebar-icon" alt="Hide Menu">
+								</div>
+								<span>Hide Menu</span>
+							</a>
+						</div>
+					</div>
+				</nav>
+            </div>
+            <div id="containerMain_content">
+                <header>
+                    <!-- Mobile Top Nav-->
+                    <nav class="sidebar-topnav sidebar-dark mobile-topnav shadow-sm navbar navbar-expand navbar-light box-shadow">
+                        <!-- Mobile Logo -->
+                        <a class="nav-link navbar-brand mobile-logo" href="index.html">
+                            <img src="image/logo-small.png" class="" alt="Send Your Media">
+                        </a>
+                        <!-- Navbar Search-->
+                        <form class="d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn btn-link btn order-1 order-lg-0 text-white sidebarToggle"><i class="fas fa-bars"></i></button>
+                        <!-- Navbar-->
+                    </nav>
+                    <!-- Mobile Top Nav End-->
+                    <nav class="sidebar-topnav shadow-sm navbar navbar-expand navbar-light box-shadow bg-light">
+                        <!-- Breadcrumb-->
+                        <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html"></a>Activity Log</a></li>
+                                <span class="pl-2 pr-2">
+                                    <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.589996 10.58L5.17 6L0.589996 1.41L2 0L8 6L2 12L0.589996 10.58Z"
+                                            fill="black" />
+                                    </svg>
+                                </span>
+                                <li class="breadcrumb-item">Views</li>
+                            </ol>
+                        <!-- Navbar Search-->
+                        <form class="d-none hideIn-mobile d-md-inline-block form-inline ml-auto mr-0 my-2 my-md-0">
+                            <div class="input-group">
+                                <input class="form-control border-0 bg-light-grey" type="text" placeholder="Search..." aria-label="Search" />
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-light-grey border-0"><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn min-w-auto input-group-text bg-none border-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"/><path d="M19,3H5C3.9,3,3,3.9,3,5v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z M12.01,18 c-0.7,0-1.26-0.56-1.26-1.26c0-0.71,0.56-1.25,1.26-1.25c0.71,0,1.25,0.54,1.25,1.25C13.25,17.43,12.72,18,12.01,18z M15.02,10.6 c-0.76,1.11-1.48,1.46-1.87,2.17c-0.16,0.29-0.22,0.48-0.22,1.41h-1.82c0-0.49-0.08-1.29,0.31-1.98c0.49-0.87,1.42-1.39,1.96-2.16 c0.57-0.81,0.25-2.33-1.37-2.33c-1.06,0-1.58,0.8-1.8,1.48L8.56,8.49C9.01,7.15,10.22,6,11.99,6c1.48,0,2.49,0.67,3.01,1.52 C15.44,8.24,15.7,9.59,15.02,10.6z"/></g></svg>
+                        </button>
+                        <!-- Navbar-->
+                    </nav>
+                </header>
+                <main class="pt-4 pb-4">
+                    <!-- Page Content -->
+                    <section class="container-fluid">
+                        <!-- package analytics Start -->
+                        <div class="mb-3 overflow-hidden">
+                            <table data-toggle="table" class="table borderlessTable th-head-uppercase bg-light mb-5">
+                                <thead>
+                                    <tr>
+                                        <th class="w-180">Package Analytics</th>
+                                        <th class="w-180"></th>
+                                        <th class="w-180">Emails</th>
+                                        <th class="w-180"></th>
+                                        <th class="w-180"></th>
+                                    </tr>
+                                </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="pt-2 pb-2"><b class="mr-2">199</b>Total Views</div>
+                                                <div class="pt-2 pb-2"><b class="mr-2">45%</b>Click Rate</div>
+                                            </td>
+                                            <td>
+                                                <div class="pt-2 pb-2"><b class="mr-2">123</b>Unique Views</div>
+                                                <div class="pt-2 pb-2"><b class="mr-2">12%</b>Conversion Rate</div>
+                                            </td>
+                                            <td>
+                                                <div class="pt-2 pb-2"><b class="mr-2">1200</b>Recipients</div>
+                                                <div class="pt-2 pb-2"><b class="mr-2">3</b>Complaints</div>
+                                            </td>
+                                            <td>
+                                                <div class="pt-2 pb-2"><b class="mr-2">12</b>Opened</div>
+                                                <div class="pt-2 pb-2"><b class="mr-2">45</b>Unsubscribed</div>
+                                            </td>
+                                            <td>
+                                                <div class="pt-2 pb-2"><b class="mr-2">100%</b>Open Rate</div>
+                                                <div class="pt-2 pb-2"><b class="mr-2">234</b>Bounced</div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                        <!-- Package analytics end  -->
+                        <!-- Video Table Start -->
+                        <div class="mb-3">
+                            <div id="toolbar-video" class="toolbar-main bg-table-grey border">
+                                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.75 15.2925H2C1.60218 15.2925 1.22064 15.1344 0.93934 14.8531C0.658035 14.5718 0.5 14.1903 0.5 13.7925V1.79248C0.5 1.39466 0.658035 1.01312 0.93934 0.73182C1.22064 0.450516 1.60218 0.29248 2 0.29248H14.75C15.1478 0.29248 15.5294 0.450516 15.8107 0.73182C16.092 1.01312 16.25 1.39466 16.25 1.79248V4.83748L20.315 1.93498C20.4269 1.85528 20.5586 1.80786 20.6957 1.79791C20.8327 1.78795 20.9699 1.81584 21.0922 1.87853C21.2144 1.94122 21.3171 2.0363 21.3891 2.15338C21.461 2.27047 21.4994 2.40507 21.5 2.54248V13.0425C21.4994 13.1799 21.461 13.3145 21.3891 13.4316C21.3171 13.5487 21.2144 13.6437 21.0922 13.7064C20.9699 13.7691 20.8327 13.797 20.6957 13.7871C20.5586 13.7771 20.4269 13.7297 20.315 13.65L16.25 10.7475V13.7925C16.25 14.1903 16.092 14.5718 15.8107 14.8531C15.5294 15.1344 15.1478 15.2925 14.75 15.2925ZM2 1.79248V13.7925H14.75V9.29248C14.7506 9.15507 14.789 9.02047 14.8609 8.90338C14.9329 8.7863 15.0356 8.69122 15.1578 8.62853C15.2801 8.56584 15.4173 8.53795 15.5543 8.54791C15.6914 8.55786 15.8231 8.60528 15.935 8.68498L20 11.5875V3.99748L15.935 6.89998C15.8231 6.97968 15.6914 7.0271 15.5543 7.03705C15.4173 7.04701 15.2801 7.01912 15.1578 6.95643C15.0356 6.89374 14.9329 6.79866 14.8609 6.68158C14.789 6.56449 14.7506 6.42989 14.75 6.29248V1.79248H2Z" fill="black"/>
+                                </svg>
+                                <b class="ml-2">Videos</b>
+                            </div>
+                            
+                            <table id="b-table" data-toolbar="#toolbar-video" data-toggle="table" class="table borderlessTable th-head-uppercase bg-light mb-5">
+                                <thead>
+                                    <tr>
+                                        <th class="width-15">File Name</th>
+                                        <th class="width-15">Rating</th>
+                                        <th class="width-50">File Views</th>
+                                        <th class="width-7">File Log</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                </tbody>    
+                            </table>
+                        </div>
+                        <!-- Video Table End -->
+                        <!-- Audio Table Start -->
+                        <div class="mb-3">
+                            <div id="toolbar-audio" class="toolbar-main bg-table-grey border align-center d-flex">
+                                <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.75 22.0424C17.5795 22.0423 17.4142 21.9841 17.2812 21.8774L13.7375 19.0424H11C10.8011 19.0424 10.6103 18.9634 10.4697 18.8227C10.329 18.6821 10.25 18.4913 10.25 18.2924V14.5424C10.25 14.3435 10.329 14.1527 10.4697 14.0121C10.6103 13.8714 10.8011 13.7924 11 13.7924H13.7375L17.282 10.9574C17.3923 10.8693 17.5252 10.8142 17.6654 10.7982C17.8056 10.7823 17.9475 10.8063 18.0747 10.8674C18.2019 10.9285 18.3093 11.0242 18.3846 11.1437C18.4598 11.2631 18.4998 11.4013 18.5 11.5424V21.2924C18.5 21.4913 18.421 21.6821 18.2803 21.8227C18.1397 21.9634 17.9489 22.0424 17.75 22.0424ZM11.75 17.5424H14C14.1705 17.5425 14.3358 17.6007 14.4688 17.7074L17 19.7324V13.1024L14.468 15.1274C14.3352 15.2339 14.1702 15.2921 14 15.2924H11.75V17.5424Z" fill="black"/>
+                                    <path d="M8 19.7925H2V1.79249H8V6.29249C8.00119 6.68995 8.1596 7.07079 8.44065 7.35184C8.7217 7.63289 9.10254 7.79131 9.5 7.79249H14V10.0425H15.5V6.29249C15.5026 6.19392 15.4839 6.09595 15.4451 6.00532C15.4062 5.91469 15.3482 5.83355 15.275 5.76749L10.025 0.517491C9.95897 0.44425 9.87784 0.386204 9.7872 0.347359C9.69656 0.308514 9.59857 0.289794 9.5 0.292491H2C1.60254 0.293678 1.2217 0.452095 0.940651 0.733143C0.659604 1.01419 0.501187 1.39503 0.5 1.79249V19.7925C0.501187 20.19 0.659604 20.5708 0.940651 20.8518C1.2217 21.1329 1.60254 21.2913 2 21.2925H8V19.7925ZM9.5 2.09249L13.7 6.29249H9.5V2.09249Z" fill="black"/>
+                                </svg>
+                                <b class="ml-2">Audio</b>
+                            </div>
+                        
+                            <table id="b-table" data-toolbar="#toolbar-audio" data-toggle="table" class="table borderlessTable th-head-uppercase bg-light mb-5">
+                                <thead>
+                                    <tr>
+                                        <th class="width-15">File Name</th>
+                                        <th class="width-15">Rating</th>
+                                        <th class="width-50">File Views</th>
+                                        <th class="width-7">File Log</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- Audio Table End -->
+                        <!-- Image Table Start  -->
+                        <div class="mb-3">
+                            <div id="toolbar-image" class="toolbar-main bg-table-grey border align-center d-flex">
+                                <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.25 8.29248C11.695 8.29248 12.13 8.16052 12.5 7.91329C12.87 7.66606 13.1584 7.31465 13.3287 6.90352C13.499 6.49239 13.5436 6.03999 13.4568 5.60353C13.37 5.16707 13.1557 4.76616 12.841 4.45149C12.5263 4.13682 12.1254 3.92253 11.689 3.83571C11.2525 3.7489 10.8001 3.79346 10.389 3.96375C9.97783 4.13405 9.62643 4.42244 9.37919 4.79245C9.13196 5.16246 9 5.59747 9 6.04248C9 6.63922 9.23705 7.21152 9.65901 7.63347C10.081 8.05543 10.6533 8.29248 11.25 8.29248ZM11.25 5.29248C11.3983 5.29248 11.5433 5.33647 11.6667 5.41888C11.79 5.50129 11.8861 5.61842 11.9429 5.75547C11.9997 5.89251 12.0145 6.04331 11.9856 6.1888C11.9567 6.33429 11.8852 6.46792 11.7803 6.57281C11.6754 6.6777 11.5418 6.74913 11.3963 6.77807C11.2508 6.80701 11.1 6.79216 10.963 6.73539C10.8259 6.67863 10.7088 6.5825 10.6264 6.45916C10.544 6.33582 10.5 6.19082 10.5 6.04248C10.5 5.84357 10.579 5.6528 10.7197 5.51215C10.8603 5.3715 11.0511 5.29248 11.25 5.29248Z" fill="black"/>
+                                    <path d="M16.5 0.79248H1.5C1.10218 0.79248 0.720644 0.950516 0.43934 1.23182C0.158035 1.51312 0 1.89466 0 2.29248V17.2925C0 17.6903 0.158035 18.0718 0.43934 18.3531C0.720644 18.6344 1.10218 18.7925 1.5 18.7925H16.5C16.8978 18.7925 17.2794 18.6344 17.5607 18.3531C17.842 18.0718 18 17.6903 18 17.2925V2.29248C18 1.89466 17.842 1.51312 17.5607 1.23182C17.2794 0.950516 16.8978 0.79248 16.5 0.79248ZM16.5 17.2925H1.5V12.7925L5.25 9.04248L9.4425 13.235C9.72354 13.5144 10.1037 13.6712 10.5 13.6712C10.8963 13.6712 11.2765 13.5144 11.5575 13.235L12.75 12.0425L16.5 15.7925V17.2925ZM16.5 13.67L13.8075 10.9775C13.5265 10.6981 13.1463 10.5413 12.75 10.5413C12.3537 10.5413 11.9735 10.6981 11.6925 10.9775L10.5 12.17L6.3075 7.97748C6.02646 7.6981 5.64628 7.54129 5.25 7.54129C4.85372 7.54129 4.47354 7.6981 4.1925 7.97748L1.5 10.67V2.29248H16.5V13.67Z" fill="black"/>
+                                </svg>
+                                <b class="ml-2">Images</b>
+                            </div>
+
+                            <table id="b-table" data-toolbar="#toolbar-image" data-toggle="table" class="table borderlessTable th-head-uppercase bg-light mb-5">
+                                <thead>
+                                    <tr>
+                                        <th class="width-15">File Name</th>
+                                        <th class="width-15">Rating</th>
+                                        <th class="width-50">File Views</th>
+                                        <th class="width-7">File Log</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z"
+                                                        fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                            </table>
+                        </div>
+                        <!-- Image Table End -->
+                        <!-- Document Table Start -->
+                        <div class="mb-3">
+                            <div id="toolbar-document" class="toolbar-main bg-table-grey border align-center d-flex">
+                                <svg width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.275 5.76748L10.025 0.51748C9.875 0.36748 9.725 0.29248 9.5 0.29248H2C1.175 0.29248 0.5 0.96748 0.5 1.79248V19.7925C0.5 20.6175 1.175 21.2925 2 21.2925H14C14.825 21.2925 15.5 20.6175 15.5 19.7925V6.29248C15.5 6.06748 15.425 5.91748 15.275 5.76748ZM9.5 2.09248L13.7 6.29248H9.5V2.09248ZM14 19.7925H2V1.79248H8V6.29248C8 7.11748 8.675 7.79248 9.5 7.79248H14V19.7925Z" fill="black"/>
+                                    <path d="M3.5 15.2925H12.5V16.7925H3.5V15.2925Z" fill="black"/>
+                                    <path d="M3.5 10.7925H12.5V12.2925H3.5V10.7925Z" fill="black"/>
+                                </svg>
+                                <b class="ml-2">Documents</b>
+                            </div>
+                        
+                            <table id="b-table" data-toolbar="#toolbar-document" data-toggle="table" class="table borderlessTable th-head-uppercase bg-light mb-5">
+                                <thead>
+                                    <tr>
+                                        <th class="width-15">File Name</th>
+                                        <th class="width-15">Rating</th>
+                                        <th class="width-50">File Views</th>
+                                        <th class="width-7">File Log</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z" fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z" fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Skyfall - Adele</td>
+                                        <td>
+                                            <div class="mr-4 float-left">
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M18.5 7.04251H14V3.29251C14.0756 2.57245 13.862 1.85187 13.4063 1.28926C12.9506 0.726659 12.29 0.368118 11.57 0.29251C11.3807 0.27001 11.1893 0.27001 11 0.29251H9.82249C9.57179 0.299379 9.33047 0.389268 9.13636 0.548079C8.94226 0.70689 8.80637 0.925638 8.74999 1.17001V1.26001L7.99999 6.01501L5.345 10.0425H0.5V20.5425H14.75C20.33 20.5425 21.5 17.28 21.5 14.5425V10.0425C21.5755 9.32245 21.362 8.60187 20.9063 8.03926C20.4506 7.47666 19.79 7.11812 19.07 7.04251C18.8806 7.02001 18.6893 7.02001 18.5 7.04251ZM5 19.0425H2V11.5425H5V19.0425ZM20 14.5425C20 17.61 18.335 19.0425 14.75 19.0425H6.49999V11.0175L9.49999 6.57001L10.0475 2.54251L10.1525 1.79251H11C12.08 1.79251 12.5 2.21251 12.5 3.29251V8.54251H18.5C19.58 8.54251 20 8.96251 20 10.0425V14.5425Z" fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                            <div>
+                                                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M19.07 13.5425C19.79 13.4669 20.4506 13.1083 20.9063 12.5457C21.362 11.9831 21.5755 11.2625 21.5 10.5425V6.04248C21.5 3.30498 20.33 0.0424805 14.75 0.0424805H0.5V10.5425H5.345L7.99999 14.57L8.74999 19.325V19.415C8.80637 19.6594 8.94226 19.8781 9.13636 20.0369C9.33047 20.1957 9.57179 20.2856 9.82249 20.2925H11C11.1893 20.315 11.3807 20.315 11.57 20.2925C12.29 20.2169 12.9506 19.8583 13.4063 19.2957C13.862 18.7331 14.0756 18.0125 14 17.2925V13.5425H18.5C18.6893 13.565 18.8806 13.565 19.07 13.5425ZM5 9.04248H2V1.54248H5V9.04248ZM20 10.5425C20 11.6225 19.58 12.0425 18.5 12.0425H12.5V17.2925C12.5 18.3725 12.08 18.7925 11 18.7925H10.1525L10.0475 18.0425L9.49999 14.015L6.49999 9.56748V1.54248H14.75C18.335 1.54248 20 2.97498 20 6.04248V10.5425Z" fill="#A6A6A6" />
+                                                </svg>
+                                                <span class="rating-count">0</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                           <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><a href="#">Details</a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- Document Table End -->
+                        <!-- Download Table Start -->
+                        <div class="mb-3">
+                                <div id="toolbar-download" class="toolbar-main bg-table-grey border align-center d-flex">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.5 9.5L14.4425 8.4425L8.75 14.1275V0.5H7.25V14.1275L1.5575 8.4425L0.5 9.5L8 17L15.5 9.5Z" fill="black"/>
+                                    </svg>
+                                    <b class="ml-2">Downloads</b>
+                                </div>
+                            
+                                <table id="b-table" data-toolbar="#toolbar-download" data-toggle="table" class="table borderlessTable th-head-uppercase bg-light mb-5">
+                                    <thead>
+                                        <tr>
+                                            <th class="width-15">File Name</th>
+                                            <th class="width-50">File Views</th>
+                                            <th class="width-7">File Log</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Skyfall - Adele</td>
+                                            <td>
+                                                <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </td>
+                                            <td><a href="#">Details</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Skyfall - Adele</td>
+                                            <td>
+                                                <div class="d-inline">
+                                                <span class="span-progress text-center">25</span>
+                                                <div class="progress mt-1 w-50">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </td>
+                                            <td><a href="#">Details</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <!-- Download Table End  -->
+                    </section>
+                    <!-- Page Content End-->
+                </main>  
+            </div>
+        </div>
+        <!-- Scritps -->
+        <script src="plugin/jQuery/jquery-3.6.0.min.js"></script>
+        <script src="plugin/bootstrap-table/bootstrap-table.min.js"></script>
+        <script src="plugin/fontawesome/all.min.js"></script>
+        <script src="plugin/bootstrap/popper.min.js"></script>
+        <script src="plugin/bootstrap/bootstrap.js"></script>
+        <script src="plugin/jquery-ui/jquery-ui.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/details.js"></script>
+    </body>
+</html>
